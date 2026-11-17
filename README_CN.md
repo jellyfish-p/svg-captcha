@@ -116,6 +116,14 @@ v2.0.0 要求 Node.js 22 或更高版本，并收紧了参数校验。在本地�
 
 升级前检查现有配置，尤其是以字符串传入的数值、CSS 命名颜色、过滤后为空的字符集和不合法的算式范围。SVG 接口仍返回字符串，新增 PNG 接口返回用于 `image/png` 的 Buffer。
 
+## 发布新版本
+
+将 `npm version 2.0.1 --no-git-tag-version` 中的版本号替换为目标版本，执行后会同时更新 `package.json` 和 `package-lock.json`。在 [CHANGELOG.md](CHANGELOG.md) 中添加新版本的条目，并更新需要调整的版本引用。将这些变更提交到发布分支后创建并推送对应的标签，例如执行 `git tag -a v2.0.1 -m "Release v2.0.1"` 和 `git push origin HEAD v2.0.1`。
+
+推送标签后，工作流会在 Node.js 22 和 24 上运行测试，对 npm 压缩包做安装和冒烟测试，并将压缩包和 `SHA256SUMS` 发布到 GitHub Releases。`v2.1.0-rc.1` 之类的标签会发布为预发行版。向 npm 注册表发布需要单独操作。
+
+如需验证已有标签，在仓库的 **Actions** 页面手动运行 **Release**，输入标签并保留默认启用的 **dry_run**，然后在运行记录的产物中下载压缩包和校验文件。如需发布已有标签，关闭 **dry_run**。如果上次运行留下了草稿，请先在 GitHub Releases 中检查草稿，再重新运行。
+
 ## 许可证
 
 [MIT](LICENSE.md)

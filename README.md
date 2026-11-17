@@ -184,6 +184,14 @@ Version 2.0.0 requires Node.js 22 or later and validates options more strictly. 
 
 Review existing option values before upgrading, especially numeric strings, named CSS backgrounds, empty filtered alphabets, and invalid arithmetic bounds. The SVG methods still return strings. Applications using `createStrong()` should serve its buffer as `image/png`.
 
+## Publishing a release
+
+Run `npm version 2.0.1 --no-git-tag-version` with the intended version to update both manifests. Add a section for the version to [CHANGELOG.md](CHANGELOG.md) and update any version references that need to change. Commit those changes on the release branch, then create and push the matching tag, for example `git tag -a v2.0.1 -m "Release v2.0.1"` and `git push origin HEAD v2.0.1`.
+
+Pushing the tag runs tests on Node.js 22 and 24, smoke-tests the npm tarball, and publishes it with `SHA256SUMS` on GitHub Releases. A tag such as `v2.1.0-rc.1` creates a prerelease. npm registry publication is a separate step.
+
+To verify an existing tag, run **Release** in the repository's **Actions** tab, enter the existing version in **tag**, and leave **dry_run** enabled. Download the package and checksum from the workflow run's artifacts. To publish an existing tag, disable **dry_run**. If an earlier attempt left a draft, review it in GitHub Releases before rerunning.
+
 ## License
 
 [MIT](LICENSE.md)
