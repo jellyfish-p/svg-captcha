@@ -1,0 +1,1713 @@
+{
+  "createdAt": "2026-11-16T20:30:32.736Z",
+  "manifest": {
+    "createdAt": "2026-11-16T20:25:11.209Z",
+    "round": "spatial-palette-screen",
+    "groups": [
+      {
+        "name": "opaque-beaded-gray",
+        "sourceSha256": "0f525025ea2d7b98c8d074327e894d5ab4eb4c9aa8804ddbd55dd59cae747a68",
+        "options": {
+          "size": 6,
+          "width": 210,
+          "height": 68,
+          "fontSize": 52,
+          "noise": 3,
+          "charPreset": "23456789ACDEFHJKLMNPRTVWXY",
+          "interference": "beaded",
+          "interferenceDensity": 1,
+          "palette": "default"
+        },
+        "count": 8
+      },
+      {
+        "name": "shared-random-hue",
+        "sourceSha256": "0f525025ea2d7b98c8d074327e894d5ab4eb4c9aa8804ddbd55dd59cae747a68",
+        "options": {
+          "size": 6,
+          "width": 210,
+          "height": 68,
+          "fontSize": 52,
+          "noise": 3,
+          "charPreset": "23456789ACDEFHJKLMNPRTVWXY",
+          "interference": "beaded",
+          "interferenceDensity": 1,
+          "palette": "shared"
+        },
+        "count": 12
+      },
+      {
+        "name": "analogous-family",
+        "sourceSha256": "0f525025ea2d7b98c8d074327e894d5ab4eb4c9aa8804ddbd55dd59cae747a68",
+        "options": {
+          "size": 6,
+          "width": 210,
+          "height": 68,
+          "fontSize": 52,
+          "noise": 3,
+          "charPreset": "23456789ACDEFHJKLMNPRTVWXY",
+          "interference": "beaded",
+          "interferenceDensity": 1,
+          "palette": "analogous"
+        },
+        "count": 12
+      },
+      {
+        "name": "per-glyph-spatial-hues",
+        "sourceSha256": "0f525025ea2d7b98c8d074327e894d5ab4eb4c9aa8804ddbd55dd59cae747a68",
+        "options": {
+          "size": 6,
+          "width": 210,
+          "height": 68,
+          "fontSize": 52,
+          "noise": 3,
+          "charPreset": "23456789ACDEFHJKLMNPRTVWXY",
+          "interference": "beaded",
+          "interferenceDensity": 1,
+          "palette": "per-glyph"
+        },
+        "count": 12
+      }
+    ],
+    "samples": [
+      {
+        "id": "s001",
+        "group": "per-glyph-spatial-hues",
+        "text": "KAJKFR",
+        "sha256": "a937aba02f7ded05719f40ff84ac90d24fa99e7d0c61f27545042e3a12bf291a"
+      },
+      {
+        "id": "s002",
+        "group": "shared-random-hue",
+        "text": "N33T3V",
+        "sha256": "f5a2370bbae45f5b19c925a0bb1d1c2fdf808935aa99ed2c08b62bf80930b314"
+      },
+      {
+        "id": "s003",
+        "group": "shared-random-hue",
+        "text": "4XX5EL",
+        "sha256": "1c47522653d92d9c2c612293b5c15f0053df765ad738f0211a3bd27804664f0f"
+      },
+      {
+        "id": "s004",
+        "group": "per-glyph-spatial-hues",
+        "text": "FCNKAT",
+        "sha256": "7f97887b2a8f6882b43c5b64db648112326c54c770672d4d9760d691c951b786"
+      },
+      {
+        "id": "s005",
+        "group": "per-glyph-spatial-hues",
+        "text": "PML34M",
+        "sha256": "5eef4310e6ccfeb0e48994df54a6969adac09dc719434ab0153b29044bd5170b"
+      },
+      {
+        "id": "s006",
+        "group": "analogous-family",
+        "text": "3ENNPW",
+        "sha256": "c67def2175ff3f7129c978e1a0e00e485eb6a6c081320ed47573a0fc502a8482"
+      },
+      {
+        "id": "s007",
+        "group": "shared-random-hue",
+        "text": "K62K42",
+        "sha256": "13b64eafda37ede3c117bab033f5ad4da83cedf2045ad8757e48863de2f51434"
+      },
+      {
+        "id": "s008",
+        "group": "per-glyph-spatial-hues",
+        "text": "6K3WHV",
+        "sha256": "69efc1f5f7d874cf49eff81163da995d66f4bd528008e0fff595a5d6cc5eb8f7"
+      },
+      {
+        "id": "s009",
+        "group": "opaque-beaded-gray",
+        "text": "J7X78T",
+        "sha256": "0d1d32864045604f7576cd366782b10ae9eabb9cc339fffc60370a56bd3f6f1e"
+      },
+      {
+        "id": "s010",
+        "group": "shared-random-hue",
+        "text": "8C74D6",
+        "sha256": "68820b48dd5a57f5366a3372857dbc6aeeff249f405e9655d9da2a542c757428"
+      },
+      {
+        "id": "s011",
+        "group": "shared-random-hue",
+        "text": "T6T3TR",
+        "sha256": "5958cedd527c7fe8cc79cd7c3f19edfe51729c1681b2f6c43029e4260093feb0"
+      },
+      {
+        "id": "s012",
+        "group": "analogous-family",
+        "text": "NYWV3L",
+        "sha256": "c1fe5eb069a08bd8c345cae7a3a047599d4c3ea3e65f4fe4cea19cf9bab83173"
+      },
+      {
+        "id": "s013",
+        "group": "analogous-family",
+        "text": "4AACHJ",
+        "sha256": "8bd113aa594f850d3fe9f3789067db58dedaf729b23dc2591c177f4decbb7e03"
+      },
+      {
+        "id": "s014",
+        "group": "shared-random-hue",
+        "text": "4M5K6Y",
+        "sha256": "36dd426c613cc06fb7314df74cc47e128cc83145030bcf1c44a6eabb22cb8489"
+      },
+      {
+        "id": "s015",
+        "group": "per-glyph-spatial-hues",
+        "text": "LDK585",
+        "sha256": "8c07ee57c41124c4da098014a9c1cb7419855244f4422625c561fd6eeeb48f4e"
+      },
+      {
+        "id": "s016",
+        "group": "opaque-beaded-gray",
+        "text": "NEVHF9",
+        "sha256": "7823a2ac6898bf9847cc0e55163ee45904f4072cc0076907466dda949c9b32eb"
+      },
+      {
+        "id": "s017",
+        "group": "analogous-family",
+        "text": "5VK3PR",
+        "sha256": "2fd017867f686a8119222577345da967b00200e0370fddcff4de5a9e588a9154"
+      },
+      {
+        "id": "s018",
+        "group": "per-glyph-spatial-hues",
+        "text": "AYH7NJ",
+        "sha256": "29d2fac364a83249b8142b1e5c8e993828ee704b2453cfdd059d3e9fef87b82c"
+      },
+      {
+        "id": "s019",
+        "group": "opaque-beaded-gray",
+        "text": "4E57A3",
+        "sha256": "d57e521bd12b2cece939fd69cd8d6a3c7640361191c2dc2b135e8d0d5b4545f1"
+      },
+      {
+        "id": "s020",
+        "group": "shared-random-hue",
+        "text": "WM77FD",
+        "sha256": "74782bcd590013d48fc6f843c4cf7ee0dd020262d9dbdbae2d6dbb8a0b92ae86"
+      },
+      {
+        "id": "s021",
+        "group": "analogous-family",
+        "text": "KARRFC",
+        "sha256": "91311bd8e22a1a2b37d2df1799df87c1e25aeccddfc52d831622ed8d5c878186"
+      },
+      {
+        "id": "s022",
+        "group": "opaque-beaded-gray",
+        "text": "FA877P",
+        "sha256": "53197d69c9feb6d50dcbdda5a815d8da4b0a160c160e1b08006dcb3c61f2ac7d"
+      },
+      {
+        "id": "s023",
+        "group": "analogous-family",
+        "text": "F9NMPY",
+        "sha256": "01b3849e47fb6c6010eaa5ea6b5f9fe24f12f9c1c1d1947c2df6dcc130d47a23"
+      },
+      {
+        "id": "s024",
+        "group": "shared-random-hue",
+        "text": "CC4W4K",
+        "sha256": "afa0b0be3b7205d7d76086dccdce0ecfa0c989f7b8d1d5ccad60c22c82fc6918"
+      },
+      {
+        "id": "s025",
+        "group": "opaque-beaded-gray",
+        "text": "T2F9C7",
+        "sha256": "4dbd844c6be921ecca4ab019b5fbdaece7d07cf6548027e75ad2c9e0ee85344e"
+      },
+      {
+        "id": "s026",
+        "group": "opaque-beaded-gray",
+        "text": "38MANP",
+        "sha256": "eb7649b7a797712f4a6d8b9798116431aad603b9470b449e43105f219209694e"
+      },
+      {
+        "id": "s027",
+        "group": "shared-random-hue",
+        "text": "PW8MRJ",
+        "sha256": "0fe7f84dea07ba5e676cea4c804f33372f360127f8bc7e8ef2ece05e304bb3df"
+      },
+      {
+        "id": "s028",
+        "group": "per-glyph-spatial-hues",
+        "text": "LP76M5",
+        "sha256": "12d5bbae41fc6587014ddfde8dc8ccf3f0b673e79d33adcb8d7e2528f42f9367"
+      },
+      {
+        "id": "s029",
+        "group": "shared-random-hue",
+        "text": "L6EJED",
+        "sha256": "95bae63f7dec27ceeb62fe70f09c1fdd3dc7f453611c23f097b734f57d682997"
+      },
+      {
+        "id": "s030",
+        "group": "opaque-beaded-gray",
+        "text": "4P2CRT",
+        "sha256": "30b186fdc0f7abe254261c366a34d4ab7224f1aae8aa17807c89979bb68823d5"
+      },
+      {
+        "id": "s031",
+        "group": "analogous-family",
+        "text": "FKJ77Y",
+        "sha256": "f83fe72a33fbab462eedc2461e143ef17097b4be5fddf24675d0865dc51df001"
+      },
+      {
+        "id": "s032",
+        "group": "opaque-beaded-gray",
+        "text": "KH35FY",
+        "sha256": "ef95b6bb467557177c94315d570717eddcb05676fd6d459b734563978126711b"
+      },
+      {
+        "id": "s033",
+        "group": "per-glyph-spatial-hues",
+        "text": "MR6H65",
+        "sha256": "0a269a8558ebcc86a79c2ccf87104f166e1339bbece0cead76c4b0020b836ece"
+      },
+      {
+        "id": "s034",
+        "group": "shared-random-hue",
+        "text": "YM3J4X",
+        "sha256": "8d99591ab8f09ed679da38892b17bef2f0d8edbbce35d015a78ab1f5d63556b4"
+      },
+      {
+        "id": "s035",
+        "group": "per-glyph-spatial-hues",
+        "text": "8425TF",
+        "sha256": "006cbe3ab126ca59d4d2742b68936740c1842e939bee157ed48eb8280cd45845"
+      },
+      {
+        "id": "s036",
+        "group": "shared-random-hue",
+        "text": "2E2JC4",
+        "sha256": "7cda64e712f8dfe37010c0816de92fff0e6acd5f007456c2bfd6dbcc14cf541c"
+      },
+      {
+        "id": "s037",
+        "group": "per-glyph-spatial-hues",
+        "text": "MFXJ89",
+        "sha256": "cfec791ee40361a25c579d18f16733a3edae2c304016afd749e4e21a68a669ba"
+      },
+      {
+        "id": "s038",
+        "group": "analogous-family",
+        "text": "3E358J",
+        "sha256": "bc92eeef2b36a7e220b38299695c41877a4d63ab9e00a950f6b93fce88aaee05"
+      },
+      {
+        "id": "s039",
+        "group": "analogous-family",
+        "text": "RH9MR6",
+        "sha256": "dd2a96267267fc8cc8122a733d4253fc4f31626f93dee216e5c4807497ca429e"
+      },
+      {
+        "id": "s040",
+        "group": "per-glyph-spatial-hues",
+        "text": "F47H3K",
+        "sha256": "529d79217320263392fa5895a453b6c4209a5a8be9e4d6609f012ede5805846c"
+      },
+      {
+        "id": "s041",
+        "group": "per-glyph-spatial-hues",
+        "text": "NR9NFT",
+        "sha256": "f614d5834fbb708aae1b8484a4143ac9aedc00d03ab499652ce0f7415f0e1af2"
+      },
+      {
+        "id": "s042",
+        "group": "analogous-family",
+        "text": "M3L7RW",
+        "sha256": "1ac141a3cc788d2e8704210737ef487b9f82c69face24e2a9eef1177a44a273c"
+      },
+      {
+        "id": "s043",
+        "group": "analogous-family",
+        "text": "CVWV4K",
+        "sha256": "0da4cce4424344130aeb4c587061aef802983998dba95d3ea1ded87944285016"
+      },
+      {
+        "id": "s044",
+        "group": "analogous-family",
+        "text": "N7V4DA",
+        "sha256": "bbd31538752eac846a45b17af0159eded88b64e97b6217a75712541cb3cc7246"
+      }
+    ]
+  },
+  "method": "Same shuffled images; separate agents with no answer manifest; visual transcription only; no feedback or retries. Exact six-character accuracy, trim and uppercase only. Shared filesystem is instruction-blinded, not access-isolated. Confidence intervals describe these samples, not a security guarantee.",
+  "models": [
+    {
+      "model": "gpt-6-luna",
+      "reasoningEffort": "inherited/default",
+      "predictionsSha256": "3cd0deb74c2dba129189e6bb27d33012ec81ba3ba5643089e2ae9c7b21315eb1",
+      "groups": [
+        {
+          "group": "per-glyph-spatial-hues",
+          "exact": 0,
+          "total": 12,
+          "exactRate": 0,
+          "exactRateWilson95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ],
+          "matchingPositions": 25,
+          "characters": 72,
+          "positionAccuracy": 0.3472222222222222
+        },
+        {
+          "group": "shared-random-hue",
+          "exact": 0,
+          "total": 12,
+          "exactRate": 0,
+          "exactRateWilson95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ],
+          "matchingPositions": 29,
+          "characters": 72,
+          "positionAccuracy": 0.4027777777777778
+        },
+        {
+          "group": "analogous-family",
+          "exact": 0,
+          "total": 12,
+          "exactRate": 0,
+          "exactRateWilson95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ],
+          "matchingPositions": 24,
+          "characters": 72,
+          "positionAccuracy": 0.3333333333333333
+        },
+        {
+          "group": "opaque-beaded-gray",
+          "exact": 0,
+          "total": 8,
+          "exactRate": 0,
+          "exactRateWilson95": [
+            0,
+            0.32440756488388023
+          ],
+          "matchingPositions": 16,
+          "characters": 48,
+          "positionAccuracy": 0.3333333333333333
+        }
+      ],
+      "results": [
+        {
+          "id": "s001",
+          "group": "per-glyph-spatial-hues",
+          "text": "KAJKFR",
+          "sha256": "a937aba02f7ded05719f40ff84ac90d24fa99e7d0c61f27545042e3a12bf291a",
+          "guess": "NAPVFX",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s002",
+          "group": "shared-random-hue",
+          "text": "N33T3V",
+          "sha256": "f5a2370bbae45f5b19c925a0bb1d1c2fdf808935aa99ed2c08b62bf80930b314",
+          "guess": "NQ3F3Y",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s003",
+          "group": "shared-random-hue",
+          "text": "4XX5EL",
+          "sha256": "1c47522653d92d9c2c612293b5c15f0053df765ad738f0211a3bd27804664f0f",
+          "guess": "A4X5TJ",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s004",
+          "group": "per-glyph-spatial-hues",
+          "text": "FCNKAT",
+          "sha256": "7f97887b2a8f6882b43c5b64db648112326c54c770672d4d9760d691c951b786",
+          "guess": "FQJYOP",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s005",
+          "group": "per-glyph-spatial-hues",
+          "text": "PML34M",
+          "sha256": "5eef4310e6ccfeb0e48994df54a6969adac09dc719434ab0153b29044bd5170b",
+          "guess": "BTA3AY",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s006",
+          "group": "analogous-family",
+          "text": "3ENNPW",
+          "sha256": "c67def2175ff3f7129c978e1a0e00e485eb6a6c081320ed47573a0fc502a8482",
+          "guess": "J2V1PY",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s007",
+          "group": "shared-random-hue",
+          "text": "K62K42",
+          "sha256": "13b64eafda37ede3c117bab033f5ad4da83cedf2045ad8757e48863de2f51434",
+          "guess": "Y62Y42",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s008",
+          "group": "per-glyph-spatial-hues",
+          "text": "6K3WHV",
+          "sha256": "69efc1f5f7d874cf49eff81163da995d66f4bd528008e0fff595a5d6cc5eb8f7",
+          "guess": "BK3TYV",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s009",
+          "group": "opaque-beaded-gray",
+          "text": "J7X78T",
+          "sha256": "0d1d32864045604f7576cd366782b10ae9eabb9cc339fffc60370a56bd3f6f1e",
+          "guess": "L7Q8NY",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s010",
+          "group": "shared-random-hue",
+          "text": "8C74D6",
+          "sha256": "68820b48dd5a57f5366a3372857dbc6aeeff249f405e9655d9da2a542c757428",
+          "guess": "6C7APD",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s011",
+          "group": "shared-random-hue",
+          "text": "T6T3TR",
+          "sha256": "5958cedd527c7fe8cc79cd7c3f19edfe51729c1681b2f6c43029e4260093feb0",
+          "guess": "T6Q2TP",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s012",
+          "group": "analogous-family",
+          "text": "NYWV3L",
+          "sha256": "c1fe5eb069a08bd8c345cae7a3a047599d4c3ea3e65f4fe4cea19cf9bab83173",
+          "guess": "YVYV3Y",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s013",
+          "group": "analogous-family",
+          "text": "4AACHJ",
+          "sha256": "8bd113aa594f850d3fe9f3789067db58dedaf729b23dc2591c177f4decbb7e03",
+          "guess": "A5A6TJ",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s014",
+          "group": "shared-random-hue",
+          "text": "4M5K6Y",
+          "sha256": "36dd426c613cc06fb7314df74cc47e128cc83145030bcf1c44a6eabb22cb8489",
+          "guess": "AM3T4Y",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s015",
+          "group": "per-glyph-spatial-hues",
+          "text": "LDK585",
+          "sha256": "8c07ee57c41124c4da098014a9c1cb7419855244f4422625c561fd6eeeb48f4e",
+          "guess": "LQY5E5",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s016",
+          "group": "opaque-beaded-gray",
+          "text": "NEVHF9",
+          "sha256": "7823a2ac6898bf9847cc0e55163ee45904f4072cc0076907466dda949c9b32eb",
+          "guess": "N6V9FJ",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s017",
+          "group": "analogous-family",
+          "text": "5VK3PR",
+          "sha256": "2fd017867f686a8119222577345da967b00200e0370fddcff4de5a9e588a9154",
+          "guess": "5Y4K3P",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s018",
+          "group": "per-glyph-spatial-hues",
+          "text": "AYH7NJ",
+          "sha256": "29d2fac364a83249b8142b1e5c8e993828ee704b2453cfdd059d3e9fef87b82c",
+          "guess": "A7Y6VJ",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s019",
+          "group": "opaque-beaded-gray",
+          "text": "4E57A3",
+          "sha256": "d57e521bd12b2cece939fd69cd8d6a3c7640361191c2dc2b135e8d0d5b4545f1",
+          "guess": "A6E3Y3",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s020",
+          "group": "shared-random-hue",
+          "text": "WM77FD",
+          "sha256": "74782bcd590013d48fc6f843c4cf7ee0dd020262d9dbdbae2d6dbb8a0b92ae86",
+          "guess": "Y4T7PD",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s021",
+          "group": "analogous-family",
+          "text": "KARRFC",
+          "sha256": "91311bd8e22a1a2b37d2df1799df87c1e25aeccddfc52d831622ed8d5c878186",
+          "guess": "YARPF6",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s022",
+          "group": "opaque-beaded-gray",
+          "text": "FA877P",
+          "sha256": "53197d69c9feb6d50dcbdda5a815d8da4b0a160c160e1b08006dcb3c61f2ac7d",
+          "guess": "FA2T?P",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s023",
+          "group": "analogous-family",
+          "text": "F9NMPY",
+          "sha256": "01b3849e47fb6c6010eaa5ea6b5f9fe24f12f9c1c1d1947c2df6dcc130d47a23",
+          "guess": "E9YNPY",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s024",
+          "group": "shared-random-hue",
+          "text": "CC4W4K",
+          "sha256": "afa0b0be3b7205d7d76086dccdce0ecfa0c989f7b8d1d5ccad60c22c82fc6918",
+          "guess": "FQZ7Y3",
+          "exact": false,
+          "matchingPositions": 0
+        },
+        {
+          "id": "s025",
+          "group": "opaque-beaded-gray",
+          "text": "T2F9C7",
+          "sha256": "4dbd844c6be921ecca4ab019b5fbdaece7d07cf6548027e75ad2c9e0ee85344e",
+          "guess": "TQZ7JY",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s026",
+          "group": "opaque-beaded-gray",
+          "text": "38MANP",
+          "sha256": "eb7649b7a797712f4a6d8b9798116431aad603b9470b449e43105f219209694e",
+          "guess": "3QYAT7",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s027",
+          "group": "shared-random-hue",
+          "text": "PW8MRJ",
+          "sha256": "0fe7f84dea07ba5e676cea4c804f33372f360127f8bc7e8ef2ece05e304bb3df",
+          "guess": "FNY3MJ",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s028",
+          "group": "per-glyph-spatial-hues",
+          "text": "LP76M5",
+          "sha256": "12d5bbae41fc6587014ddfde8dc8ccf3f0b673e79d33adcb8d7e2528f42f9367",
+          "guess": "LQY6M5",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s029",
+          "group": "shared-random-hue",
+          "text": "L6EJED",
+          "sha256": "95bae63f7dec27ceeb62fe70f09c1fdd3dc7f453611c23f097b734f57d682997",
+          "guess": "LQZ7EY",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s030",
+          "group": "opaque-beaded-gray",
+          "text": "4P2CRT",
+          "sha256": "30b186fdc0f7abe254261c366a34d4ab7224f1aae8aa17807c89979bb68823d5",
+          "guess": "AP2C3T",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s031",
+          "group": "analogous-family",
+          "text": "FKJ77Y",
+          "sha256": "f83fe72a33fbab462eedc2461e143ef17097b4be5fddf24675d0865dc51df001",
+          "guess": "?V?7QX",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s032",
+          "group": "opaque-beaded-gray",
+          "text": "KH35FY",
+          "sha256": "ef95b6bb467557177c94315d570717eddcb05676fd6d459b734563978126711b",
+          "guess": "N?3FYV",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s033",
+          "group": "per-glyph-spatial-hues",
+          "text": "MR6H65",
+          "sha256": "0a269a8558ebcc86a79c2ccf87104f166e1339bbece0cead76c4b0020b836ece",
+          "guess": "Y?6HGY",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s034",
+          "group": "shared-random-hue",
+          "text": "YM3J4X",
+          "sha256": "8d99591ab8f09ed679da38892b17bef2f0d8edbbce35d015a78ab1f5d63556b4",
+          "guess": "AM3J4Y",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s035",
+          "group": "per-glyph-spatial-hues",
+          "text": "8425TF",
+          "sha256": "006cbe3ab126ca59d4d2742b68936740c1842e939bee157ed48eb8280cd45845",
+          "guess": "8A2TVY",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s036",
+          "group": "shared-random-hue",
+          "text": "2E2JC4",
+          "sha256": "7cda64e712f8dfe37010c0816de92fff0e6acd5f007456c2bfd6dbcc14cf541c",
+          "guess": "2E2YCL",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s037",
+          "group": "per-glyph-spatial-hues",
+          "text": "MFXJ89",
+          "sha256": "cfec791ee40361a25c579d18f16733a3edae2c304016afd749e4e21a68a669ba",
+          "guess": "M2YJ8Q",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s038",
+          "group": "analogous-family",
+          "text": "3E358J",
+          "sha256": "bc92eeef2b36a7e220b38299695c41877a4d63ab9e00a950f6b93fce88aaee05",
+          "guess": "3E3T8J",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s039",
+          "group": "analogous-family",
+          "text": "RH9MR6",
+          "sha256": "dd2a96267267fc8cc8122a733d4253fc4f31626f93dee216e5c4807497ca429e",
+          "guess": "R?9NPY",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s040",
+          "group": "per-glyph-spatial-hues",
+          "text": "F47H3K",
+          "sha256": "529d79217320263392fa5895a453b6c4209a5a8be9e4d6609f012ede5805846c",
+          "guess": "ZL?T3Y",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s041",
+          "group": "per-glyph-spatial-hues",
+          "text": "NR9NFT",
+          "sha256": "f614d5834fbb708aae1b8484a4143ac9aedc00d03ab499652ce0f7415f0e1af2",
+          "guess": "Y?6?FY",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s042",
+          "group": "analogous-family",
+          "text": "M3L7RW",
+          "sha256": "1ac141a3cc788d2e8704210737ef487b9f82c69face24e2a9eef1177a44a273c",
+          "guess": "NQFJRY",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s043",
+          "group": "analogous-family",
+          "text": "CVWV4K",
+          "sha256": "0da4cce4424344130aeb4c587061aef802983998dba95d3ea1ded87944285016",
+          "guess": "CJXYAX",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s044",
+          "group": "analogous-family",
+          "text": "N7V4DA",
+          "sha256": "bbd31538752eac846a45b17af0159eded88b64e97b6217a75712541cb3cc7246",
+          "guess": "LQY4PA",
+          "exact": false,
+          "matchingPositions": 2
+        }
+      ]
+    },
+    {
+      "model": "gpt-6.1-terra",
+      "reasoningEffort": "inherited/default",
+      "predictionsSha256": "e594fa254094cc3cf53647f42b4d7b0cf552cb0f37e1bc2728977a406d323e7d",
+      "groups": [
+        {
+          "group": "per-glyph-spatial-hues",
+          "exact": 4,
+          "total": 12,
+          "exactRate": 0.3333333333333333,
+          "exactRateWilson95": [
+            0.13812009109121315,
+            0.6093779111272004
+          ],
+          "matchingPositions": 51,
+          "characters": 72,
+          "positionAccuracy": 0.7083333333333334
+        },
+        {
+          "group": "shared-random-hue",
+          "exact": 3,
+          "total": 12,
+          "exactRate": 0.25,
+          "exactRateWilson95": [
+            0.08894166839405471,
+            0.5323053349335657
+          ],
+          "matchingPositions": 55,
+          "characters": 72,
+          "positionAccuracy": 0.7638888888888888
+        },
+        {
+          "group": "analogous-family",
+          "exact": 2,
+          "total": 12,
+          "exactRate": 0.16666666666666666,
+          "exactRateWilson95": [
+            0.04696514218385378,
+            0.4480308622529734
+          ],
+          "matchingPositions": 53,
+          "characters": 72,
+          "positionAccuracy": 0.7361111111111112
+        },
+        {
+          "group": "opaque-beaded-gray",
+          "exact": 1,
+          "total": 8,
+          "exactRate": 0.125,
+          "exactRateWilson95": [
+            0.02241749145005667,
+            0.4708881822128535
+          ],
+          "matchingPositions": 33,
+          "characters": 48,
+          "positionAccuracy": 0.6875
+        }
+      ],
+      "results": [
+        {
+          "id": "s001",
+          "group": "per-glyph-spatial-hues",
+          "text": "KAJKFR",
+          "sha256": "a937aba02f7ded05719f40ff84ac90d24fa99e7d0c61f27545042e3a12bf291a",
+          "guess": "KALYFD",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s002",
+          "group": "shared-random-hue",
+          "text": "N33T3V",
+          "sha256": "f5a2370bbae45f5b19c925a0bb1d1c2fdf808935aa99ed2c08b62bf80930b314",
+          "guess": "N33T3V",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s003",
+          "group": "shared-random-hue",
+          "text": "4XX5EL",
+          "sha256": "1c47522653d92d9c2c612293b5c15f0053df765ad738f0211a3bd27804664f0f",
+          "guess": "MXX5ZL",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s004",
+          "group": "per-glyph-spatial-hues",
+          "text": "FCNKAT",
+          "sha256": "7f97887b2a8f6882b43c5b64db648112326c54c770672d4d9760d691c951b786",
+          "guess": "FCNKAT",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s005",
+          "group": "per-glyph-spatial-hues",
+          "text": "PML34M",
+          "sha256": "5eef4310e6ccfeb0e48994df54a6969adac09dc719434ab0153b29044bd5170b",
+          "guess": "PNL3AN",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s006",
+          "group": "analogous-family",
+          "text": "3ENNPW",
+          "sha256": "c67def2175ff3f7129c978e1a0e00e485eb6a6c081320ed47573a0fc502a8482",
+          "guess": "35NNPW",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s007",
+          "group": "shared-random-hue",
+          "text": "K62K42",
+          "sha256": "13b64eafda37ede3c117bab033f5ad4da83cedf2045ad8757e48863de2f51434",
+          "guess": "K62K42",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s008",
+          "group": "per-glyph-spatial-hues",
+          "text": "6K3WHV",
+          "sha256": "69efc1f5f7d874cf49eff81163da995d66f4bd528008e0fff595a5d6cc5eb8f7",
+          "guess": "6K3WKV",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s009",
+          "group": "opaque-beaded-gray",
+          "text": "J7X78T",
+          "sha256": "0d1d32864045604f7576cd366782b10ae9eabb9cc339fffc60370a56bd3f6f1e",
+          "guess": "J7XT8J",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s010",
+          "group": "shared-random-hue",
+          "text": "8C74D6",
+          "sha256": "68820b48dd5a57f5366a3372857dbc6aeeff249f405e9655d9da2a542c757428",
+          "guess": "8C7AD9",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s011",
+          "group": "shared-random-hue",
+          "text": "T6T3TR",
+          "sha256": "5958cedd527c7fe8cc79cd7c3f19edfe51729c1681b2f6c43029e4260093feb0",
+          "guess": "T6T3TR",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s012",
+          "group": "analogous-family",
+          "text": "NYWV3L",
+          "sha256": "c1fe5eb069a08bd8c345cae7a3a047599d4c3ea3e65f4fe4cea19cf9bab83173",
+          "guess": "NTWN3L",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s013",
+          "group": "analogous-family",
+          "text": "4AACHJ",
+          "sha256": "8bd113aa594f850d3fe9f3789067db58dedaf729b23dc2591c177f4decbb7e03",
+          "guess": "MAA5HJ",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s014",
+          "group": "shared-random-hue",
+          "text": "4M5K6Y",
+          "sha256": "36dd426c613cc06fb7314df74cc47e128cc83145030bcf1c44a6eabb22cb8489",
+          "guess": "4M5K9K",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s015",
+          "group": "per-glyph-spatial-hues",
+          "text": "LDK585",
+          "sha256": "8c07ee57c41124c4da098014a9c1cb7419855244f4422625c561fd6eeeb48f4e",
+          "guess": "LDK585",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s016",
+          "group": "opaque-beaded-gray",
+          "text": "NEVHF9",
+          "sha256": "7823a2ac6898bf9847cc0e55163ee45904f4072cc0076907466dda949c9b32eb",
+          "guess": "NEVHFR",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s017",
+          "group": "analogous-family",
+          "text": "5VK3PR",
+          "sha256": "2fd017867f686a8119222577345da967b00200e0370fddcff4de5a9e588a9154",
+          "guess": "5YK3PR",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s018",
+          "group": "per-glyph-spatial-hues",
+          "text": "AYH7NJ",
+          "sha256": "29d2fac364a83249b8142b1e5c8e993828ee704b2453cfdd059d3e9fef87b82c",
+          "guess": "KYATNJ",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s019",
+          "group": "opaque-beaded-gray",
+          "text": "4E57A3",
+          "sha256": "d57e521bd12b2cece939fd69cd8d6a3c7640361191c2dc2b135e8d0d5b4545f1",
+          "guess": "4E57X3",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s020",
+          "group": "shared-random-hue",
+          "text": "WM77FD",
+          "sha256": "74782bcd590013d48fc6f843c4cf7ee0dd020262d9dbdbae2d6dbb8a0b92ae86",
+          "guess": "WMTTFD",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s021",
+          "group": "analogous-family",
+          "text": "KARRFC",
+          "sha256": "91311bd8e22a1a2b37d2df1799df87c1e25aeccddfc52d831622ed8d5c878186",
+          "guess": "KARRFC",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s022",
+          "group": "opaque-beaded-gray",
+          "text": "FA877P",
+          "sha256": "53197d69c9feb6d50dcbdda5a815d8da4b0a160c160e1b08006dcb3c61f2ac7d",
+          "guess": "FA2TJR",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s023",
+          "group": "analogous-family",
+          "text": "F9NMPY",
+          "sha256": "01b3849e47fb6c6010eaa5ea6b5f9fe24f12f9c1c1d1947c2df6dcc130d47a23",
+          "guess": "F9NWPY",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s024",
+          "group": "shared-random-hue",
+          "text": "CC4W4K",
+          "sha256": "afa0b0be3b7205d7d76086dccdce0ecfa0c989f7b8d1d5ccad60c22c82fc6918",
+          "guess": "EC4WAK",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s025",
+          "group": "opaque-beaded-gray",
+          "text": "T2F9C7",
+          "sha256": "4dbd844c6be921ecca4ab019b5fbdaece7d07cf6548027e75ad2c9e0ee85344e",
+          "guess": "72FJCT",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s026",
+          "group": "opaque-beaded-gray",
+          "text": "38MANP",
+          "sha256": "eb7649b7a797712f4a6d8b9798116431aad603b9470b449e43105f219209694e",
+          "guess": "28MAN3",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s027",
+          "group": "shared-random-hue",
+          "text": "PW8MRJ",
+          "sha256": "0fe7f84dea07ba5e676cea4c804f33372f360127f8bc7e8ef2ece05e304bb3df",
+          "guess": "PW3MRJ",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s028",
+          "group": "per-glyph-spatial-hues",
+          "text": "LP76M5",
+          "sha256": "12d5bbae41fc6587014ddfde8dc8ccf3f0b673e79d33adcb8d7e2528f42f9367",
+          "guess": "LRT6M5",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s029",
+          "group": "shared-random-hue",
+          "text": "L6EJED",
+          "sha256": "95bae63f7dec27ceeb62fe70f09c1fdd3dc7f453611c23f097b734f57d682997",
+          "guess": "J9EJED",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s030",
+          "group": "opaque-beaded-gray",
+          "text": "4P2CRT",
+          "sha256": "30b186fdc0f7abe254261c366a34d4ab7224f1aae8aa17807c89979bb68823d5",
+          "guess": "4P2CRT",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s031",
+          "group": "analogous-family",
+          "text": "FKJ77Y",
+          "sha256": "f83fe72a33fbab462eedc2461e143ef17097b4be5fddf24675d0865dc51df001",
+          "guess": "FKLTJK",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s032",
+          "group": "opaque-beaded-gray",
+          "text": "KH35FY",
+          "sha256": "ef95b6bb467557177c94315d570717eddcb05676fd6d459b734563978126711b",
+          "guess": "XH357Y",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s033",
+          "group": "per-glyph-spatial-hues",
+          "text": "MR6H65",
+          "sha256": "0a269a8558ebcc86a79c2ccf87104f166e1339bbece0cead76c4b0020b836ece",
+          "guess": "NR6H93",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s034",
+          "group": "shared-random-hue",
+          "text": "YM3J4X",
+          "sha256": "8d99591ab8f09ed679da38892b17bef2f0d8edbbce35d015a78ab1f5d63556b4",
+          "guess": "TM3JAK",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s035",
+          "group": "per-glyph-spatial-hues",
+          "text": "8425TF",
+          "sha256": "006cbe3ab126ca59d4d2742b68936740c1842e939bee157ed48eb8280cd45845",
+          "guess": "8A235E",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s036",
+          "group": "shared-random-hue",
+          "text": "2E2JC4",
+          "sha256": "7cda64e712f8dfe37010c0816de92fff0e6acd5f007456c2bfd6dbcc14cf541c",
+          "guess": "2E2JCA",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s037",
+          "group": "per-glyph-spatial-hues",
+          "text": "MFXJ89",
+          "sha256": "cfec791ee40361a25c579d18f16733a3edae2c304016afd749e4e21a68a669ba",
+          "guess": "MFXJ89",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s038",
+          "group": "analogous-family",
+          "text": "3E358J",
+          "sha256": "bc92eeef2b36a7e220b38299695c41877a4d63ab9e00a950f6b93fce88aaee05",
+          "guess": "3E339J",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s039",
+          "group": "analogous-family",
+          "text": "RH9MR6",
+          "sha256": "dd2a96267267fc8cc8122a733d4253fc4f31626f93dee216e5c4807497ca429e",
+          "guess": "RH9MR6",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s040",
+          "group": "per-glyph-spatial-hues",
+          "text": "F47H3K",
+          "sha256": "529d79217320263392fa5895a453b6c4209a5a8be9e4d6609f012ede5805846c",
+          "guess": "E4ZH3K",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s041",
+          "group": "per-glyph-spatial-hues",
+          "text": "NR9NFT",
+          "sha256": "f614d5834fbb708aae1b8484a4143ac9aedc00d03ab499652ce0f7415f0e1af2",
+          "guess": "NR9NFT",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s042",
+          "group": "analogous-family",
+          "text": "M3L7RW",
+          "sha256": "1ac141a3cc788d2e8704210737ef487b9f82c69face24e2a9eef1177a44a273c",
+          "guess": "M3LJRW",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s043",
+          "group": "analogous-family",
+          "text": "CVWV4K",
+          "sha256": "0da4cce4424344130aeb4c587061aef802983998dba95d3ea1ded87944285016",
+          "guess": "CYWY4R",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s044",
+          "group": "analogous-family",
+          "text": "N7V4DA",
+          "sha256": "bbd31538752eac846a45b17af0159eded88b64e97b6217a75712541cb3cc7246",
+          "guess": "MTV4DA",
+          "exact": false,
+          "matchingPositions": 4
+        }
+      ]
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "reasoningEffort": "xhigh",
+      "predictionsSha256": "0d7c397fc20e184c4fa4d9c2067be2dfcac7c8ac08c645c10225ab23c48eded7",
+      "groups": [
+        {
+          "group": "per-glyph-spatial-hues",
+          "exact": 3,
+          "total": 12,
+          "exactRate": 0.25,
+          "exactRateWilson95": [
+            0.08894166839405471,
+            0.5323053349335657
+          ],
+          "matchingPositions": 57,
+          "characters": 72,
+          "positionAccuracy": 0.7916666666666666
+        },
+        {
+          "group": "shared-random-hue",
+          "exact": 3,
+          "total": 12,
+          "exactRate": 0.25,
+          "exactRateWilson95": [
+            0.08894166839405471,
+            0.5323053349335657
+          ],
+          "matchingPositions": 61,
+          "characters": 72,
+          "positionAccuracy": 0.8472222222222222
+        },
+        {
+          "group": "analogous-family",
+          "exact": 4,
+          "total": 12,
+          "exactRate": 0.3333333333333333,
+          "exactRateWilson95": [
+            0.13812009109121315,
+            0.6093779111272004
+          ],
+          "matchingPositions": 63,
+          "characters": 72,
+          "positionAccuracy": 0.875
+        },
+        {
+          "group": "opaque-beaded-gray",
+          "exact": 2,
+          "total": 8,
+          "exactRate": 0.25,
+          "exactRateWilson95": [
+            0.071479212752109,
+            0.5907245696898311
+          ],
+          "matchingPositions": 35,
+          "characters": 48,
+          "positionAccuracy": 0.7291666666666666
+        }
+      ],
+      "results": [
+        {
+          "id": "s001",
+          "group": "per-glyph-spatial-hues",
+          "text": "KAJKFR",
+          "sha256": "a937aba02f7ded05719f40ff84ac90d24fa99e7d0c61f27545042e3a12bf291a",
+          "guess": "KALYFR",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s002",
+          "group": "shared-random-hue",
+          "text": "N33T3V",
+          "sha256": "f5a2370bbae45f5b19c925a0bb1d1c2fdf808935aa99ed2c08b62bf80930b314",
+          "guess": "N32T3V",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s003",
+          "group": "shared-random-hue",
+          "text": "4XX5EL",
+          "sha256": "1c47522653d92d9c2c612293b5c15f0053df765ad738f0211a3bd27804664f0f",
+          "guess": "4XX52L",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s004",
+          "group": "per-glyph-spatial-hues",
+          "text": "FCNKAT",
+          "sha256": "7f97887b2a8f6882b43c5b64db648112326c54c770672d4d9760d691c951b786",
+          "guess": "FCNKAF",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s005",
+          "group": "per-glyph-spatial-hues",
+          "text": "PML34M",
+          "sha256": "5eef4310e6ccfeb0e48994df54a6969adac09dc719434ab0153b29044bd5170b",
+          "guess": "PML3AN",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s006",
+          "group": "analogous-family",
+          "text": "3ENNPW",
+          "sha256": "c67def2175ff3f7129c978e1a0e00e485eb6a6c081320ed47573a0fc502a8482",
+          "guess": "35NNPW",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s007",
+          "group": "shared-random-hue",
+          "text": "K62K42",
+          "sha256": "13b64eafda37ede3c117bab033f5ad4da83cedf2045ad8757e48863de2f51434",
+          "guess": "K62K42",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s008",
+          "group": "per-glyph-spatial-hues",
+          "text": "6K3WHV",
+          "sha256": "69efc1f5f7d874cf49eff81163da995d66f4bd528008e0fff595a5d6cc5eb8f7",
+          "guess": "6K3HKY",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s009",
+          "group": "opaque-beaded-gray",
+          "text": "J7X78T",
+          "sha256": "0d1d32864045604f7576cd366782b10ae9eabb9cc339fffc60370a56bd3f6f1e",
+          "guess": "J7KT8T",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s010",
+          "group": "shared-random-hue",
+          "text": "8C74D6",
+          "sha256": "68820b48dd5a57f5366a3372857dbc6aeeff249f405e9655d9da2a542c757428",
+          "guess": "8C7AD6",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s011",
+          "group": "shared-random-hue",
+          "text": "T6T3TR",
+          "sha256": "5958cedd527c7fe8cc79cd7c3f19edfe51729c1681b2f6c43029e4260093feb0",
+          "guess": "T6T3TR",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s012",
+          "group": "analogous-family",
+          "text": "NYWV3L",
+          "sha256": "c1fe5eb069a08bd8c345cae7a3a047599d4c3ea3e65f4fe4cea19cf9bab83173",
+          "guess": "NYWV3L",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s013",
+          "group": "analogous-family",
+          "text": "4AACHJ",
+          "sha256": "8bd113aa594f850d3fe9f3789067db58dedaf729b23dc2591c177f4decbb7e03",
+          "guess": "4RACHJ",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s014",
+          "group": "shared-random-hue",
+          "text": "4M5K6Y",
+          "sha256": "36dd426c613cc06fb7314df74cc47e128cc83145030bcf1c44a6eabb22cb8489",
+          "guess": "4M5K9Y",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s015",
+          "group": "per-glyph-spatial-hues",
+          "text": "LDK585",
+          "sha256": "8c07ee57c41124c4da098014a9c1cb7419855244f4422625c561fd6eeeb48f4e",
+          "guess": "LDK585",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s016",
+          "group": "opaque-beaded-gray",
+          "text": "NEVHF9",
+          "sha256": "7823a2ac6898bf9847cc0e55163ee45904f4072cc0076907466dda949c9b32eb",
+          "guess": "NEVHF3",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s017",
+          "group": "analogous-family",
+          "text": "5VK3PR",
+          "sha256": "2fd017867f686a8119222577345da967b00200e0370fddcff4de5a9e588a9154",
+          "guess": "5VK3PR",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s018",
+          "group": "per-glyph-spatial-hues",
+          "text": "AYH7NJ",
+          "sha256": "29d2fac364a83249b8142b1e5c8e993828ee704b2453cfdd059d3e9fef87b82c",
+          "guess": "AYHFNJ",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s019",
+          "group": "opaque-beaded-gray",
+          "text": "4E57A3",
+          "sha256": "d57e521bd12b2cece939fd69cd8d6a3c7640361191c2dc2b135e8d0d5b4545f1",
+          "guess": "AE57A3",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s020",
+          "group": "shared-random-hue",
+          "text": "WM77FD",
+          "sha256": "74782bcd590013d48fc6f843c4cf7ee0dd020262d9dbdbae2d6dbb8a0b92ae86",
+          "guess": "WMF7FD",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s021",
+          "group": "analogous-family",
+          "text": "KARRFC",
+          "sha256": "91311bd8e22a1a2b37d2df1799df87c1e25aeccddfc52d831622ed8d5c878186",
+          "guess": "KAPRFC",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s022",
+          "group": "opaque-beaded-gray",
+          "text": "FA877P",
+          "sha256": "53197d69c9feb6d50dcbdda5a815d8da4b0a160c160e1b08006dcb3c61f2ac7d",
+          "guess": "FA3F7R",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s023",
+          "group": "analogous-family",
+          "text": "F9NMPY",
+          "sha256": "01b3849e47fb6c6010eaa5ea6b5f9fe24f12f9c1c1d1947c2df6dcc130d47a23",
+          "guess": "F9NWPY",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s024",
+          "group": "shared-random-hue",
+          "text": "CC4W4K",
+          "sha256": "afa0b0be3b7205d7d76086dccdce0ecfa0c989f7b8d1d5ccad60c22c82fc6918",
+          "guess": "5C4WAK",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s025",
+          "group": "opaque-beaded-gray",
+          "text": "T2F9C7",
+          "sha256": "4dbd844c6be921ecca4ab019b5fbdaece7d07cf6548027e75ad2c9e0ee85344e",
+          "guess": "T2F9C7",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s026",
+          "group": "opaque-beaded-gray",
+          "text": "38MANP",
+          "sha256": "eb7649b7a797712f4a6d8b9798116431aad603b9470b449e43105f219209694e",
+          "guess": "28MAMR",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s027",
+          "group": "shared-random-hue",
+          "text": "PW8MRJ",
+          "sha256": "0fe7f84dea07ba5e676cea4c804f33372f360127f8bc7e8ef2ece05e304bb3df",
+          "guess": "FY8MRJ",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s028",
+          "group": "per-glyph-spatial-hues",
+          "text": "LP76M5",
+          "sha256": "12d5bbae41fc6587014ddfde8dc8ccf3f0b673e79d33adcb8d7e2528f42f9367",
+          "guess": "LP76M5",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s029",
+          "group": "shared-random-hue",
+          "text": "L6EJED",
+          "sha256": "95bae63f7dec27ceeb62fe70f09c1fdd3dc7f453611c23f097b734f57d682997",
+          "guess": "L6EJED",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s030",
+          "group": "opaque-beaded-gray",
+          "text": "4P2CRT",
+          "sha256": "30b186fdc0f7abe254261c366a34d4ab7224f1aae8aa17807c89979bb68823d5",
+          "guess": "4P2CRT",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s031",
+          "group": "analogous-family",
+          "text": "FKJ77Y",
+          "sha256": "f83fe72a33fbab462eedc2461e143ef17097b4be5fddf24675d0865dc51df001",
+          "guess": "FKJ7FY",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s032",
+          "group": "opaque-beaded-gray",
+          "text": "KH35FY",
+          "sha256": "ef95b6bb467557177c94315d570717eddcb05676fd6d459b734563978126711b",
+          "guess": "YH327Y",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s033",
+          "group": "per-glyph-spatial-hues",
+          "text": "MR6H65",
+          "sha256": "0a269a8558ebcc86a79c2ccf87104f166e1339bbece0cead76c4b0020b836ece",
+          "guess": "WK6H65",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s034",
+          "group": "shared-random-hue",
+          "text": "YM3J4X",
+          "sha256": "8d99591ab8f09ed679da38892b17bef2f0d8edbbce35d015a78ab1f5d63556b4",
+          "guess": "YM3JAX",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s035",
+          "group": "per-glyph-spatial-hues",
+          "text": "8425TF",
+          "sha256": "006cbe3ab126ca59d4d2742b68936740c1842e939bee157ed48eb8280cd45845",
+          "guess": "8A25YF",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s036",
+          "group": "shared-random-hue",
+          "text": "2E2JC4",
+          "sha256": "7cda64e712f8dfe37010c0816de92fff0e6acd5f007456c2bfd6dbcc14cf541c",
+          "guess": "2E2JCL",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s037",
+          "group": "per-glyph-spatial-hues",
+          "text": "MFXJ89",
+          "sha256": "cfec791ee40361a25c579d18f16733a3edae2c304016afd749e4e21a68a669ba",
+          "guess": "MFXJ87",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s038",
+          "group": "analogous-family",
+          "text": "3E358J",
+          "sha256": "bc92eeef2b36a7e220b38299695c41877a4d63ab9e00a950f6b93fce88aaee05",
+          "guess": "3E358J",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s039",
+          "group": "analogous-family",
+          "text": "RH9MR6",
+          "sha256": "dd2a96267267fc8cc8122a733d4253fc4f31626f93dee216e5c4807497ca429e",
+          "guess": "RH9MR6",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s040",
+          "group": "per-glyph-spatial-hues",
+          "text": "F47H3K",
+          "sha256": "529d79217320263392fa5895a453b6c4209a5a8be9e4d6609f012ede5805846c",
+          "guess": "F47H3K",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s041",
+          "group": "per-glyph-spatial-hues",
+          "text": "NR9NFT",
+          "sha256": "f614d5834fbb708aae1b8484a4143ac9aedc00d03ab499652ce0f7415f0e1af2",
+          "guess": "NR9HFT",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s042",
+          "group": "analogous-family",
+          "text": "M3L7RW",
+          "sha256": "1ac141a3cc788d2e8704210737ef487b9f82c69face24e2a9eef1177a44a273c",
+          "guess": "M3L7RM",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s043",
+          "group": "analogous-family",
+          "text": "CVWV4K",
+          "sha256": "0da4cce4424344130aeb4c587061aef802983998dba95d3ea1ded87944285016",
+          "guess": "CYWV4X",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s044",
+          "group": "analogous-family",
+          "text": "N7V4DA",
+          "sha256": "bbd31538752eac846a45b17af0159eded88b64e97b6217a75712541cb3cc7246",
+          "guess": "M7V4DA",
+          "exact": false,
+          "matchingPositions": 5
+        }
+      ]
+    }
+  ]
+}

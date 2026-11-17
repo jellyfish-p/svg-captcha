@@ -1,0 +1,1522 @@
+{
+  "createdAt": "2026-11-16T20:23:42.007Z",
+  "manifest": {
+    "createdAt": "2026-11-16T20:18:12.044Z",
+    "round": "opaque-beaded-density-screen",
+    "groups": [
+      {
+        "name": "incumbent-v2-compatible",
+        "sourceSha256": "ec2063f588e8f561b0aa1e88e8664563ef1a9cfc213f649d2513094e9d64b058",
+        "options": {
+          "size": 6,
+          "width": 210,
+          "height": 68,
+          "fontSize": 52,
+          "noise": 3,
+          "charPreset": "23456789ACDEFHJKLMNPRTVWXY",
+          "interference": "none"
+        },
+        "count": 8
+      },
+      {
+        "name": "opaque-beaded-density1",
+        "sourceSha256": "ec2063f588e8f561b0aa1e88e8664563ef1a9cfc213f649d2513094e9d64b058",
+        "options": {
+          "size": 6,
+          "width": 210,
+          "height": 68,
+          "fontSize": 52,
+          "noise": 3,
+          "charPreset": "23456789ACDEFHJKLMNPRTVWXY",
+          "interference": "beaded",
+          "interferenceDensity": 1
+        },
+        "count": 16
+      },
+      {
+        "name": "opaque-beaded-density2",
+        "sourceSha256": "ec2063f588e8f561b0aa1e88e8664563ef1a9cfc213f649d2513094e9d64b058",
+        "options": {
+          "size": 6,
+          "width": 210,
+          "height": 68,
+          "fontSize": 52,
+          "noise": 3,
+          "charPreset": "23456789ACDEFHJKLMNPRTVWXY",
+          "interference": "beaded",
+          "interferenceDensity": 2
+        },
+        "count": 16
+      }
+    ],
+    "samples": [
+      {
+        "id": "s001",
+        "group": "opaque-beaded-density1",
+        "text": "6FWPHW",
+        "sha256": "6f6ba57d4e16a8774e871508b7969a7508aa124e970da9d41b2492ca0946e42e"
+      },
+      {
+        "id": "s002",
+        "group": "incumbent-v2-compatible",
+        "text": "D3CLYR",
+        "sha256": "2a5f3f4d28e273bf270afe9213c015ead57979b27a8afc482023c07338d00adf"
+      },
+      {
+        "id": "s003",
+        "group": "opaque-beaded-density1",
+        "text": "KX7YN4",
+        "sha256": "5e98ca370656e360aa356278fd1cee441ef371e7e2aefae83aff6cf2dd5b373b"
+      },
+      {
+        "id": "s004",
+        "group": "opaque-beaded-density2",
+        "text": "7NCKCM",
+        "sha256": "ae7ee928eaa6f5c05e85710ce53f13d4bfb79b67a1b5340053c8ea4937229b39"
+      },
+      {
+        "id": "s005",
+        "group": "opaque-beaded-density1",
+        "text": "H4CR4Y",
+        "sha256": "12aae8033dfe5d804318a7b0ce1a85986f1f3a7d2059de8b8b6431da2ebbdc70"
+      },
+      {
+        "id": "s006",
+        "group": "opaque-beaded-density1",
+        "text": "4Y95K3",
+        "sha256": "6a6d73046e5ebfb8bf4473bfc0cef18f1c7523b9edf045eaf0b2db916acdf24e"
+      },
+      {
+        "id": "s007",
+        "group": "opaque-beaded-density2",
+        "text": "68M2VK",
+        "sha256": "3d4c4ef828ee5115a01f505c656f495438c6a8f2354755fa3c296971ff827a12"
+      },
+      {
+        "id": "s008",
+        "group": "incumbent-v2-compatible",
+        "text": "FE63WM",
+        "sha256": "d723dbd8b1e4d69d0c80c50f2432690533a72cbbbad76ed20a4fe2ef1b9a1223"
+      },
+      {
+        "id": "s009",
+        "group": "opaque-beaded-density1",
+        "text": "756FLM",
+        "sha256": "4529f4bac4517fbfd2b6adedbd7626c6b8bc3e2fe6497c52433384f2544f5168"
+      },
+      {
+        "id": "s010",
+        "group": "incumbent-v2-compatible",
+        "text": "NJPTK3",
+        "sha256": "30a230860890c7f9a610579f99c609d7cfeee86c6f6144078a8afa3ddfeb079c"
+      },
+      {
+        "id": "s011",
+        "group": "opaque-beaded-density1",
+        "text": "8VMXFR",
+        "sha256": "6c1736ab991cc01bb7269eaab348aeb8d8a3e0db1fe4fa31ab10417e0b97ad5b"
+      },
+      {
+        "id": "s012",
+        "group": "opaque-beaded-density1",
+        "text": "9K9JHV",
+        "sha256": "5ae61117954a3267fca83726bd74da4c1f4067bad3d04f9b86451e89b62bdf90"
+      },
+      {
+        "id": "s013",
+        "group": "opaque-beaded-density2",
+        "text": "P2EYHT",
+        "sha256": "0b9da4bbf1976839992e1ab11dfd62c801990fa1ccf91f4ba2d3a82bd6d4ee71"
+      },
+      {
+        "id": "s014",
+        "group": "opaque-beaded-density1",
+        "text": "7WNDRM",
+        "sha256": "a2a29efcc7db169fc82ba132d1d7698920ce0cc1ef8216cbbbc581102d2da57f"
+      },
+      {
+        "id": "s015",
+        "group": "opaque-beaded-density1",
+        "text": "5DLDR4",
+        "sha256": "575f1d1ea48639867137b1db799f0ceede5d3813033423a331ec3becd27e5916"
+      },
+      {
+        "id": "s016",
+        "group": "opaque-beaded-density1",
+        "text": "WYEJV7",
+        "sha256": "0c688a266d38986bb67478460c2e37309cff227f86a1fd0b1ba6ea14d4edf723"
+      },
+      {
+        "id": "s017",
+        "group": "opaque-beaded-density2",
+        "text": "ENYFMC",
+        "sha256": "941a7b30b8c2e4c98e9c364dfb4ec88aab684421bd17a624f2954f94f19ce787"
+      },
+      {
+        "id": "s018",
+        "group": "incumbent-v2-compatible",
+        "text": "FMCV36",
+        "sha256": "f4d3807ed4887ebb905ed29a7a7b47c49e50d636334af920d1cae5b2a61963a8"
+      },
+      {
+        "id": "s019",
+        "group": "opaque-beaded-density2",
+        "text": "4CMWAN",
+        "sha256": "4f307273f89ec384009d938f9e5e39db482077b707b1cf463b7fe9f240792dda"
+      },
+      {
+        "id": "s020",
+        "group": "opaque-beaded-density2",
+        "text": "9LJ9P7",
+        "sha256": "0e7f997eca1c01f5fdbd856b32dcc0253d3f411e3f2bbad0699518e09b82cff2"
+      },
+      {
+        "id": "s021",
+        "group": "opaque-beaded-density1",
+        "text": "J9F7TR",
+        "sha256": "5437af8be5ba8a25729e9b5f6599a8e1891f1350acebf463840a8cd1a5e1a5cb"
+      },
+      {
+        "id": "s022",
+        "group": "opaque-beaded-density2",
+        "text": "CF7253",
+        "sha256": "23c0b143a30462e67376fddfe2e829cb69beb423ece0407f50b42a2ec4e3eab7"
+      },
+      {
+        "id": "s023",
+        "group": "opaque-beaded-density2",
+        "text": "NE45XX",
+        "sha256": "fbe8a4a9d654728769ec9ca6823a059b3d78555808ac8c964f1e8e21901616b6"
+      },
+      {
+        "id": "s024",
+        "group": "opaque-beaded-density1",
+        "text": "R77VK3",
+        "sha256": "abce18ac1832c6c6d13e0ce6e5b465fd5c77fc0f895b0615738b68e7dafcfcb7"
+      },
+      {
+        "id": "s025",
+        "group": "incumbent-v2-compatible",
+        "text": "6XRDHM",
+        "sha256": "2daef9c02ce5141bfaa57ba4eec54d49300ff772c984b61157e521e350509d84"
+      },
+      {
+        "id": "s026",
+        "group": "incumbent-v2-compatible",
+        "text": "P9PY6H",
+        "sha256": "c0b1e66f45b3016d679e7d7047a15a320974c801b5f0789c15bba43c1850030b"
+      },
+      {
+        "id": "s027",
+        "group": "opaque-beaded-density1",
+        "text": "VE7TE8",
+        "sha256": "c88aebce78781ca561a97fa1dcfba311794f8b02f4b22e38835348ca5daf281a"
+      },
+      {
+        "id": "s028",
+        "group": "opaque-beaded-density1",
+        "text": "P252MD",
+        "sha256": "8499259e9215f050020911a9b43118ac4d611edba7a89b57211081d9e64da3b6"
+      },
+      {
+        "id": "s029",
+        "group": "opaque-beaded-density2",
+        "text": "EE8HPC",
+        "sha256": "2f3d2328ac04c5d0426eb7485631ba29c87569d8011fcd72766baef27794470c"
+      },
+      {
+        "id": "s030",
+        "group": "incumbent-v2-compatible",
+        "text": "VYTH6J",
+        "sha256": "c3c62d8340ddd5b2be2bf6f1ae04af3922189674b25e7fb6a0cfd2bff4e618ab"
+      },
+      {
+        "id": "s031",
+        "group": "opaque-beaded-density2",
+        "text": "64YJYV",
+        "sha256": "85c2d98ecdd8342712da0fcf66ce2becd1048105b346c6a1125a3fa35d0ddf9e"
+      },
+      {
+        "id": "s032",
+        "group": "opaque-beaded-density1",
+        "text": "7AC4AR",
+        "sha256": "995b87c0673dc59af8bd872e02eeaa2821b86d3c30d9e4c518f0102d7984b964"
+      },
+      {
+        "id": "s033",
+        "group": "opaque-beaded-density2",
+        "text": "E2KTHW",
+        "sha256": "0f8aea5ab5ccd0259e4e1118928fe1f8ffda5e9ffdbd5748171c110ab290dffe"
+      },
+      {
+        "id": "s034",
+        "group": "opaque-beaded-density2",
+        "text": "FTWE3A",
+        "sha256": "b64dce88509f7ec24b4b7934818febfeddfa6d6846e4b2c5e2833e58b91fedde"
+      },
+      {
+        "id": "s035",
+        "group": "opaque-beaded-density2",
+        "text": "83JEC8",
+        "sha256": "5165f83ebe62909a7cfe2e9adabc0cb72ee5327ae8d0db34a8803c8028e744f2"
+      },
+      {
+        "id": "s036",
+        "group": "opaque-beaded-density2",
+        "text": "4KJA2T",
+        "sha256": "ab50ca276415840aa6362950d584c92d11debe62217b5c604e04543ec017b625"
+      },
+      {
+        "id": "s037",
+        "group": "opaque-beaded-density1",
+        "text": "9CNH4T",
+        "sha256": "79b3ee5ab645e6cb959d572fda932cef36923b98981d10d0984b9cf5cca51ff8"
+      },
+      {
+        "id": "s038",
+        "group": "incumbent-v2-compatible",
+        "text": "VDAV2W",
+        "sha256": "905cc7237f542b6970b399937182fa599da5233e262845b87d3d5a977c392ca3"
+      },
+      {
+        "id": "s039",
+        "group": "opaque-beaded-density2",
+        "text": "7X8R9X",
+        "sha256": "58219ad962dde013e88b328fc21227764e62e87e5fc93cfe541b8ca4588cd410"
+      },
+      {
+        "id": "s040",
+        "group": "opaque-beaded-density2",
+        "text": "HDK4WN",
+        "sha256": "f4728899175358a95eefb86eae39122569db972310df4cb10085546beadcebb7"
+      }
+    ]
+  },
+  "method": "Same shuffled images; separate agents with no answer manifest; visual transcription only; no feedback or retries. Exact six-character accuracy, trim and uppercase only. Shared filesystem is instruction-blinded, not access-isolated. Confidence intervals describe these samples, not a security guarantee.",
+  "models": [
+    {
+      "model": "gpt-6-luna",
+      "reasoningEffort": "inherited/default",
+      "predictionsSha256": "4ce28ff42d8fd79cc41b56407805996613d84da428e7186d7aca010c37f1ada8",
+      "groups": [
+        {
+          "group": "opaque-beaded-density1",
+          "exact": 0,
+          "total": 16,
+          "exactRate": 0,
+          "exactRateWilson95": [
+            0,
+            0.1936076805344365
+          ],
+          "matchingPositions": 28,
+          "characters": 96,
+          "positionAccuracy": 0.2916666666666667
+        },
+        {
+          "group": "incumbent-v2-compatible",
+          "exact": 3,
+          "total": 8,
+          "exactRate": 0.375,
+          "exactRateWilson95": [
+            0.13684428582359742,
+            0.6942576053973727
+          ],
+          "matchingPositions": 40,
+          "characters": 48,
+          "positionAccuracy": 0.8333333333333334
+        },
+        {
+          "group": "opaque-beaded-density2",
+          "exact": 0,
+          "total": 16,
+          "exactRate": 0,
+          "exactRateWilson95": [
+            0,
+            0.1936076805344365
+          ],
+          "matchingPositions": 36,
+          "characters": 96,
+          "positionAccuracy": 0.375
+        }
+      ],
+      "results": [
+        {
+          "id": "s001",
+          "group": "opaque-beaded-density1",
+          "text": "6FWPHW",
+          "sha256": "6f6ba57d4e16a8774e871508b7969a7508aa124e970da9d41b2492ca0946e42e",
+          "guess": "6PY2JX",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s002",
+          "group": "incumbent-v2-compatible",
+          "text": "D3CLYR",
+          "sha256": "2a5f3f4d28e273bf270afe9213c015ead57979b27a8afc482023c07338d00adf",
+          "guess": "D3CZ?R",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s003",
+          "group": "opaque-beaded-density1",
+          "text": "KX7YN4",
+          "sha256": "5e98ca370656e360aa356278fd1cee441ef371e7e2aefae83aff6cf2dd5b373b",
+          "guess": "X?X?V4",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s004",
+          "group": "opaque-beaded-density2",
+          "text": "7NCKCM",
+          "sha256": "ae7ee928eaa6f5c05e85710ce53f13d4bfb79b67a1b5340053c8ea4937229b39",
+          "guess": "YNC?C?",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s005",
+          "group": "opaque-beaded-density1",
+          "text": "H4CR4Y",
+          "sha256": "12aae8033dfe5d804318a7b0ce1a85986f1f3a7d2059de8b8b6431da2ebbdc70",
+          "guess": "K4CP4Y",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s006",
+          "group": "opaque-beaded-density1",
+          "text": "4Y95K3",
+          "sha256": "6a6d73046e5ebfb8bf4473bfc0cef18f1c7523b9edf045eaf0b2db916acdf24e",
+          "guess": "A?P2Y3",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s007",
+          "group": "opaque-beaded-density2",
+          "text": "68M2VK",
+          "sha256": "3d4c4ef828ee5115a01f505c656f495438c6a8f2354755fa3c296971ff827a12",
+          "guess": "68M2FY",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s008",
+          "group": "incumbent-v2-compatible",
+          "text": "FE63WM",
+          "sha256": "d723dbd8b1e4d69d0c80c50f2432690533a72cbbbad76ed20a4fe2ef1b9a1223",
+          "guess": "F?63NM",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s009",
+          "group": "opaque-beaded-density1",
+          "text": "756FLM",
+          "sha256": "4529f4bac4517fbfd2b6adedbd7626c6b8bc3e2fe6497c52433384f2544f5168",
+          "guess": "3?D?JM",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s010",
+          "group": "incumbent-v2-compatible",
+          "text": "NJPTK3",
+          "sha256": "30a230860890c7f9a610579f99c609d7cfeee86c6f6144078a8afa3ddfeb079c",
+          "guess": "NJP7K3",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s011",
+          "group": "opaque-beaded-density1",
+          "text": "8VMXFR",
+          "sha256": "6c1736ab991cc01bb7269eaab348aeb8d8a3e0db1fe4fa31ab10417e0b97ad5b",
+          "guess": "8Y?XFR",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s012",
+          "group": "opaque-beaded-density1",
+          "text": "9K9JHV",
+          "sha256": "5ae61117954a3267fca83726bd74da4c1f4067bad3d04f9b86451e89b62bdf90",
+          "guess": "9X?J4V",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s013",
+          "group": "opaque-beaded-density2",
+          "text": "P2EYHT",
+          "sha256": "0b9da4bbf1976839992e1ab11dfd62c801990fa1ccf91f4ba2d3a82bd6d4ee71",
+          "guess": "P2?Y?4",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s014",
+          "group": "opaque-beaded-density1",
+          "text": "7WNDRM",
+          "sha256": "a2a29efcc7db169fc82ba132d1d7698920ce0cc1ef8216cbbbc581102d2da57f",
+          "guess": "?Y?D?N",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s015",
+          "group": "opaque-beaded-density1",
+          "text": "5DLDR4",
+          "sha256": "575f1d1ea48639867137b1db799f0ceede5d3813033423a331ec3becd27e5916",
+          "guess": "5?VPRX",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s016",
+          "group": "opaque-beaded-density1",
+          "text": "WYEJV7",
+          "sha256": "0c688a266d38986bb67478460c2e37309cff227f86a1fd0b1ba6ea14d4edf723",
+          "guess": "N?F?7X",
+          "exact": false,
+          "matchingPositions": 0
+        },
+        {
+          "id": "s017",
+          "group": "opaque-beaded-density2",
+          "text": "ENYFMC",
+          "sha256": "941a7b30b8c2e4c98e9c364dfb4ec88aab684421bd17a624f2954f94f19ce787",
+          "guess": "?7?2?C",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s018",
+          "group": "incumbent-v2-compatible",
+          "text": "FMCV36",
+          "sha256": "f4d3807ed4887ebb905ed29a7a7b47c49e50d636334af920d1cae5b2a61963a8",
+          "guess": "FMCV36",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s019",
+          "group": "opaque-beaded-density2",
+          "text": "4CMWAN",
+          "sha256": "4f307273f89ec384009d938f9e5e39db482077b707b1cf463b7fe9f240792dda",
+          "guess": "?CMNAY",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s020",
+          "group": "opaque-beaded-density2",
+          "text": "9LJ9P7",
+          "sha256": "0e7f997eca1c01f5fdbd856b32dcc0253d3f411e3f2bbad0699518e09b82cff2",
+          "guess": "9?J9P?",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s021",
+          "group": "opaque-beaded-density1",
+          "text": "J9F7TR",
+          "sha256": "5437af8be5ba8a25729e9b5f6599a8e1891f1350acebf463840a8cd1a5e1a5cb",
+          "guess": "J8?Y8R",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s022",
+          "group": "opaque-beaded-density2",
+          "text": "CF7253",
+          "sha256": "23c0b143a30462e67376fddfe2e829cb69beb423ece0407f50b42a2ec4e3eab7",
+          "guess": "C?T2?3",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s023",
+          "group": "opaque-beaded-density2",
+          "text": "NE45XX",
+          "sha256": "fbe8a4a9d654728769ec9ca6823a059b3d78555808ac8c964f1e8e21901616b6",
+          "guess": "N?A?YX",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s024",
+          "group": "opaque-beaded-density1",
+          "text": "R77VK3",
+          "sha256": "abce18ac1832c6c6d13e0ce6e5b465fd5c77fc0f895b0615738b68e7dafcfcb7",
+          "guess": "R?T?Y3",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s025",
+          "group": "incumbent-v2-compatible",
+          "text": "6XRDHM",
+          "sha256": "2daef9c02ce5141bfaa57ba4eec54d49300ff772c984b61157e521e350509d84",
+          "guess": "8XRDHM",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s026",
+          "group": "incumbent-v2-compatible",
+          "text": "P9PY6H",
+          "sha256": "c0b1e66f45b3016d679e7d7047a15a320974c801b5f0789c15bba43c1850030b",
+          "guess": "P9PY6H",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s027",
+          "group": "opaque-beaded-density1",
+          "text": "VE7TE8",
+          "sha256": "c88aebce78781ca561a97fa1dcfba311794f8b02f4b22e38835348ca5daf281a",
+          "guess": "?5?YF8",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s028",
+          "group": "opaque-beaded-density1",
+          "text": "P252MD",
+          "sha256": "8499259e9215f050020911a9b43118ac4d611edba7a89b57211081d9e64da3b6",
+          "guess": "P2S?N?",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s029",
+          "group": "opaque-beaded-density2",
+          "text": "EE8HPC",
+          "sha256": "2f3d2328ac04c5d0426eb7485631ba29c87569d8011fcd72766baef27794470c",
+          "guess": "?9?J?C",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s030",
+          "group": "incumbent-v2-compatible",
+          "text": "VYTH6J",
+          "sha256": "c3c62d8340ddd5b2be2bf6f1ae04af3922189674b25e7fb6a0cfd2bff4e618ab",
+          "guess": "VYTH6J",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s031",
+          "group": "opaque-beaded-density2",
+          "text": "64YJYV",
+          "sha256": "85c2d98ecdd8342712da0fcf66ce2becd1048105b346c6a1125a3fa35d0ddf9e",
+          "guess": "6RY?VJ",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s032",
+          "group": "opaque-beaded-density1",
+          "text": "7AC4AR",
+          "sha256": "995b87c0673dc59af8bd872e02eeaa2821b86d3c30d9e4c518f0102d7984b964",
+          "guess": "?AC?N?",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s033",
+          "group": "opaque-beaded-density2",
+          "text": "E2KTHW",
+          "sha256": "0f8aea5ab5ccd0259e4e1118928fe1f8ffda5e9ffdbd5748171c110ab290dffe",
+          "guess": "E2X?YM",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s034",
+          "group": "opaque-beaded-density2",
+          "text": "FTWE3A",
+          "sha256": "b64dce88509f7ec24b4b7934818febfeddfa6d6846e4b2c5e2833e58b91fedde",
+          "guess": "?Y?2?A",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s035",
+          "group": "opaque-beaded-density2",
+          "text": "83JEC8",
+          "sha256": "5165f83ebe62909a7cfe2e9adabc0cb72ee5327ae8d0db34a8803c8028e744f2",
+          "guess": "6?F?C8",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s036",
+          "group": "opaque-beaded-density2",
+          "text": "4KJA2T",
+          "sha256": "ab50ca276415840aa6362950d584c92d11debe62217b5c604e04543ec017b625",
+          "guess": "4?J?2Y",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s037",
+          "group": "opaque-beaded-density1",
+          "text": "9CNH4T",
+          "sha256": "79b3ee5ab645e6cb959d572fda932cef36923b98981d10d0984b9cf5cca51ff8",
+          "guess": "9?CNY4",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s038",
+          "group": "incumbent-v2-compatible",
+          "text": "VDAV2W",
+          "sha256": "905cc7237f542b6970b399937182fa599da5233e262845b87d3d5a977c392ca3",
+          "guess": "VDAY2N",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s039",
+          "group": "opaque-beaded-density2",
+          "text": "7X8R9X",
+          "sha256": "58219ad962dde013e88b328fc21227764e62e87e5fc93cfe541b8ca4588cd410",
+          "guess": "?78P9Y",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s040",
+          "group": "opaque-beaded-density2",
+          "text": "HDK4WN",
+          "sha256": "f4728899175358a95eefb86eae39122569db972310df4cb10085546beadcebb7",
+          "guess": "FCD?NY",
+          "exact": false,
+          "matchingPositions": 0
+        }
+      ]
+    },
+    {
+      "model": "gpt-6.1-terra",
+      "reasoningEffort": "inherited/default",
+      "predictionsSha256": "0500bb767a83a90b9f07c6ef2a39f8a5fd74ccb4297b6bb6aae042227aadb87f",
+      "groups": [
+        {
+          "group": "opaque-beaded-density1",
+          "exact": 5,
+          "total": 16,
+          "exactRate": 0.3125,
+          "exactRateWilson95": [
+            0.14164643854782039,
+            0.5559564416525933
+          ],
+          "matchingPositions": 78,
+          "characters": 96,
+          "positionAccuracy": 0.8125
+        },
+        {
+          "group": "incumbent-v2-compatible",
+          "exact": 7,
+          "total": 8,
+          "exactRate": 0.875,
+          "exactRateWilson95": [
+            0.5291118177871464,
+            0.9775825085499433
+          ],
+          "matchingPositions": 47,
+          "characters": 48,
+          "positionAccuracy": 0.9791666666666666
+        },
+        {
+          "group": "opaque-beaded-density2",
+          "exact": 3,
+          "total": 16,
+          "exactRate": 0.1875,
+          "exactRateWilson95": [
+            0.06591599071428142,
+            0.4300888096197414
+          ],
+          "matchingPositions": 78,
+          "characters": 96,
+          "positionAccuracy": 0.8125
+        }
+      ],
+      "results": [
+        {
+          "id": "s001",
+          "group": "opaque-beaded-density1",
+          "text": "6FWPHW",
+          "sha256": "6f6ba57d4e16a8774e871508b7969a7508aa124e970da9d41b2492ca0946e42e",
+          "guess": "6FWPKN",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s002",
+          "group": "incumbent-v2-compatible",
+          "text": "D3CLYR",
+          "sha256": "2a5f3f4d28e273bf270afe9213c015ead57979b27a8afc482023c07338d00adf",
+          "guess": "D3CLYR",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s003",
+          "group": "opaque-beaded-density1",
+          "text": "KX7YN4",
+          "sha256": "5e98ca370656e360aa356278fd1cee441ef371e7e2aefae83aff6cf2dd5b373b",
+          "guess": "XX7YN4",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s004",
+          "group": "opaque-beaded-density2",
+          "text": "7NCKCM",
+          "sha256": "ae7ee928eaa6f5c05e85710ce53f13d4bfb79b67a1b5340053c8ea4937229b39",
+          "guess": "7NCKCM",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s005",
+          "group": "opaque-beaded-density1",
+          "text": "H4CR4Y",
+          "sha256": "12aae8033dfe5d804318a7b0ce1a85986f1f3a7d2059de8b8b6431da2ebbdc70",
+          "guess": "H4CR4Y",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s006",
+          "group": "opaque-beaded-density1",
+          "text": "4Y95K3",
+          "sha256": "6a6d73046e5ebfb8bf4473bfc0cef18f1c7523b9edf045eaf0b2db916acdf24e",
+          "guess": "4Y95X3",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s007",
+          "group": "opaque-beaded-density2",
+          "text": "68M2VK",
+          "sha256": "3d4c4ef828ee5115a01f505c656f495438c6a8f2354755fa3c296971ff827a12",
+          "guess": "68M2YK",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s008",
+          "group": "incumbent-v2-compatible",
+          "text": "FE63WM",
+          "sha256": "d723dbd8b1e4d69d0c80c50f2432690533a72cbbbad76ed20a4fe2ef1b9a1223",
+          "guess": "FF63WM",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s009",
+          "group": "opaque-beaded-density1",
+          "text": "756FLM",
+          "sha256": "4529f4bac4517fbfd2b6adedbd7626c6b8bc3e2fe6497c52433384f2544f5168",
+          "guess": "T5DFXM",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s010",
+          "group": "incumbent-v2-compatible",
+          "text": "NJPTK3",
+          "sha256": "30a230860890c7f9a610579f99c609d7cfeee86c6f6144078a8afa3ddfeb079c",
+          "guess": "NJPTK3",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s011",
+          "group": "opaque-beaded-density1",
+          "text": "8VMXFR",
+          "sha256": "6c1736ab991cc01bb7269eaab348aeb8d8a3e0db1fe4fa31ab10417e0b97ad5b",
+          "guess": "8VMKFR",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s012",
+          "group": "opaque-beaded-density1",
+          "text": "9K9JHV",
+          "sha256": "5ae61117954a3267fca83726bd74da4c1f4067bad3d04f9b86451e89b62bdf90",
+          "guess": "RX9JHY",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s013",
+          "group": "opaque-beaded-density2",
+          "text": "P2EYHT",
+          "sha256": "0b9da4bbf1976839992e1ab11dfd62c801990fa1ccf91f4ba2d3a82bd6d4ee71",
+          "guess": "P2EYE7",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s014",
+          "group": "opaque-beaded-density1",
+          "text": "7WNDRM",
+          "sha256": "a2a29efcc7db169fc82ba132d1d7698920ce0cc1ef8216cbbbc581102d2da57f",
+          "guess": "XWNDKM",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s015",
+          "group": "opaque-beaded-density1",
+          "text": "5DLDR4",
+          "sha256": "575f1d1ea48639867137b1db799f0ceede5d3813033423a331ec3becd27e5916",
+          "guess": "5DLDR4",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s016",
+          "group": "opaque-beaded-density1",
+          "text": "WYEJV7",
+          "sha256": "0c688a266d38986bb67478460c2e37309cff227f86a1fd0b1ba6ea14d4edf723",
+          "guess": "MYEJV7",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s017",
+          "group": "opaque-beaded-density2",
+          "text": "ENYFMC",
+          "sha256": "941a7b30b8c2e4c98e9c364dfb4ec88aab684421bd17a624f2954f94f19ce787",
+          "guess": "ENYFME",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s018",
+          "group": "incumbent-v2-compatible",
+          "text": "FMCV36",
+          "sha256": "f4d3807ed4887ebb905ed29a7a7b47c49e50d636334af920d1cae5b2a61963a8",
+          "guess": "FMCV36",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s019",
+          "group": "opaque-beaded-density2",
+          "text": "4CMWAN",
+          "sha256": "4f307273f89ec384009d938f9e5e39db482077b707b1cf463b7fe9f240792dda",
+          "guess": "XCMHAN",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s020",
+          "group": "opaque-beaded-density2",
+          "text": "9LJ9P7",
+          "sha256": "0e7f997eca1c01f5fdbd856b32dcc0253d3f411e3f2bbad0699518e09b82cff2",
+          "guess": "2JJ9P7",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s021",
+          "group": "opaque-beaded-density1",
+          "text": "J9F7TR",
+          "sha256": "5437af8be5ba8a25729e9b5f6599a8e1891f1350acebf463840a8cd1a5e1a5cb",
+          "guess": "J9F7HR",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s022",
+          "group": "opaque-beaded-density2",
+          "text": "CF7253",
+          "sha256": "23c0b143a30462e67376fddfe2e829cb69beb423ece0407f50b42a2ec4e3eab7",
+          "guess": "CFT253",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s023",
+          "group": "opaque-beaded-density2",
+          "text": "NE45XX",
+          "sha256": "fbe8a4a9d654728769ec9ca6823a059b3d78555808ac8c964f1e8e21901616b6",
+          "guess": "NE43XX",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s024",
+          "group": "opaque-beaded-density1",
+          "text": "R77VK3",
+          "sha256": "abce18ac1832c6c6d13e0ce6e5b465fd5c77fc0f895b0615738b68e7dafcfcb7",
+          "guess": "R77YK3",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s025",
+          "group": "incumbent-v2-compatible",
+          "text": "6XRDHM",
+          "sha256": "2daef9c02ce5141bfaa57ba4eec54d49300ff772c984b61157e521e350509d84",
+          "guess": "6XRDHM",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s026",
+          "group": "incumbent-v2-compatible",
+          "text": "P9PY6H",
+          "sha256": "c0b1e66f45b3016d679e7d7047a15a320974c801b5f0789c15bba43c1850030b",
+          "guess": "P9PY6H",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s027",
+          "group": "opaque-beaded-density1",
+          "text": "VE7TE8",
+          "sha256": "c88aebce78781ca561a97fa1dcfba311794f8b02f4b22e38835348ca5daf281a",
+          "guess": "YF7TE8",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s028",
+          "group": "opaque-beaded-density1",
+          "text": "P252MD",
+          "sha256": "8499259e9215f050020911a9b43118ac4d611edba7a89b57211081d9e64da3b6",
+          "guess": "P252MD",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s029",
+          "group": "opaque-beaded-density2",
+          "text": "EE8HPC",
+          "sha256": "2f3d2328ac04c5d0426eb7485631ba29c87569d8011fcd72766baef27794470c",
+          "guess": "FE8HRC",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s030",
+          "group": "incumbent-v2-compatible",
+          "text": "VYTH6J",
+          "sha256": "c3c62d8340ddd5b2be2bf6f1ae04af3922189674b25e7fb6a0cfd2bff4e618ab",
+          "guess": "VYTH6J",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s031",
+          "group": "opaque-beaded-density2",
+          "text": "64YJYV",
+          "sha256": "85c2d98ecdd8342712da0fcf66ce2becd1048105b346c6a1125a3fa35d0ddf9e",
+          "guess": "64YJYY",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s032",
+          "group": "opaque-beaded-density1",
+          "text": "7AC4AR",
+          "sha256": "995b87c0673dc59af8bd872e02eeaa2821b86d3c30d9e4c518f0102d7984b964",
+          "guess": "7AC4AR",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s033",
+          "group": "opaque-beaded-density2",
+          "text": "E2KTHW",
+          "sha256": "0f8aea5ab5ccd0259e4e1118928fe1f8ffda5e9ffdbd5748171c110ab290dffe",
+          "guess": "E2XTHW",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s034",
+          "group": "opaque-beaded-density2",
+          "text": "FTWE3A",
+          "sha256": "b64dce88509f7ec24b4b7934818febfeddfa6d6846e4b2c5e2833e58b91fedde",
+          "guess": "FTWE3A",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s035",
+          "group": "opaque-beaded-density2",
+          "text": "83JEC8",
+          "sha256": "5165f83ebe62909a7cfe2e9adabc0cb72ee5327ae8d0db34a8803c8028e744f2",
+          "guess": "R5JEC8",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s036",
+          "group": "opaque-beaded-density2",
+          "text": "4KJA2T",
+          "sha256": "ab50ca276415840aa6362950d584c92d11debe62217b5c604e04543ec017b625",
+          "guess": "4KJA2T",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s037",
+          "group": "opaque-beaded-density1",
+          "text": "9CNH4T",
+          "sha256": "79b3ee5ab645e6cb959d572fda932cef36923b98981d10d0984b9cf5cca51ff8",
+          "guess": "9CNH4T",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s038",
+          "group": "incumbent-v2-compatible",
+          "text": "VDAV2W",
+          "sha256": "905cc7237f542b6970b399937182fa599da5233e262845b87d3d5a977c392ca3",
+          "guess": "VDAV2W",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s039",
+          "group": "opaque-beaded-density2",
+          "text": "7X8R9X",
+          "sha256": "58219ad962dde013e88b328fc21227764e62e87e5fc93cfe541b8ca4588cd410",
+          "guess": "TX8R9X",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s040",
+          "group": "opaque-beaded-density2",
+          "text": "HDK4WN",
+          "sha256": "f4728899175358a95eefb86eae39122569db972310df4cb10085546beadcebb7",
+          "guess": "HD74WN",
+          "exact": false,
+          "matchingPositions": 5
+        }
+      ]
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "reasoningEffort": "xhigh",
+      "predictionsSha256": "3dcec1a6ae4b23c8c9b8a6ab30d37d9ba880d24d7c230912b70fd09e8a2090b3",
+      "groups": [
+        {
+          "group": "opaque-beaded-density1",
+          "exact": 2,
+          "total": 16,
+          "exactRate": 0.125,
+          "exactRateWilson95": [
+            0.03497748774324047,
+            0.36022827265758695
+          ],
+          "matchingPositions": 78,
+          "characters": 96,
+          "positionAccuracy": 0.8125
+        },
+        {
+          "group": "incumbent-v2-compatible",
+          "exact": 7,
+          "total": 8,
+          "exactRate": 0.875,
+          "exactRateWilson95": [
+            0.5291118177871464,
+            0.9775825085499433
+          ],
+          "matchingPositions": 47,
+          "characters": 48,
+          "positionAccuracy": 0.9791666666666666
+        },
+        {
+          "group": "opaque-beaded-density2",
+          "exact": 7,
+          "total": 16,
+          "exactRate": 0.4375,
+          "exactRateWilson95": [
+            0.23098652405492354,
+            0.6682144360118811
+          ],
+          "matchingPositions": 85,
+          "characters": 96,
+          "positionAccuracy": 0.8854166666666666
+        }
+      ],
+      "results": [
+        {
+          "id": "s001",
+          "group": "opaque-beaded-density1",
+          "text": "6FWPHW",
+          "sha256": "6f6ba57d4e16a8774e871508b7969a7508aa124e970da9d41b2492ca0946e42e",
+          "guess": "6FMPHW",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s002",
+          "group": "incumbent-v2-compatible",
+          "text": "D3CLYR",
+          "sha256": "2a5f3f4d28e273bf270afe9213c015ead57979b27a8afc482023c07338d00adf",
+          "guess": "D3CLYR",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s003",
+          "group": "opaque-beaded-density1",
+          "text": "KX7YN4",
+          "sha256": "5e98ca370656e360aa356278fd1cee441ef371e7e2aefae83aff6cf2dd5b373b",
+          "guess": "XX7YN4",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s004",
+          "group": "opaque-beaded-density2",
+          "text": "7NCKCM",
+          "sha256": "ae7ee928eaa6f5c05e85710ce53f13d4bfb79b67a1b5340053c8ea4937229b39",
+          "guess": "YNCKCM",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s005",
+          "group": "opaque-beaded-density1",
+          "text": "H4CR4Y",
+          "sha256": "12aae8033dfe5d804318a7b0ce1a85986f1f3a7d2059de8b8b6431da2ebbdc70",
+          "guess": "H4CR4Y",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s006",
+          "group": "opaque-beaded-density1",
+          "text": "4Y95K3",
+          "sha256": "6a6d73046e5ebfb8bf4473bfc0cef18f1c7523b9edf045eaf0b2db916acdf24e",
+          "guess": "AY95X3",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s007",
+          "group": "opaque-beaded-density2",
+          "text": "68M2VK",
+          "sha256": "3d4c4ef828ee5115a01f505c656f495438c6a8f2354755fa3c296971ff827a12",
+          "guess": "68M2YK",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s008",
+          "group": "incumbent-v2-compatible",
+          "text": "FE63WM",
+          "sha256": "d723dbd8b1e4d69d0c80c50f2432690533a72cbbbad76ed20a4fe2ef1b9a1223",
+          "guess": "FE63WM",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s009",
+          "group": "opaque-beaded-density1",
+          "text": "756FLM",
+          "sha256": "4529f4bac4517fbfd2b6adedbd7626c6b8bc3e2fe6497c52433384f2544f5168",
+          "guess": "T56FLM",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s010",
+          "group": "incumbent-v2-compatible",
+          "text": "NJPTK3",
+          "sha256": "30a230860890c7f9a610579f99c609d7cfeee86c6f6144078a8afa3ddfeb079c",
+          "guess": "NJPYK3",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s011",
+          "group": "opaque-beaded-density1",
+          "text": "8VMXFR",
+          "sha256": "6c1736ab991cc01bb7269eaab348aeb8d8a3e0db1fe4fa31ab10417e0b97ad5b",
+          "guess": "8VMKFR",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s012",
+          "group": "opaque-beaded-density1",
+          "text": "9K9JHV",
+          "sha256": "5ae61117954a3267fca83726bd74da4c1f4067bad3d04f9b86451e89b62bdf90",
+          "guess": "9X9JXY",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s013",
+          "group": "opaque-beaded-density2",
+          "text": "P2EYHT",
+          "sha256": "0b9da4bbf1976839992e1ab11dfd62c801990fa1ccf91f4ba2d3a82bd6d4ee71",
+          "guess": "P2EYHT",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s014",
+          "group": "opaque-beaded-density1",
+          "text": "7WNDRM",
+          "sha256": "a2a29efcc7db169fc82ba132d1d7698920ce0cc1ef8216cbbbc581102d2da57f",
+          "guess": "XWNDRM",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s015",
+          "group": "opaque-beaded-density1",
+          "text": "5DLDR4",
+          "sha256": "575f1d1ea48639867137b1db799f0ceede5d3813033423a331ec3becd27e5916",
+          "guess": "5DLDRA",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s016",
+          "group": "opaque-beaded-density1",
+          "text": "WYEJV7",
+          "sha256": "0c688a266d38986bb67478460c2e37309cff227f86a1fd0b1ba6ea14d4edf723",
+          "guess": "VYEJV7",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s017",
+          "group": "opaque-beaded-density2",
+          "text": "ENYFMC",
+          "sha256": "941a7b30b8c2e4c98e9c364dfb4ec88aab684421bd17a624f2954f94f19ce787",
+          "guess": "ENYFMC",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s018",
+          "group": "incumbent-v2-compatible",
+          "text": "FMCV36",
+          "sha256": "f4d3807ed4887ebb905ed29a7a7b47c49e50d636334af920d1cae5b2a61963a8",
+          "guess": "FMCV36",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s019",
+          "group": "opaque-beaded-density2",
+          "text": "4CMWAN",
+          "sha256": "4f307273f89ec384009d938f9e5e39db482077b707b1cf463b7fe9f240792dda",
+          "guess": "KCMWAN",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s020",
+          "group": "opaque-beaded-density2",
+          "text": "9LJ9P7",
+          "sha256": "0e7f997eca1c01f5fdbd856b32dcc0253d3f411e3f2bbad0699518e09b82cff2",
+          "guess": "2JJ9PJ",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s021",
+          "group": "opaque-beaded-density1",
+          "text": "J9F7TR",
+          "sha256": "5437af8be5ba8a25729e9b5f6599a8e1891f1350acebf463840a8cd1a5e1a5cb",
+          "guess": "J8F7HR",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s022",
+          "group": "opaque-beaded-density2",
+          "text": "CF7253",
+          "sha256": "23c0b143a30462e67376fddfe2e829cb69beb423ece0407f50b42a2ec4e3eab7",
+          "guess": "CF7253",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s023",
+          "group": "opaque-beaded-density2",
+          "text": "NE45XX",
+          "sha256": "fbe8a4a9d654728769ec9ca6823a059b3d78555808ac8c964f1e8e21901616b6",
+          "guess": "NE45XX",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s024",
+          "group": "opaque-beaded-density1",
+          "text": "R77VK3",
+          "sha256": "abce18ac1832c6c6d13e0ce6e5b465fd5c77fc0f895b0615738b68e7dafcfcb7",
+          "guess": "R77YK3",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s025",
+          "group": "incumbent-v2-compatible",
+          "text": "6XRDHM",
+          "sha256": "2daef9c02ce5141bfaa57ba4eec54d49300ff772c984b61157e521e350509d84",
+          "guess": "6XRDHM",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s026",
+          "group": "incumbent-v2-compatible",
+          "text": "P9PY6H",
+          "sha256": "c0b1e66f45b3016d679e7d7047a15a320974c801b5f0789c15bba43c1850030b",
+          "guess": "P9PY6H",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s027",
+          "group": "opaque-beaded-density1",
+          "text": "VE7TE8",
+          "sha256": "c88aebce78781ca561a97fa1dcfba311794f8b02f4b22e38835348ca5daf281a",
+          "guess": "YE7TE8",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s028",
+          "group": "opaque-beaded-density1",
+          "text": "P252MD",
+          "sha256": "8499259e9215f050020911a9b43118ac4d611edba7a89b57211081d9e64da3b6",
+          "guess": "P252MD",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s029",
+          "group": "opaque-beaded-density2",
+          "text": "EE8HPC",
+          "sha256": "2f3d2328ac04c5d0426eb7485631ba29c87569d8011fcd72766baef27794470c",
+          "guess": "EE8HPC",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s030",
+          "group": "incumbent-v2-compatible",
+          "text": "VYTH6J",
+          "sha256": "c3c62d8340ddd5b2be2bf6f1ae04af3922189674b25e7fb6a0cfd2bff4e618ab",
+          "guess": "VYTH6J",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s031",
+          "group": "opaque-beaded-density2",
+          "text": "64YJYV",
+          "sha256": "85c2d98ecdd8342712da0fcf66ce2becd1048105b346c6a1125a3fa35d0ddf9e",
+          "guess": "64YJYY",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s032",
+          "group": "opaque-beaded-density1",
+          "text": "7AC4AR",
+          "sha256": "995b87c0673dc59af8bd872e02eeaa2821b86d3c30d9e4c518f0102d7984b964",
+          "guess": "TAC4AR",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s033",
+          "group": "opaque-beaded-density2",
+          "text": "E2KTHW",
+          "sha256": "0f8aea5ab5ccd0259e4e1118928fe1f8ffda5e9ffdbd5748171c110ab290dffe",
+          "guess": "E2KTHW",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s034",
+          "group": "opaque-beaded-density2",
+          "text": "FTWE3A",
+          "sha256": "b64dce88509f7ec24b4b7934818febfeddfa6d6846e4b2c5e2833e58b91fedde",
+          "guess": "FTW53A",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s035",
+          "group": "opaque-beaded-density2",
+          "text": "83JEC8",
+          "sha256": "5165f83ebe62909a7cfe2e9adabc0cb72ee5327ae8d0db34a8803c8028e744f2",
+          "guess": "P3JEC8",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s036",
+          "group": "opaque-beaded-density2",
+          "text": "4KJA2T",
+          "sha256": "ab50ca276415840aa6362950d584c92d11debe62217b5c604e04543ec017b625",
+          "guess": "AKJA2T",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s037",
+          "group": "opaque-beaded-density1",
+          "text": "9CNH4T",
+          "sha256": "79b3ee5ab645e6cb959d572fda932cef36923b98981d10d0984b9cf5cca51ff8",
+          "guess": "9CNHAT",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s038",
+          "group": "incumbent-v2-compatible",
+          "text": "VDAV2W",
+          "sha256": "905cc7237f542b6970b399937182fa599da5233e262845b87d3d5a977c392ca3",
+          "guess": "VDAV2W",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s039",
+          "group": "opaque-beaded-density2",
+          "text": "7X8R9X",
+          "sha256": "58219ad962dde013e88b328fc21227764e62e87e5fc93cfe541b8ca4588cd410",
+          "guess": "7X8R9X",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s040",
+          "group": "opaque-beaded-density2",
+          "text": "HDK4WN",
+          "sha256": "f4728899175358a95eefb86eae39122569db972310df4cb10085546beadcebb7",
+          "guess": "HD24WN",
+          "exact": false,
+          "matchingPositions": 5
+        }
+      ]
+    }
+  ]
+}

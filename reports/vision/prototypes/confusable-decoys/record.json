@@ -1,0 +1,28 @@
+{
+  "status": "Not promoted; preserved experimental source only. Workspace runtime retains random dotted decoys.",
+  "baselineRuntimeSha256": "76e63906b71b6fdcd4231332b668ca39b1fbde1ca65e6952d419a76e44cfaf51",
+  "candidateRuntimeSha256": "4c1b359f842bc3d15b358e7d89749b362bcb71e6f8f8973fe0dee8b88ff1c0fe",
+  "snapshots": [
+    {
+      "file": "baseline-beaded.js",
+      "sha256": "ad1984ff69eeb81eb954fae70d05147020a708a0b3f6d8db76b277fd96360013"
+    },
+    {
+      "file": "candidate-beaded.js",
+      "sha256": "4196f1cfa4805131b5885fd9cf2762ff239950030e056aa13cad7b697de9b595"
+    }
+  ],
+  "reconstruction": "Copy the baseline workspace package into a fresh temporary directory and replace only lib/beaded.js with candidate-beaded.js. Provide the existing opentype.js dependencies through NODE_PATH. Runtime source hashes use local raw JS file bytes.",
+  "selectionInformationAudit": {
+    "assumption": "Uniform independent neighboring answers from the26-character default alphabet; decoy identity observed exactly before placement/visibility filtering. Exact enumeration of676 neighbor pairs, uniform selection within each eligible pool. This quantifies the selection rule, not practical attack success.",
+    "random": {
+      "mutualInformationBits": 0.11321207553324161,
+      "meanCandidatePool": 24.03846153846154
+    },
+    "confusable": {
+      "mutualInformationBits": 2.3631080220644667,
+      "meanCandidatePool": 5.020710059171598
+    }
+  },
+  "decision": "Round15: targeted Terra5/16 versus random3/16; targeted Sol5/16 versus random6/16, with identical Sol position accuracy83/96. Insufficient observed gain to justify additional answer-dependent selector information."
+}

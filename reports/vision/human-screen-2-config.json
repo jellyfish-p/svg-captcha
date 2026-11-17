@@ -1,0 +1,41 @@
+{
+  "round": "human-readability-screen-2",
+  "countPerGroup": 2,
+  "options": {
+    "size": 6,
+    "width": 210,
+    "height": 68,
+    "fontSize": 52,
+    "noise": 3,
+    "charPreset": "23456789ACDEFHJKLMNPRTVWXY"
+  },
+  "groups": [
+    {
+      "name": "incumbent-v2",
+      "module": "C:/Users/36026/AppData/Local/Temp/svg-captcha-v2-reference-0b868f57c6a145d9940b9849ee013503"
+    },
+    {
+      "name": "same-color-lines",
+      "module": ".",
+      "options": {
+        "interference": "lines"
+      }
+    },
+    {
+      "name": "mixed-medium",
+      "module": ".",
+      "options": {
+        "interference": "mixed",
+        "interferenceDensity": 1
+      }
+    },
+    {
+      "name": "mixed-higher",
+      "module": ".",
+      "options": {
+        "interference": "mixed",
+        "interferenceDensity": 2
+      }
+    }
+  ]
+}

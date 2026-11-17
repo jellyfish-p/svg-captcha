@@ -1,0 +1,45 @@
+{
+  "round": "spatial-palette-screen",
+  "countPerGroup": 12,
+  "options": {
+    "size": 6,
+    "width": 210,
+    "height": 68,
+    "fontSize": 52,
+    "noise": 3,
+    "charPreset": "23456789ACDEFHJKLMNPRTVWXY",
+    "interference": "beaded",
+    "interferenceDensity": 1
+  },
+  "groups": [
+    {
+      "name": "opaque-beaded-gray",
+      "module": ".",
+      "count": 8,
+      "options": {
+        "palette": "default"
+      }
+    },
+    {
+      "name": "shared-random-hue",
+      "module": ".",
+      "options": {
+        "palette": "shared"
+      }
+    },
+    {
+      "name": "analogous-family",
+      "module": ".",
+      "options": {
+        "palette": "analogous"
+      }
+    },
+    {
+      "name": "per-glyph-spatial-hues",
+      "module": ".",
+      "options": {
+        "palette": "per-glyph"
+      }
+    }
+  ]
+}

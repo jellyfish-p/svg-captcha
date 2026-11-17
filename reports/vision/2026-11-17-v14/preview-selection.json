@@ -1,0 +1,11 @@
+{
+  "selection": "First four candidate samples in the existing shuffled order, selected before round 14 scoring and without model-correctness filtering",
+  "sampleIds": [
+    "s001",
+    "s002",
+    "s003",
+    "s004"
+  ],
+  "scale": 2,
+  "interpolation": "nearest-neighbor"
+}

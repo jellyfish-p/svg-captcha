@@ -1,0 +1,8 @@
+{
+  "type": "subjective-only",
+  "sampleCount": 4,
+  "selection": "First four balanced examples in original shuffled order; no selection by model correctness",
+  "feedback": "User strongly endorsed readability of all four displayed images and asserted human readability generally.",
+  "verifiedTranscriptions": 0,
+  "limitation": "No exact answers or multi-user measurements supplied; do not count as4/4 accuracy or a universal human pass claim."
+}

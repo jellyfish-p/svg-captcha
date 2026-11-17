@@ -1,0 +1,5 @@
+# Preserve the submitted prediction bytes used by the evaluation hashes.
+reports/vision/**/predictions/*.json -text
+reports/vision/**/sol-xhigh-initial.json -text
+# Experimental source snapshots have their own recorded byte hashes.
+reports/vision/prototypes/**/*.js -text

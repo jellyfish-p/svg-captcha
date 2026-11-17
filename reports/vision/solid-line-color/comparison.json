@@ -1,0 +1,61 @@
+{
+  "purpose": "Deterministic before/after visual demonstration only, not a recognition benchmark or production RNG. Same per-challenge seed in separate version calls.",
+  "baselineSourceSha256": "76e63906b71b6fdcd4231332b668ca39b1fbde1ca65e6952d419a76e44cfaf51",
+  "sourceSha256": "8ccd9bd7ab18d4ed2a00ba77273a462dc9911a7d30e0ed312336caf8815e9d3d",
+  "options": {
+    "size": 6,
+    "width": 210,
+    "height": 68,
+    "fontSize": 52,
+    "noise": 4,
+    "interference": "beaded",
+    "interferenceDensity": 1,
+    "palette": "per-glyph"
+  },
+  "samples": [
+    {
+      "seed": 1701,
+      "answer": "MYCLH5",
+      "before": "1701-before.png",
+      "after": "1701-after.png"
+    },
+    {
+      "seed": 1702,
+      "answer": "X86TDF",
+      "before": "1702-before.png",
+      "after": "1702-after.png"
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "1701-after.png",
+      "sha256": "281f1137072bb7dcab782c4d1c005e41d6cbfab31dd4872cef16196cd36d57db"
+    },
+    {
+      "file": "1701-before.png",
+      "sha256": "db0bb0047089a69bbc6312042d854e2baa50a9a717017c1ab3f3740348392dc1"
+    },
+    {
+      "file": "1702-after.png",
+      "sha256": "f4ea74c4e94200c0e04f2ec6430a4b54ac601857ac376d757e3d568049d0c1f1"
+    },
+    {
+      "file": "1702-before.png",
+      "sha256": "733f43e1cbc80e38a3b5f888ee23cbbe446ec0316262df26ee67caad11daa8b6"
+    },
+    {
+      "file": "comparison.png",
+      "sha256": "1091628554cf5a9f7c012f8eea7ce3de392cf50c06c4687a00da1bab74316aad"
+    }
+  ],
+  "validation": {
+    "testsPassed": 32,
+    "node": "24.20.0",
+    "reviewModel": "gpt-6.1-sol",
+    "reviewEffort": "xhigh",
+    "pairedScenes": 192,
+    "isolatedCurves": 432,
+    "edgeFallbackCurves": 24,
+    "reviewFindings": "No actionable spec findings; default-palette prose clarified after Standards review."
+  }
+}

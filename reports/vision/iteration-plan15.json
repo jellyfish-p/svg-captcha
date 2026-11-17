@@ -1,0 +1,29 @@
+{
+  "round": "confusable-dotted-decoy-prototype",
+  "countPerGroup": 16,
+  "options": {
+    "size": 6,
+    "width": 210,
+    "height": 68,
+    "fontSize": 52,
+    "noise": 4,
+    "charPreset": "23456789ACDEFHJKLMNPRTVWXY",
+    "interference": "beaded",
+    "interferenceDensity": 1,
+    "palette": "per-glyph"
+  },
+  "groups": [
+    {
+      "name": "incumbent-compatible",
+      "module": ".",
+      "count": 6,
+      "options": {"interference": "none", "palette": "default", "noise": 3}
+    },
+    {"name": "random-dotted-decoys", "module": ".", "options": {}},
+    {
+      "name": "confusable-dotted-decoys",
+      "module": "C:/Users/36026/AppData/Local/Temp/svg-captcha-confusable-prototype-36e11bf90987433ba7e0a98429adda50",
+      "options": {}
+    }
+  ]
+}

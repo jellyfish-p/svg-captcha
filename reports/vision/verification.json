@@ -1,0 +1,13 @@
+{
+  "createdAt": "2026-11-16T21:16:06.519Z",
+  "nodeVersion": "v24.20.0",
+  "runtimeSourceSha256": "76e63906b71b6fdcd4231332b668ca39b1fbde1ca65e6952d419a76e44cfaf51",
+  "fontSha256": "9ca9ab91c5605a17132b13030048816d203ea0beacaa25f587bd3f013e41d689",
+  "samples": 644,
+  "predictions": 47,
+  "scoredReports": 17,
+  "enlargements": 88,
+  "prototypeSnapshots": 2,
+  "problems": [],
+  "scope": "Canonical PNG hashes, scored manifest/image consistency, raw submitted prediction hashes, recomputed exact and positional counts, 4x image hashes/dimensions, prototype snapshots and frozen runtime fingerprint. Counts include scored human screens1/2; other human screens are covered by their public image hashes."
+}

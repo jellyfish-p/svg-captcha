@@ -1,0 +1,29 @@
+{
+  "round": "mixed-medium-confirmation",
+  "countPerGroup": 24,
+  "options": {
+    "size": 6,
+    "width": 210,
+    "height": 68,
+    "fontSize": 52,
+    "noise": 3,
+    "charPreset": "23456789ACDEFHJKLMNPRTVWXY"
+  },
+  "groups": [
+    {
+      "name": "incumbent-v2-compatible",
+      "module": ".",
+      "options": {
+        "interference": "none"
+      }
+    },
+    {
+      "name": "mixed-medium",
+      "module": ".",
+      "options": {
+        "interference": "mixed",
+        "interferenceDensity": 1
+      }
+    }
+  ]
+}

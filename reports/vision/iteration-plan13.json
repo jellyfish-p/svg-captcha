@@ -1,0 +1,19 @@
+{
+  "round": "per-glyph-core-protected-curve-budget",
+  "countPerGroup": 16,
+  "options": {
+    "size": 6,
+    "width": 210,
+    "height": 68,
+    "fontSize": 52,
+    "charPreset": "23456789ACDEFHJKLMNPRTVWXY",
+    "interference": "beaded",
+    "interferenceDensity": 1,
+    "palette": "per-glyph"
+  },
+  "groups": [
+    {"name": "three-curves", "module": ".", "options": {"noise": 3}},
+    {"name": "four-curves", "module": ".", "options": {"noise": 4}},
+    {"name": "five-curves", "module": ".", "options": {"noise": 5}}
+  ]
+}

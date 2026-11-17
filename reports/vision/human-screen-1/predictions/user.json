@@ -1,0 +1,38 @@
+{
+  "model": "human-user",
+  "method": "User transcribed the displayed sheet after UI crash/re-display; no answers or model feedback supplied.",
+  "predictions": [
+    {
+      "id": "s001",
+      "text": "HDR65P"
+    },
+    {
+      "id": "s002",
+      "text": "TVYLJD"
+    },
+    {
+      "id": "s003",
+      "text": "DYY8XH"
+    },
+    {
+      "id": "s004",
+      "text": "YV8MFD"
+    },
+    {
+      "id": "s005",
+      "text": "3XD66X"
+    },
+    {
+      "id": "s006",
+      "text": "LH665P"
+    },
+    {
+      "id": "s007",
+      "text": "CRX7DP"
+    },
+    {
+      "id": "s008",
+      "text": "LA4JWM"
+    }
+  ]
+}

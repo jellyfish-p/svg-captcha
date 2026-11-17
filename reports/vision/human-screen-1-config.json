@@ -1,0 +1,42 @@
+{
+  "round": "human-readability-screen-1",
+  "countPerGroup": 2,
+  "options": {
+    "size": 6,
+    "width": 210,
+    "height": 68,
+    "fontSize": 52,
+    "noise": 3,
+    "charPreset": "23456789ACDEFHJKLMNPRTVWXY"
+  },
+  "groups": [
+    {
+      "name": "same-color-lines",
+      "module": ".",
+      "options": {
+        "interference": "lines"
+      }
+    },
+    {
+      "name": "contour-beads",
+      "module": ".",
+      "options": {
+        "interference": "beads"
+      }
+    },
+    {
+      "name": "contour-rings",
+      "module": ".",
+      "options": {
+        "interference": "rings"
+      }
+    },
+    {
+      "name": "beaded-decoy-glyphs",
+      "module": ".",
+      "options": {
+        "interference": "decoy"
+      }
+    }
+  ]
+}

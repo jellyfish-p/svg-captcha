@@ -1,0 +1,71 @@
+{
+  "round": "human-paired-confirmation",
+  "groups": [
+    {
+      "name": "incumbent-v2-compatible",
+      "sourceSha256": "c014c382cb23bf218c26be10ecac170e33b032a224905e6e2cd39254da4cf401",
+      "options": {
+        "size": 6,
+        "width": 210,
+        "height": 68,
+        "fontSize": 52,
+        "noise": 3,
+        "charPreset": "23456789ACDEFHJKLMNPRTVWXY",
+        "interference": "none"
+      }
+    },
+    {
+      "name": "mixed-medium",
+      "sourceSha256": "c014c382cb23bf218c26be10ecac170e33b032a224905e6e2cd39254da4cf401",
+      "options": {
+        "size": 6,
+        "width": 210,
+        "height": 68,
+        "fontSize": 52,
+        "noise": 3,
+        "charPreset": "23456789ACDEFHJKLMNPRTVWXY",
+        "interference": "mixed",
+        "interferenceDensity": 1
+      }
+    }
+  ],
+  "selection": "Eight medium samples selected uniformly before model predictions, same image bytes, IDs remapped",
+  "qualitative": "User says first five confidently readable; last three require guessing. No transcriptions supplied for first five; do not count them as verified correct.",
+  "submitted": 3,
+  "available": 8,
+  "exact": 0,
+  "matchingPositions": 14,
+  "characters": 18,
+  "results": [
+    {
+      "id": "s006",
+      "group": "mixed-medium",
+      "text": "6FP7PH",
+      "sha256": "3ea5811366c1d645c653649c04d8a811c562ba207a1c102c3de9f1e3954cb0f3",
+      "sourceSampleId": "s013",
+      "guess": "6FP?PH",
+      "exact": false,
+      "matchingPositions": 5
+    },
+    {
+      "id": "s007",
+      "group": "mixed-medium",
+      "text": "P7HJV9",
+      "sha256": "952c06564244cc60ae09da7a8c92fc50f691704f3e25b95b6298a4f286805472",
+      "sourceSampleId": "s004",
+      "guess": "P?H?V9",
+      "exact": false,
+      "matchingPositions": 4
+    },
+    {
+      "id": "s008",
+      "group": "mixed-medium",
+      "text": "M84EHN",
+      "sha256": "e3ca35dba8c8588a65e6f5c8dc58f80641ba46c779645faad0f43bc542330757",
+      "sourceSampleId": "s020",
+      "guess": "M84FHN",
+      "exact": false,
+      "matchingPositions": 5
+    }
+  ]
+}

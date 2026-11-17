@@ -1,0 +1,1732 @@
+{
+  "createdAt": "2026-11-16T21:04:21.871Z",
+  "manifest": {
+    "createdAt": "2026-11-16T20:55:51.171Z",
+    "round": "per-glyph-four-curve-individual-enlargement",
+    "groups": [
+      {
+        "name": "incumbent-compatible",
+        "sourceSha256": "76e63906b71b6fdcd4231332b668ca39b1fbde1ca65e6952d419a76e44cfaf51",
+        "options": {
+          "size": 6,
+          "width": 210,
+          "height": 68,
+          "fontSize": 52,
+          "noise": 3,
+          "charPreset": "23456789ACDEFHJKLMNPRTVWXY",
+          "interference": "none",
+          "palette": "default"
+        },
+        "count": 8
+      },
+      {
+        "name": "beaded-per-glyph-four-curves",
+        "sourceSha256": "76e63906b71b6fdcd4231332b668ca39b1fbde1ca65e6952d419a76e44cfaf51",
+        "options": {
+          "size": 6,
+          "width": 210,
+          "height": 68,
+          "fontSize": 52,
+          "noise": 4,
+          "charPreset": "23456789ACDEFHJKLMNPRTVWXY",
+          "interference": "beaded",
+          "interferenceDensity": 1,
+          "palette": "per-glyph"
+        },
+        "count": 24
+      }
+    ],
+    "samples": [
+      {
+        "id": "s001",
+        "group": "beaded-per-glyph-four-curves",
+        "text": "HCCDWF",
+        "sha256": "18cc2e982a524c5af854ced8e881c9496fb129e58602254291a64adaac4c1433",
+        "width": 210,
+        "height": 68,
+        "length": 6
+      },
+      {
+        "id": "s002",
+        "group": "beaded-per-glyph-four-curves",
+        "text": "YCKJYA",
+        "sha256": "e08cb93bf855247cf5c8886e3a04b00e02e68fb899c11a41e93f963d73c97b32",
+        "width": 210,
+        "height": 68,
+        "length": 6
+      },
+      {
+        "id": "s003",
+        "group": "beaded-per-glyph-four-curves",
+        "text": "A9VYX3",
+        "sha256": "d92dbccfecff7d51b9d65713ecbe9c85e6ed569ca79eda5b488a2be7b65c17de",
+        "width": 210,
+        "height": 68,
+        "length": 6
+      },
+      {
+        "id": "s004",
+        "group": "beaded-per-glyph-four-curves",
+        "text": "A9MTX4",
+        "sha256": "1aab9f939ccaa6a20e01ee8d9471d1c1d118b748f15d48b6ee24c5c90ef63189",
+        "width": 210,
+        "height": 68,
+        "length": 6
+      },
+      {
+        "id": "s005",
+        "group": "beaded-per-glyph-four-curves",
+        "text": "FCF3DR",
+        "sha256": "15a079c94d48e1fa7c102ff007fbd9e44f47c9febddb59fa0e0e4b4340cbb87f",
+        "width": 210,
+        "height": 68,
+        "length": 6
+      },
+      {
+        "id": "s006",
+        "group": "beaded-per-glyph-four-curves",
+        "text": "E9MD2Y",
+        "sha256": "890ca7388e2e843de2697b02acf8c0d4443d941116cb990e2a2b35b25c1eff0b",
+        "width": 210,
+        "height": 68,
+        "length": 6
+      },
+      {
+        "id": "s007",
+        "group": "beaded-per-glyph-four-curves",
+        "text": "WN62H3",
+        "sha256": "a6d35e5805621dc39d07314fa5f7922f42ddbef6b5a598433538765050dc548b",
+        "width": 210,
+        "height": 68,
+        "length": 6
+      },
+      {
+        "id": "s008",
+        "group": "beaded-per-glyph-four-curves",
+        "text": "FJT4H4",
+        "sha256": "f6a63beeefd424c7c5e8440e1febf845ca3425627f6f582b57b58a0fd5849637",
+        "width": 210,
+        "height": 68,
+        "length": 6
+      },
+      {
+        "id": "s009",
+        "group": "beaded-per-glyph-four-curves",
+        "text": "XPTFLX",
+        "sha256": "358266f5f36b05ab9770f2ceb50d964061b2bc1c215884501534631269f5e800",
+        "width": 210,
+        "height": 68,
+        "length": 6
+      },
+      {
+        "id": "s010",
+        "group": "beaded-per-glyph-four-curves",
+        "text": "6VM6ME",
+        "sha256": "8942a4ce32fa374ba56003861ed8d7073a9c55327181aa49f15a7aa30b38e255",
+        "width": 210,
+        "height": 68,
+        "length": 6
+      },
+      {
+        "id": "s011",
+        "group": "beaded-per-glyph-four-curves",
+        "text": "PL48DY",
+        "sha256": "eba8b439ea330aa9a6634293974d5c410b2c227d04fdf203c2beb08535781100",
+        "width": 210,
+        "height": 68,
+        "length": 6
+      },
+      {
+        "id": "s012",
+        "group": "incumbent-compatible",
+        "text": "L7PH33",
+        "sha256": "5b8bdde1556d4294c6e9751d9f96c0bf627172240e9b44cfbbf8b0aa9ff98e18",
+        "width": 210,
+        "height": 68,
+        "length": 6
+      },
+      {
+        "id": "s013",
+        "group": "incumbent-compatible",
+        "text": "38MNPV",
+        "sha256": "5cc0ba0cce86da3d809bedf2d1547b0e449038df6affb234a305369af973ada4",
+        "width": 210,
+        "height": 68,
+        "length": 6
+      },
+      {
+        "id": "s014",
+        "group": "beaded-per-glyph-four-curves",
+        "text": "3P2556",
+        "sha256": "8b9b927f2d7e0e0b413564c72de0f140b8f73968322cff156ee79ec39dfac0c0",
+        "width": 210,
+        "height": 68,
+        "length": 6
+      },
+      {
+        "id": "s015",
+        "group": "incumbent-compatible",
+        "text": "DXFTXN",
+        "sha256": "30bdc6c2c3529320b6dded841976e4fa8d68e4e8ce1e29a7ded6cb423a3ea025",
+        "width": 210,
+        "height": 68,
+        "length": 6
+      },
+      {
+        "id": "s016",
+        "group": "incumbent-compatible",
+        "text": "TWF4AV",
+        "sha256": "0e1b85d752196ff25408adb1696db5b8a5aa57b3b7bf5b962b62b50dad7d9ad4",
+        "width": 210,
+        "height": 68,
+        "length": 6
+      },
+      {
+        "id": "s017",
+        "group": "beaded-per-glyph-four-curves",
+        "text": "9WWJJF",
+        "sha256": "c64b8d9153d7f963f07f6432ed2aa37fcd757d851012105d988bbb613467851a",
+        "width": 210,
+        "height": 68,
+        "length": 6
+      },
+      {
+        "id": "s018",
+        "group": "beaded-per-glyph-four-curves",
+        "text": "P66J49",
+        "sha256": "86e5c6c826d88e4634296a1519d783d46019d9dfe131a3f7fcf754b1e12e111e",
+        "width": 210,
+        "height": 68,
+        "length": 6
+      },
+      {
+        "id": "s019",
+        "group": "beaded-per-glyph-four-curves",
+        "text": "C3H53J",
+        "sha256": "d53e0c0b4bbb90f4797396860f02ed1b079909b3428bdb9c88df25a1017d8cc2",
+        "width": 210,
+        "height": 68,
+        "length": 6
+      },
+      {
+        "id": "s020",
+        "group": "beaded-per-glyph-four-curves",
+        "text": "6CHYLW",
+        "sha256": "f2ddeaa4ac2890e815687b22ee0951651510848bdf87c8be5b743e6688e03896",
+        "width": 210,
+        "height": 68,
+        "length": 6
+      },
+      {
+        "id": "s021",
+        "group": "incumbent-compatible",
+        "text": "LTE842",
+        "sha256": "74ea9b2a7c55c1ada28e92cd529779f2cb7cdba8a7546193db199444f0b8cf10",
+        "width": 210,
+        "height": 68,
+        "length": 6
+      },
+      {
+        "id": "s022",
+        "group": "beaded-per-glyph-four-curves",
+        "text": "VDE83D",
+        "sha256": "c5b78c382615e4254527084f6ddc6fcf83fefbe6e47ebe2e3485305d4f8549bd",
+        "width": 210,
+        "height": 68,
+        "length": 6
+      },
+      {
+        "id": "s023",
+        "group": "incumbent-compatible",
+        "text": "LWDM9C",
+        "sha256": "7c658d2bf8c38bde9d73967487f849a610f03e9519d98fde838ccb32a7ec308e",
+        "width": 210,
+        "height": 68,
+        "length": 6
+      },
+      {
+        "id": "s024",
+        "group": "beaded-per-glyph-four-curves",
+        "text": "KDLKA7",
+        "sha256": "e78ec6a9b0ef5d0b9c548d7f1a84298c6a4bd5a7a1bbc06370541a06ec5ffd15",
+        "width": 210,
+        "height": 68,
+        "length": 6
+      },
+      {
+        "id": "s025",
+        "group": "beaded-per-glyph-four-curves",
+        "text": "FDYAV6",
+        "sha256": "2f6c7901aa82689b8f40236ab1720cd2fdb82170bf5a3b0bed94d9eaaf20c9c7",
+        "width": 210,
+        "height": 68,
+        "length": 6
+      },
+      {
+        "id": "s026",
+        "group": "beaded-per-glyph-four-curves",
+        "text": "XP5Y9W",
+        "sha256": "7fcdf591ef8488c57dfe103ba14a331b63f74d0ae9460f501324c8bf43c01193",
+        "width": 210,
+        "height": 68,
+        "length": 6
+      },
+      {
+        "id": "s027",
+        "group": "beaded-per-glyph-four-curves",
+        "text": "DHR3XT",
+        "sha256": "f0604078683e6adb3fe74359d3ecbf73083c314eb2da1d858484042564f712ea",
+        "width": 210,
+        "height": 68,
+        "length": 6
+      },
+      {
+        "id": "s028",
+        "group": "beaded-per-glyph-four-curves",
+        "text": "KALFPT",
+        "sha256": "3a6f3b3848773da3ef4752faaabf2c97e2f575d3bfeed8cf796be224515b6afe",
+        "width": 210,
+        "height": 68,
+        "length": 6
+      },
+      {
+        "id": "s029",
+        "group": "incumbent-compatible",
+        "text": "M2L2HD",
+        "sha256": "9877e43bacab5ce1aa12235d77c63290b89360024482261b6b7e237c7455465f",
+        "width": 210,
+        "height": 68,
+        "length": 6
+      },
+      {
+        "id": "s030",
+        "group": "incumbent-compatible",
+        "text": "PREAKL",
+        "sha256": "2cffe0be32effa22ad060a58af2c3a1807686ef44c9f956662863f856b3289e7",
+        "width": 210,
+        "height": 68,
+        "length": 6
+      },
+      {
+        "id": "s031",
+        "group": "beaded-per-glyph-four-curves",
+        "text": "TPLRNP",
+        "sha256": "c37a991534ac56d13f5414c48c2249bfbc747fb283f1672e3eec5c87e7cda7ba",
+        "width": 210,
+        "height": 68,
+        "length": 6
+      },
+      {
+        "id": "s032",
+        "group": "beaded-per-glyph-four-curves",
+        "text": "CDNHMD",
+        "sha256": "3a525aeb43c943a53d1147fb70f93075036616e88029f103486726b437fa1475",
+        "width": 210,
+        "height": 68,
+        "length": 6
+      }
+    ]
+  },
+  "method": "Same shuffled fresh images; separate agents with no answer manifest; individual 4x nearest-neighbor PNG presentation, visual transcription only, reinspection permitted, no correctness feedback or second submission. Exact six-character answer accuracy, trim and uppercase only. Shared filesystem is instruction-blinded, not access-isolated. Confidence intervals describe these samples, not a security guarantee.",
+  "models": [
+    {
+      "model": "gpt-6-luna",
+      "reasoningEffort": "inherited/default",
+      "predictionsSha256": "83e2f0aa09016c0db983ba9e0371365ab39b43562a4cc55de18d69a83a17dea8",
+      "groups": [
+        {
+          "group": "beaded-per-glyph-four-curves",
+          "exact": 0,
+          "total": 24,
+          "exactRate": 0,
+          "exactRateWilson95": [
+            1.3877787807814457e-17,
+            0.13797620467498017
+          ],
+          "matchingPositions": 30,
+          "characters": 144,
+          "positionAccuracy": 0.20833333333333334
+        },
+        {
+          "group": "incumbent-compatible",
+          "exact": 0,
+          "total": 8,
+          "exactRate": 0,
+          "exactRateWilson95": [
+            0,
+            0.32440756488388023
+          ],
+          "matchingPositions": 1,
+          "characters": 48,
+          "positionAccuracy": 0.020833333333333332
+        }
+      ],
+      "results": [
+        {
+          "id": "s001",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "HCCDWF",
+          "sha256": "18cc2e982a524c5af854ced8e881c9496fb129e58602254291a64adaac4c1433",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "4C6DM2",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s002",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "YCKJYA",
+          "sha256": "e08cb93bf855247cf5c8886e3a04b00e02e68fb899c11a41e93f963d73c97b32",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "C6J?D2",
+          "exact": false,
+          "matchingPositions": 0
+        },
+        {
+          "id": "s003",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "A9VYX3",
+          "sha256": "d92dbccfecff7d51b9d65713ecbe9c85e6ed569ca79eda5b488a2be7b65c17de",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "9V6DXY",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s004",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "A9MTX4",
+          "sha256": "1aab9f939ccaa6a20e01ee8d9471d1c1d118b748f15d48b6ee24c5c90ef63189",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "A9M2X4",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s005",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "FCF3DR",
+          "sha256": "15a079c94d48e1fa7c102ff007fbd9e44f47c9febddb59fa0e0e4b4340cbb87f",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "FCE3DR",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s006",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "E9MD2Y",
+          "sha256": "890ca7388e2e843de2697b02acf8c0d4443d941116cb990e2a2b35b25c1eff0b",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "F9MD2Z",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s007",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "WN62H3",
+          "sha256": "a6d35e5805621dc39d07314fa5f7922f42ddbef6b5a598433538765050dc548b",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "M9N623",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s008",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "FJT4H4",
+          "sha256": "f6a63beeefd424c7c5e8440e1febf845ca3425627f6f582b57b58a0fd5849637",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "FJ7AEX",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s009",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "XPTFLX",
+          "sha256": "358266f5f36b05ab9770f2ceb50d964061b2bc1c215884501534631269f5e800",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "2P6M1X",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s010",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "6VM6ME",
+          "sha256": "8942a4ce32fa374ba56003861ed8d7073a9c55327181aa49f15a7aa30b38e255",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "P7F4AV",
+          "exact": false,
+          "matchingPositions": 0
+        },
+        {
+          "id": "s011",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "PL48DY",
+          "sha256": "eba8b439ea330aa9a6634293974d5c410b2c227d04fdf203c2beb08535781100",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "6VNM6F",
+          "exact": false,
+          "matchingPositions": 0
+        },
+        {
+          "id": "s012",
+          "group": "incumbent-compatible",
+          "text": "L7PH33",
+          "sha256": "5b8bdde1556d4294c6e9751d9f96c0bf627172240e9b44cfbbf8b0aa9ff98e18",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "6A9D2C",
+          "exact": false,
+          "matchingPositions": 0
+        },
+        {
+          "id": "s013",
+          "group": "incumbent-compatible",
+          "text": "38MNPV",
+          "sha256": "5cc0ba0cce86da3d809bedf2d1547b0e449038df6affb234a305369af973ada4",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "4Y9H2?",
+          "exact": false,
+          "matchingPositions": 0
+        },
+        {
+          "id": "s014",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "3P2556",
+          "sha256": "8b9b927f2d7e0e0b413564c72de0f140b8f73968322cff156ee79ec39dfac0c0",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "38MNPV",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s015",
+          "group": "incumbent-compatible",
+          "text": "DXFTXN",
+          "sha256": "30bdc6c2c3529320b6dded841976e4fa8d68e4e8ce1e29a7ded6cb423a3ea025",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "9P2D3J",
+          "exact": false,
+          "matchingPositions": 0
+        },
+        {
+          "id": "s016",
+          "group": "incumbent-compatible",
+          "text": "TWF4AV",
+          "sha256": "0e1b85d752196ff25408adb1696db5b8a5aa57b3b7bf5b962b62b50dad7d9ad4",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "D7F7X4",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s017",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "9WWJJF",
+          "sha256": "c64b8d9153d7f963f07f6432ed2aa37fcd757d851012105d988bbb613467851a",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "7WF4Z4",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s018",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "P66J49",
+          "sha256": "86e5c6c826d88e4634296a1519d783d46019d9dfe131a3f7fcf754b1e12e111e",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "P7M6JF",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s019",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "C3H53J",
+          "sha256": "d53e0c0b4bbb90f4797396860f02ed1b079909b3428bdb9c88df25a1017d8cc2",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "P6L2NX",
+          "exact": false,
+          "matchingPositions": 0
+        },
+        {
+          "id": "s020",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "6CHYLW",
+          "sha256": "f2ddeaa4ac2890e815687b22ee0951651510848bdf87c8be5b743e6688e03896",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "P6J4R9",
+          "exact": false,
+          "matchingPositions": 0
+        },
+        {
+          "id": "s021",
+          "group": "incumbent-compatible",
+          "text": "LTE842",
+          "sha256": "74ea9b2a7c55c1ada28e92cd529779f2cb7cdba8a7546193db199444f0b8cf10",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "C9J2M3",
+          "exact": false,
+          "matchingPositions": 0
+        },
+        {
+          "id": "s022",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "VDE83D",
+          "sha256": "c5b78c382615e4254527084f6ddc6fcf83fefbe6e47ebe2e3485305d4f8549bd",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "8C7Y?N",
+          "exact": false,
+          "matchingPositions": 0
+        },
+        {
+          "id": "s023",
+          "group": "incumbent-compatible",
+          "text": "LWDM9C",
+          "sha256": "7c658d2bf8c38bde9d73967487f849a610f03e9519d98fde838ccb32a7ec308e",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "8C7Y?N",
+          "exact": false,
+          "matchingPositions": 0
+        },
+        {
+          "id": "s024",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "KDLKA7",
+          "sha256": "e78ec6a9b0ef5d0b9c548d7f1a84298c6a4bd5a7a1bbc06370541a06ec5ffd15",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "2L6E8D",
+          "exact": false,
+          "matchingPositions": 0
+        },
+        {
+          "id": "s025",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "FDYAV6",
+          "sha256": "2f6c7901aa82689b8f40236ab1720cd2fdb82170bf5a3b0bed94d9eaaf20c9c7",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "VDF83D",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s026",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "XP5Y9W",
+          "sha256": "7fcdf591ef8488c57dfe103ba14a331b63f74d0ae9460f501324c8bf43c01193",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "2D?VJ8",
+          "exact": false,
+          "matchingPositions": 0
+        },
+        {
+          "id": "s027",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "DHR3XT",
+          "sha256": "f0604078683e6adb3fe74359d3ecbf73083c314eb2da1d858484042564f712ea",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "FD6A?6",
+          "exact": false,
+          "matchingPositions": 0
+        },
+        {
+          "id": "s028",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "KALFPT",
+          "sha256": "3a6f3b3848773da3ef4752faaabf2c97e2f575d3bfeed8cf796be224515b6afe",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "X353?N",
+          "exact": false,
+          "matchingPositions": 0
+        },
+        {
+          "id": "s029",
+          "group": "incumbent-compatible",
+          "text": "M2L2HD",
+          "sha256": "9877e43bacab5ce1aa12235d77c63290b89360024482261b6b7e237c7455465f",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "P9N6F2",
+          "exact": false,
+          "matchingPositions": 0
+        },
+        {
+          "id": "s030",
+          "group": "incumbent-compatible",
+          "text": "PREAKL",
+          "sha256": "2cffe0be32effa22ad060a58af2c3a1807686ef44c9f956662863f856b3289e7",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "N2L2HD",
+          "exact": false,
+          "matchingPositions": 0
+        },
+        {
+          "id": "s031",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "TPLRNP",
+          "sha256": "c37a991534ac56d13f5414c48c2249bfbc747fb283f1672e3eec5c87e7cda7ba",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "PREAV?",
+          "exact": false,
+          "matchingPositions": 0
+        },
+        {
+          "id": "s032",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "CDNHMD",
+          "sha256": "3a525aeb43c943a53d1147fb70f93075036616e88029f103486726b437fa1475",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "CANFMD",
+          "exact": false,
+          "matchingPositions": 4
+        }
+      ]
+    },
+    {
+      "model": "gpt-6.1-terra",
+      "reasoningEffort": "inherited/default",
+      "predictionsSha256": "f0b479100e405a2eef1ec5e8fd34bde0420ab9416f04f8c37650b18fb9f38668",
+      "groups": [
+        {
+          "group": "beaded-per-glyph-four-curves",
+          "exact": 9,
+          "total": 24,
+          "exactRate": 0.375,
+          "exactRateWilson95": [
+            0.21159367559548778,
+            0.5729003755732572
+          ],
+          "matchingPositions": 120,
+          "characters": 144,
+          "positionAccuracy": 0.8333333333333334
+        },
+        {
+          "group": "incumbent-compatible",
+          "exact": 5,
+          "total": 8,
+          "exactRate": 0.625,
+          "exactRateWilson95": [
+            0.30574239460262737,
+            0.8631557141764026
+          ],
+          "matchingPositions": 45,
+          "characters": 48,
+          "positionAccuracy": 0.9375
+        }
+      ],
+      "results": [
+        {
+          "id": "s001",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "HCCDWF",
+          "sha256": "18cc2e982a524c5af854ced8e881c9496fb129e58602254291a64adaac4c1433",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "HCCDXF",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s002",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "YCKJYA",
+          "sha256": "e08cb93bf855247cf5c8886e3a04b00e02e68fb899c11a41e93f963d73c97b32",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "TCKJYA",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s003",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "A9VYX3",
+          "sha256": "d92dbccfecff7d51b9d65713ecbe9c85e6ed569ca79eda5b488a2be7b65c17de",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "A9VYX3",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s004",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "A9MTX4",
+          "sha256": "1aab9f939ccaa6a20e01ee8d9471d1c1d118b748f15d48b6ee24c5c90ef63189",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "A9MTX4",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s005",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "FCF3DR",
+          "sha256": "15a079c94d48e1fa7c102ff007fbd9e44f47c9febddb59fa0e0e4b4340cbb87f",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "FCF3DR",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s006",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "E9MD2Y",
+          "sha256": "890ca7388e2e843de2697b02acf8c0d4443d941116cb990e2a2b35b25c1eff0b",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "F9ND2Y",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s007",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "WN62H3",
+          "sha256": "a6d35e5805621dc39d07314fa5f7922f42ddbef6b5a598433538765050dc548b",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "WN62H3",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s008",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "FJT4H4",
+          "sha256": "f6a63beeefd424c7c5e8440e1febf845ca3425627f6f582b57b58a0fd5849637",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "FJ7AHK",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s009",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "XPTFLX",
+          "sha256": "358266f5f36b05ab9770f2ceb50d964061b2bc1c215884501534631269f5e800",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "XP7ELK",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s010",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "6VM6ME",
+          "sha256": "8942a4ce32fa374ba56003861ed8d7073a9c55327181aa49f15a7aa30b38e255",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "6YM6ME",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s011",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "PL48DY",
+          "sha256": "eba8b439ea330aa9a6634293974d5c410b2c227d04fdf203c2beb08535781100",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "PJ48DT",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s012",
+          "group": "incumbent-compatible",
+          "text": "L7PH33",
+          "sha256": "5b8bdde1556d4294c6e9751d9f96c0bf627172240e9b44cfbbf8b0aa9ff98e18",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "L7PH33",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s013",
+          "group": "incumbent-compatible",
+          "text": "38MNPV",
+          "sha256": "5cc0ba0cce86da3d809bedf2d1547b0e449038df6affb234a305369af973ada4",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "38MNPV",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s014",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "3P2556",
+          "sha256": "8b9b927f2d7e0e0b413564c72de0f140b8f73968322cff156ee79ec39dfac0c0",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "3P2536",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s015",
+          "group": "incumbent-compatible",
+          "text": "DXFTXN",
+          "sha256": "30bdc6c2c3529320b6dded841976e4fa8d68e4e8ce1e29a7ded6cb423a3ea025",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "DTFTXN",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s016",
+          "group": "incumbent-compatible",
+          "text": "TWF4AV",
+          "sha256": "0e1b85d752196ff25408adb1696db5b8a5aa57b3b7bf5b962b62b50dad7d9ad4",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "7WF4AV",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s017",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "9WWJJF",
+          "sha256": "c64b8d9153d7f963f07f6432ed2aa37fcd757d851012105d988bbb613467851a",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "9MWJLF",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s018",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "P66J49",
+          "sha256": "86e5c6c826d88e4634296a1519d783d46019d9dfe131a3f7fcf754b1e12e111e",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "P69J49",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s019",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "C3H53J",
+          "sha256": "d53e0c0b4bbb90f4797396860f02ed1b079909b3428bdb9c88df25a1017d8cc2",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "C3H53J",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s020",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "6CHYLW",
+          "sha256": "f2ddeaa4ac2890e815687b22ee0951651510848bdf87c8be5b743e6688e03896",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "6CYYLN",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s021",
+          "group": "incumbent-compatible",
+          "text": "LTE842",
+          "sha256": "74ea9b2a7c55c1ada28e92cd529779f2cb7cdba8a7546193db199444f0b8cf10",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "LTE842",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s022",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "VDE83D",
+          "sha256": "c5b78c382615e4254527084f6ddc6fcf83fefbe6e47ebe2e3485305d4f8549bd",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "VDE83D",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s023",
+          "group": "incumbent-compatible",
+          "text": "LWDM9C",
+          "sha256": "7c658d2bf8c38bde9d73967487f849a610f03e9519d98fde838ccb32a7ec308e",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "LWDM9C",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s024",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "KDLKA7",
+          "sha256": "e78ec6a9b0ef5d0b9c548d7f1a84298c6a4bd5a7a1bbc06370541a06ec5ffd15",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "KDLYA7",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s025",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "FDYAV6",
+          "sha256": "2f6c7901aa82689b8f40236ab1720cd2fdb82170bf5a3b0bed94d9eaaf20c9c7",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "FDKAY6",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s026",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "XP5Y9W",
+          "sha256": "7fcdf591ef8488c57dfe103ba14a331b63f74d0ae9460f501324c8bf43c01193",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "XP5Y9W",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s027",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "DHR3XT",
+          "sha256": "f0604078683e6adb3fe74359d3ecbf73083c314eb2da1d858484042564f712ea",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "DHR3XT",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s028",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "KALFPT",
+          "sha256": "3a6f3b3848773da3ef4752faaabf2c97e2f575d3bfeed8cf796be224515b6afe",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "KALFPY",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s029",
+          "group": "incumbent-compatible",
+          "text": "M2L2HD",
+          "sha256": "9877e43bacab5ce1aa12235d77c63290b89360024482261b6b7e237c7455465f",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "M2L2HD",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s030",
+          "group": "incumbent-compatible",
+          "text": "PREAKL",
+          "sha256": "2cffe0be32effa22ad060a58af2c3a1807686ef44c9f956662863f856b3289e7",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "PREAYL",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s031",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "TPLRNP",
+          "sha256": "c37a991534ac56d13f5414c48c2249bfbc747fb283f1672e3eec5c87e7cda7ba",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "TPLRNP",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s032",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "CDNHMD",
+          "sha256": "3a525aeb43c943a53d1147fb70f93075036616e88029f103486726b437fa1475",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "CANHMD",
+          "exact": false,
+          "matchingPositions": 5
+        }
+      ]
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "reasoningEffort": "xhigh",
+      "predictionsSha256": "f077534583a32f69eb1d157ac4eaadef5e61d4dff5d0d515da57a108f4df8435",
+      "groups": [
+        {
+          "group": "beaded-per-glyph-four-curves",
+          "exact": 12,
+          "total": 24,
+          "exactRate": 0.5,
+          "exactRateWilson95": [
+            0.3142742581957335,
+            0.6857257418042665
+          ],
+          "matchingPositions": 129,
+          "characters": 144,
+          "positionAccuracy": 0.8958333333333334
+        },
+        {
+          "group": "incumbent-compatible",
+          "exact": 7,
+          "total": 8,
+          "exactRate": 0.875,
+          "exactRateWilson95": [
+            0.5291118177871464,
+            0.9775825085499433
+          ],
+          "matchingPositions": 47,
+          "characters": 48,
+          "positionAccuracy": 0.9791666666666666
+        }
+      ],
+      "results": [
+        {
+          "id": "s001",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "HCCDWF",
+          "sha256": "18cc2e982a524c5af854ced8e881c9496fb129e58602254291a64adaac4c1433",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "HCCDWF",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s002",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "YCKJYA",
+          "sha256": "e08cb93bf855247cf5c8886e3a04b00e02e68fb899c11a41e93f963d73c97b32",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "YCXJYA",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s003",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "A9VYX3",
+          "sha256": "d92dbccfecff7d51b9d65713ecbe9c85e6ed569ca79eda5b488a2be7b65c17de",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "A9YYX9",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s004",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "A9MTX4",
+          "sha256": "1aab9f939ccaa6a20e01ee8d9471d1c1d118b748f15d48b6ee24c5c90ef63189",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "A9MJX4",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s005",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "FCF3DR",
+          "sha256": "15a079c94d48e1fa7c102ff007fbd9e44f47c9febddb59fa0e0e4b4340cbb87f",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "FCF3DR",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s006",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "E9MD2Y",
+          "sha256": "890ca7388e2e843de2697b02acf8c0d4443d941116cb990e2a2b35b25c1eff0b",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "E9MD2Y",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s007",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "WN62H3",
+          "sha256": "a6d35e5805621dc39d07314fa5f7922f42ddbef6b5a598433538765050dc548b",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "WN62H3",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s008",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "FJT4H4",
+          "sha256": "f6a63beeefd424c7c5e8440e1febf845ca3425627f6f582b57b58a0fd5849637",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "FJ7AH4",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s009",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "XPTFLX",
+          "sha256": "358266f5f36b05ab9770f2ceb50d964061b2bc1c215884501534631269f5e800",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "XPYFLK",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s010",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "6VM6ME",
+          "sha256": "8942a4ce32fa374ba56003861ed8d7073a9c55327181aa49f15a7aa30b38e255",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "6YM6ME",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s011",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "PL48DY",
+          "sha256": "eba8b439ea330aa9a6634293974d5c410b2c227d04fdf203c2beb08535781100",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "PL48DY",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s012",
+          "group": "incumbent-compatible",
+          "text": "L7PH33",
+          "sha256": "5b8bdde1556d4294c6e9751d9f96c0bf627172240e9b44cfbbf8b0aa9ff98e18",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "L7PH33",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s013",
+          "group": "incumbent-compatible",
+          "text": "38MNPV",
+          "sha256": "5cc0ba0cce86da3d809bedf2d1547b0e449038df6affb234a305369af973ada4",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "38MNPV",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s014",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "3P2556",
+          "sha256": "8b9b927f2d7e0e0b413564c72de0f140b8f73968322cff156ee79ec39dfac0c0",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "3P2556",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s015",
+          "group": "incumbent-compatible",
+          "text": "DXFTXN",
+          "sha256": "30bdc6c2c3529320b6dded841976e4fa8d68e4e8ce1e29a7ded6cb423a3ea025",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "DXFTXN",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s016",
+          "group": "incumbent-compatible",
+          "text": "TWF4AV",
+          "sha256": "0e1b85d752196ff25408adb1696db5b8a5aa57b3b7bf5b962b62b50dad7d9ad4",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "YWF4AV",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s017",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "9WWJJF",
+          "sha256": "c64b8d9153d7f963f07f6432ed2aa37fcd757d851012105d988bbb613467851a",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "9WWJJE",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s018",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "P66J49",
+          "sha256": "86e5c6c826d88e4634296a1519d783d46019d9dfe131a3f7fcf754b1e12e111e",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "P66J49",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s019",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "C3H53J",
+          "sha256": "d53e0c0b4bbb90f4797396860f02ed1b079909b3428bdb9c88df25a1017d8cc2",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "C3H53J",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s020",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "6CHYLW",
+          "sha256": "f2ddeaa4ac2890e815687b22ee0951651510848bdf87c8be5b743e6688e03896",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "6CHYLK",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s021",
+          "group": "incumbent-compatible",
+          "text": "LTE842",
+          "sha256": "74ea9b2a7c55c1ada28e92cd529779f2cb7cdba8a7546193db199444f0b8cf10",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "LTE842",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s022",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "VDE83D",
+          "sha256": "c5b78c382615e4254527084f6ddc6fcf83fefbe6e47ebe2e3485305d4f8549bd",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "VDE83D",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s023",
+          "group": "incumbent-compatible",
+          "text": "LWDM9C",
+          "sha256": "7c658d2bf8c38bde9d73967487f849a610f03e9519d98fde838ccb32a7ec308e",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "LWDM9C",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s024",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "KDLKA7",
+          "sha256": "e78ec6a9b0ef5d0b9c548d7f1a84298c6a4bd5a7a1bbc06370541a06ec5ffd15",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "KDLYA7",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s025",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "FDYAV6",
+          "sha256": "2f6c7901aa82689b8f40236ab1720cd2fdb82170bf5a3b0bed94d9eaaf20c9c7",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "FDYAY6",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s026",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "XP5Y9W",
+          "sha256": "7fcdf591ef8488c57dfe103ba14a331b63f74d0ae9460f501324c8bf43c01193",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "XP5Y9W",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s027",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "DHR3XT",
+          "sha256": "f0604078683e6adb3fe74359d3ecbf73083c314eb2da1d858484042564f712ea",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "DHR3XT",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s028",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "KALFPT",
+          "sha256": "3a6f3b3848773da3ef4752faaabf2c97e2f575d3bfeed8cf796be224515b6afe",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "KALFPY",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s029",
+          "group": "incumbent-compatible",
+          "text": "M2L2HD",
+          "sha256": "9877e43bacab5ce1aa12235d77c63290b89360024482261b6b7e237c7455465f",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "M2L2HD",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s030",
+          "group": "incumbent-compatible",
+          "text": "PREAKL",
+          "sha256": "2cffe0be32effa22ad060a58af2c3a1807686ef44c9f956662863f856b3289e7",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "PREAKL",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s031",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "TPLRNP",
+          "sha256": "c37a991534ac56d13f5414c48c2249bfbc747fb283f1672e3eec5c87e7cda7ba",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "TPLRNP",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s032",
+          "group": "beaded-per-glyph-four-curves",
+          "text": "CDNHMD",
+          "sha256": "3a525aeb43c943a53d1147fb70f93075036616e88029f103486726b437fa1475",
+          "width": 210,
+          "height": 68,
+          "length": 6,
+          "guess": "CDNHWD",
+          "exact": false,
+          "matchingPositions": 5
+        }
+      ]
+    }
+  ],
+  "presentation": {
+    "kind": "individual images, 4x nearest-neighbor enlargement",
+    "width": 840,
+    "height": 272
+  },
+  "presentedImages": [
+    {
+      "id": "s001",
+      "sha256": "3cd54126bd3d605b9fe0dbd9a7f86d6ba453d3ac0ced0b8a5f7c979589b96d03"
+    },
+    {
+      "id": "s002",
+      "sha256": "4677959711e9dd67c5183059057c7bdbf6408c2aeab5d607c092186188ae9f89"
+    },
+    {
+      "id": "s003",
+      "sha256": "cd3b00f91e93040fb38cf6b16225c279a8c8246dae4a7a305c4628433105cb3a"
+    },
+    {
+      "id": "s004",
+      "sha256": "718389d7a3da27aaf8cb14db1eb65685639d458f1bd5fde298a01d8f57883983"
+    },
+    {
+      "id": "s005",
+      "sha256": "2f5c3d80b60bf87e6556cc330d5b21cc29f228e5a30a1178e498459f77da277c"
+    },
+    {
+      "id": "s006",
+      "sha256": "f8ffeba593473c33c952624fb492af337e3d5e8548eaef9f206bbb68ccaf7f16"
+    },
+    {
+      "id": "s007",
+      "sha256": "c0ab133726c4ef80730d8f9ec85226eeba5c13fcd4d822183c5de7b6cd56a726"
+    },
+    {
+      "id": "s008",
+      "sha256": "02a4015072e7528f2329edc9d7b76e85eb5f356c4074a0da35370c64c17d9ee4"
+    },
+    {
+      "id": "s009",
+      "sha256": "4d75cff60c19acf4f2a89a80a649a1dd985451945a7d8f1648432584496873f9"
+    },
+    {
+      "id": "s010",
+      "sha256": "70d2885768dd0f4bb5df2085f1155576a9048de7455f801dedd759e2192faa52"
+    },
+    {
+      "id": "s011",
+      "sha256": "3f66e1cdd0e790486d8ca31cf6422858e9d94e09da4d007eea57082b52754803"
+    },
+    {
+      "id": "s012",
+      "sha256": "e96d9ecbc7c2fe9ee235d6b84844c181eb5424119d7d590fc472f860ddd121ae"
+    },
+    {
+      "id": "s013",
+      "sha256": "4c5cd7f92eb2eb399c2615ab928f17dccd40e7c4d44af9c109bc4199bc4d7f68"
+    },
+    {
+      "id": "s014",
+      "sha256": "5a54d1a5ed512a44d8fefb6cd1c0eb5b7856ce0232d66e59039a20ecc602a576"
+    },
+    {
+      "id": "s015",
+      "sha256": "27f4393e0954b000d5c063ac19ce31552905f94979ba48ca10270fbc813fad23"
+    },
+    {
+      "id": "s016",
+      "sha256": "769e733169a32db18f8c0fa261df02ec7f6afd05a4377eba8232ebeec71ce1bf"
+    },
+    {
+      "id": "s017",
+      "sha256": "518cba130ecb9846ad4987cd0bcdce722abfe84e97af0433a7e97c87c4587b6a"
+    },
+    {
+      "id": "s018",
+      "sha256": "0339d7b7dba4465d636905732c564bfe7d4538aa24c87aa3d7203711956b4458"
+    },
+    {
+      "id": "s019",
+      "sha256": "c4232480c70afc14e5f897d1a0e6a16ed0cfe91463ff85839dba5b9795e44a4b"
+    },
+    {
+      "id": "s020",
+      "sha256": "f414c844bae508adfa849d4605db1f154ade9eaaa867772db9ecac231c76c391"
+    },
+    {
+      "id": "s021",
+      "sha256": "48edc807804de6f5c190643ca825a5038453b9600c273ff29050fb85836a7ed6"
+    },
+    {
+      "id": "s022",
+      "sha256": "ee7af732f5356dd2a3658779590ea822be9041f6415e550c73b2fd2066bf2508"
+    },
+    {
+      "id": "s023",
+      "sha256": "ce2b4b58ff0d3b1a42483784cfb7b4751b54ccc3de5c2b7baa975cfd62ddfb64"
+    },
+    {
+      "id": "s024",
+      "sha256": "47a39fb354c51995813c9c5df1c6315a2b171a8715d1b0c709fdbef1ca0ccf16"
+    },
+    {
+      "id": "s025",
+      "sha256": "39bf3215f2c4599bc9534ca654af995f89959df80b4e8c5fda807af10066c85b"
+    },
+    {
+      "id": "s026",
+      "sha256": "7b74f14bde9b331efc05c93a13193022edcd92ffde99db257126cb8c61bc74de"
+    },
+    {
+      "id": "s027",
+      "sha256": "8e9e8c9650e718f2dec31e8bbb12c8c9e7fce59a307f441ac1fff74bb3bc91b1"
+    },
+    {
+      "id": "s028",
+      "sha256": "27316e38c08570f31642475c7ea8d520700a6a4025e8171849b78b0d98ef178c"
+    },
+    {
+      "id": "s029",
+      "sha256": "394b95715b181b36bb511a0d5df2ab64925ba88857e1f6767fe3fa5ee34c6e7f"
+    },
+    {
+      "id": "s030",
+      "sha256": "36f21556a1ef2a42443a151c157e80bc7d039f3c5b46f34f095650dc9c046ed5"
+    },
+    {
+      "id": "s031",
+      "sha256": "10f4363ce8de78fb6ab52bc7aaca8eb20a30d13c72b41d9de922a48c5f107d0d"
+    },
+    {
+      "id": "s032",
+      "sha256": "5c5ce23cc5aaa85288fe9628fce97f84b41673230f3a004833e28703ba207850"
+    }
+  ],
+  "executionNotes": [
+    {
+      "model": "gpt-6-luna",
+      "type": "poor-control-performance",
+      "detail": "Zero exact control answers and only 1/48 correct control positions. Agent protocol-only audit reports all32 images opened sequentially, ID association by file order, no tool/display error, omitted image or copied predictions. No answer/score feedback and no second submission. Treat candidate-zero result as nondiscriminative, not proof of blocking."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "round": "colored-six-character-confirmation",
+  "countPerGroup": 24,
+  "options": {
+    "size": 6,
+    "width": 210,
+    "height": 68,
+    "fontSize": 52,
+    "noise": 3,
+    "charPreset": "23456789ACDEFHJKLMNPRTVWXY"
+  },
+  "groups": [
+    {
+      "name": "incumbent-compatible",
+      "module": ".",
+      "count": 8,
+      "options": {"interference": "none", "palette": "default"}
+    },
+    {
+      "name": "beaded-shared",
+      "module": ".",
+      "options": {"interference": "beaded", "interferenceDensity": 1, "palette": "shared"}
+    },
+    {
+      "name": "beaded-per-glyph",
+      "module": ".",
+      "options": {"interference": "beaded", "interferenceDensity": 1, "palette": "per-glyph"}
+    }
+  ]
+}

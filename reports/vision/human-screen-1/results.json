@@ -1,0 +1,247 @@
+{
+  "createdAt": "2026-11-16T19:35:53.066Z",
+  "manifest": {
+    "createdAt": "2026-11-16T19:29:48.791Z",
+    "round": "human-readability-screen-1",
+    "groups": [
+      {
+        "name": "same-color-lines",
+        "sourceSha256": "e099437a95a1824446eb8f404440e77be9611c357520d16a6932f0d0dcd22671",
+        "options": {
+          "size": 6,
+          "width": 210,
+          "height": 68,
+          "fontSize": 52,
+          "noise": 3,
+          "charPreset": "23456789ACDEFHJKLMNPRTVWXY",
+          "interference": "lines"
+        }
+      },
+      {
+        "name": "contour-beads",
+        "sourceSha256": "e099437a95a1824446eb8f404440e77be9611c357520d16a6932f0d0dcd22671",
+        "options": {
+          "size": 6,
+          "width": 210,
+          "height": 68,
+          "fontSize": 52,
+          "noise": 3,
+          "charPreset": "23456789ACDEFHJKLMNPRTVWXY",
+          "interference": "beads"
+        }
+      },
+      {
+        "name": "contour-rings",
+        "sourceSha256": "e099437a95a1824446eb8f404440e77be9611c357520d16a6932f0d0dcd22671",
+        "options": {
+          "size": 6,
+          "width": 210,
+          "height": 68,
+          "fontSize": 52,
+          "noise": 3,
+          "charPreset": "23456789ACDEFHJKLMNPRTVWXY",
+          "interference": "rings"
+        }
+      },
+      {
+        "name": "beaded-decoy-glyphs",
+        "sourceSha256": "e099437a95a1824446eb8f404440e77be9611c357520d16a6932f0d0dcd22671",
+        "options": {
+          "size": 6,
+          "width": 210,
+          "height": 68,
+          "fontSize": 52,
+          "noise": 3,
+          "charPreset": "23456789ACDEFHJKLMNPRTVWXY",
+          "interference": "decoy"
+        }
+      }
+    ],
+    "samples": [
+      {
+        "id": "s001",
+        "group": "contour-beads",
+        "text": "HDR65P",
+        "sha256": "00b460a2270ca466df0e8d57decb5e82ccec643e9bcddae09576681d1fa39d32"
+      },
+      {
+        "id": "s002",
+        "group": "contour-rings",
+        "text": "TVYLJD",
+        "sha256": "d75281bf654af0dfbe97a744d96fc2d7fa8bc307f3df849b4f40d475c7c9bcf9"
+      },
+      {
+        "id": "s003",
+        "group": "contour-beads",
+        "text": "DKY8XH",
+        "sha256": "812b7b300e9589d792ac61c58c5de1e0042949789c6b7ed02e520c55a3d98761"
+      },
+      {
+        "id": "s004",
+        "group": "same-color-lines",
+        "text": "YV8MFD",
+        "sha256": "1fe5fa0e550a0e40468a7bcf009bd72eee26c5fcf8c52bac94a31f242badea9f"
+      },
+      {
+        "id": "s005",
+        "group": "same-color-lines",
+        "text": "3XD66X",
+        "sha256": "9af771fa8fdc7810b79e3acae8b39234cdcb0603d99584bebc8edd72aef33540"
+      },
+      {
+        "id": "s006",
+        "group": "beaded-decoy-glyphs",
+        "text": "LH665P",
+        "sha256": "fb7f5eaeebeadfa2c0d0267ee929244fbd08cf4546d63f445216c4906538b435"
+      },
+      {
+        "id": "s007",
+        "group": "beaded-decoy-glyphs",
+        "text": "CRX7DP",
+        "sha256": "27e2d497edfff1f35745f504839c7c20254b81df5066558fb70c53b289a04600"
+      },
+      {
+        "id": "s008",
+        "group": "contour-rings",
+        "text": "LA4JWM",
+        "sha256": "f1eb1fa13d9e481589e0c476a65934af2017f998371b343881e5ce86ec0dfbaa"
+      }
+    ]
+  },
+  "method": "Same shuffled images; separate agents with no answer manifest; visual transcription only; no feedback or retries. Exact six-character accuracy, trim and uppercase only. Shared filesystem is instruction-blinded, not access-isolated. Confidence intervals describe these samples, not a security guarantee.",
+  "models": [
+    {
+      "model": "human-user",
+      "reasoningEffort": "inherited/default",
+      "predictionsSha256": "c92d760667a3d837da76ec7464b1aad796b4129a3d531368adab2916f865721f",
+      "groups": [
+        {
+          "group": "contour-beads",
+          "exact": 1,
+          "total": 2,
+          "exactRate": 0.5,
+          "exactRateWilson95": [
+            0.09453120573423074,
+            0.9054687942657693
+          ],
+          "matchingPositions": 11,
+          "characters": 12,
+          "positionAccuracy": 0.9166666666666666
+        },
+        {
+          "group": "contour-rings",
+          "exact": 2,
+          "total": 2,
+          "exactRate": 1,
+          "exactRateWilson95": [
+            0.34238022750665303,
+            1
+          ],
+          "matchingPositions": 12,
+          "characters": 12,
+          "positionAccuracy": 1
+        },
+        {
+          "group": "same-color-lines",
+          "exact": 2,
+          "total": 2,
+          "exactRate": 1,
+          "exactRateWilson95": [
+            0.34238022750665303,
+            1
+          ],
+          "matchingPositions": 12,
+          "characters": 12,
+          "positionAccuracy": 1
+        },
+        {
+          "group": "beaded-decoy-glyphs",
+          "exact": 2,
+          "total": 2,
+          "exactRate": 1,
+          "exactRateWilson95": [
+            0.34238022750665303,
+            1
+          ],
+          "matchingPositions": 12,
+          "characters": 12,
+          "positionAccuracy": 1
+        }
+      ],
+      "results": [
+        {
+          "id": "s001",
+          "group": "contour-beads",
+          "text": "HDR65P",
+          "sha256": "00b460a2270ca466df0e8d57decb5e82ccec643e9bcddae09576681d1fa39d32",
+          "guess": "HDR65P",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s002",
+          "group": "contour-rings",
+          "text": "TVYLJD",
+          "sha256": "d75281bf654af0dfbe97a744d96fc2d7fa8bc307f3df849b4f40d475c7c9bcf9",
+          "guess": "TVYLJD",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s003",
+          "group": "contour-beads",
+          "text": "DKY8XH",
+          "sha256": "812b7b300e9589d792ac61c58c5de1e0042949789c6b7ed02e520c55a3d98761",
+          "guess": "DYY8XH",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s004",
+          "group": "same-color-lines",
+          "text": "YV8MFD",
+          "sha256": "1fe5fa0e550a0e40468a7bcf009bd72eee26c5fcf8c52bac94a31f242badea9f",
+          "guess": "YV8MFD",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s005",
+          "group": "same-color-lines",
+          "text": "3XD66X",
+          "sha256": "9af771fa8fdc7810b79e3acae8b39234cdcb0603d99584bebc8edd72aef33540",
+          "guess": "3XD66X",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s006",
+          "group": "beaded-decoy-glyphs",
+          "text": "LH665P",
+          "sha256": "fb7f5eaeebeadfa2c0d0267ee929244fbd08cf4546d63f445216c4906538b435",
+          "guess": "LH665P",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s007",
+          "group": "beaded-decoy-glyphs",
+          "text": "CRX7DP",
+          "sha256": "27e2d497edfff1f35745f504839c7c20254b81df5066558fb70c53b289a04600",
+          "guess": "CRX7DP",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s008",
+          "group": "contour-rings",
+          "text": "LA4JWM",
+          "sha256": "f1eb1fa13d9e481589e0c476a65934af2017f998371b343881e5ce86ec0dfbaa",
+          "guess": "LA4JWM",
+          "exact": true,
+          "matchingPositions": 6
+        }
+      ]
+    }
+  ]
+}

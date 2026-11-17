@@ -1,0 +1,1730 @@
+{
+  "createdAt": "2026-11-16T19:45:22.327Z",
+  "manifest": {
+    "createdAt": "2026-11-16T19:43:09.506Z",
+    "round": "mixed-medium-confirmation",
+    "groups": [
+      {
+        "name": "incumbent-v2-compatible",
+        "sourceSha256": "c014c382cb23bf218c26be10ecac170e33b032a224905e6e2cd39254da4cf401",
+        "options": {
+          "size": 6,
+          "width": 210,
+          "height": 68,
+          "fontSize": 52,
+          "noise": 3,
+          "charPreset": "23456789ACDEFHJKLMNPRTVWXY",
+          "interference": "none"
+        }
+      },
+      {
+        "name": "mixed-medium",
+        "sourceSha256": "c014c382cb23bf218c26be10ecac170e33b032a224905e6e2cd39254da4cf401",
+        "options": {
+          "size": 6,
+          "width": 210,
+          "height": 68,
+          "fontSize": 52,
+          "noise": 3,
+          "charPreset": "23456789ACDEFHJKLMNPRTVWXY",
+          "interference": "mixed",
+          "interferenceDensity": 1
+        }
+      }
+    ],
+    "samples": [
+      {
+        "id": "s001",
+        "group": "mixed-medium",
+        "text": "WMJCNX",
+        "sha256": "607e599c04c26bb39f62a73465f5350ec11184a58f316187c1ae20b424db60b1"
+      },
+      {
+        "id": "s002",
+        "group": "mixed-medium",
+        "text": "YYW4FT",
+        "sha256": "be1fe2574eae393d70c82850dcf3890684644826a624f71729317c045ae45bc8"
+      },
+      {
+        "id": "s003",
+        "group": "incumbent-v2-compatible",
+        "text": "9NVW2R",
+        "sha256": "fd5408aa1405c1cef5da4e14e8dbe1b7bbb6673e7d442e4d98afdd5d5766d379"
+      },
+      {
+        "id": "s004",
+        "group": "mixed-medium",
+        "text": "P7HJV9",
+        "sha256": "952c06564244cc60ae09da7a8c92fc50f691704f3e25b95b6298a4f286805472"
+      },
+      {
+        "id": "s005",
+        "group": "mixed-medium",
+        "text": "4N8PCM",
+        "sha256": "0d8a4b31b43369f1854b03c58ad585bd34661dfbe5761ec667c92ced43d4af6d"
+      },
+      {
+        "id": "s006",
+        "group": "mixed-medium",
+        "text": "2PRP9L",
+        "sha256": "45de367a3b02da7d9af90668c7b43793c68303105ecbd70c0577762e4e9902a1"
+      },
+      {
+        "id": "s007",
+        "group": "incumbent-v2-compatible",
+        "text": "LT8T7T",
+        "sha256": "d636e2cbd390405529e3b2643eba8352325deb47c9e7e5f179261f17dfdd3b69"
+      },
+      {
+        "id": "s008",
+        "group": "mixed-medium",
+        "text": "J72AJ8",
+        "sha256": "a537aa945842aa0cc74eb4ff6ae72214687eb7aa27ec2baed2d96d70ad7e7e61"
+      },
+      {
+        "id": "s009",
+        "group": "mixed-medium",
+        "text": "285NAV",
+        "sha256": "d0dd00a5a8e7b916ddf9a0abbffda297edbce6cad3e2a1d279e3213503b728c8"
+      },
+      {
+        "id": "s010",
+        "group": "incumbent-v2-compatible",
+        "text": "YEJVEY",
+        "sha256": "add8b4d90d6385e2c053395338780cc44cbb9ca46c0464540f07e6ff358d0a85"
+      },
+      {
+        "id": "s011",
+        "group": "mixed-medium",
+        "text": "K9NT53",
+        "sha256": "681dd4154c7b2ec77a28f903afd1500ce6033989ed488b818856a54c04eee630"
+      },
+      {
+        "id": "s012",
+        "group": "incumbent-v2-compatible",
+        "text": "9RAK68",
+        "sha256": "a18643a0259eea0d5121ccd5963278dc6e90e04487fe3a8354a59dffd8ff8093"
+      },
+      {
+        "id": "s013",
+        "group": "mixed-medium",
+        "text": "6FP7PH",
+        "sha256": "3ea5811366c1d645c653649c04d8a811c562ba207a1c102c3de9f1e3954cb0f3"
+      },
+      {
+        "id": "s014",
+        "group": "incumbent-v2-compatible",
+        "text": "96N3HR",
+        "sha256": "24a472c856e05c644f785f9f6fae4cee1c57ae02c7b4bd19e3156b2825b3fef5"
+      },
+      {
+        "id": "s015",
+        "group": "incumbent-v2-compatible",
+        "text": "3KKPFX",
+        "sha256": "6ed79c39cf9e938fbda2da1c32c0135a6a14654bdd7b797b797cdfec2a64d672"
+      },
+      {
+        "id": "s016",
+        "group": "mixed-medium",
+        "text": "WD5H67",
+        "sha256": "8092d7b348a53c8e8a08a4d393f7017838610b27fad737e99700b5ab91f7d2a0"
+      },
+      {
+        "id": "s017",
+        "group": "mixed-medium",
+        "text": "HRJNWY",
+        "sha256": "905c67cef337b43fe1ef4eb2ff555b9f1975b7d155aa7552fd1660be80e11bdf"
+      },
+      {
+        "id": "s018",
+        "group": "incumbent-v2-compatible",
+        "text": "MDR2XX",
+        "sha256": "70ff3465ae758f3ff75b40175bc54524eb7f84895b430c45937aa25bf900e6e7"
+      },
+      {
+        "id": "s019",
+        "group": "mixed-medium",
+        "text": "F5CNWT",
+        "sha256": "6412b5574728b5725b76df580deb64b8c0f15043636bd614ebc51e3c6ab527a6"
+      },
+      {
+        "id": "s020",
+        "group": "mixed-medium",
+        "text": "M84EHN",
+        "sha256": "e3ca35dba8c8588a65e6f5c8dc58f80641ba46c779645faad0f43bc542330757"
+      },
+      {
+        "id": "s021",
+        "group": "incumbent-v2-compatible",
+        "text": "7NXN3K",
+        "sha256": "ccfd9bdd88c8d6f0119628ba8bee00fb9870ea32d9fb9c7b7df78e2756679b4a"
+      },
+      {
+        "id": "s022",
+        "group": "incumbent-v2-compatible",
+        "text": "6EWLTF",
+        "sha256": "58ecffef13690f11e4ce89e4bee9458911a0ae8836e1d0d321eaaaa70ac21270"
+      },
+      {
+        "id": "s023",
+        "group": "incumbent-v2-compatible",
+        "text": "6N5VJ8",
+        "sha256": "3f04cf96fb8131ae8ec841772c1c6a7d17f33ae1074c1364910861c5c197d6ee"
+      },
+      {
+        "id": "s024",
+        "group": "incumbent-v2-compatible",
+        "text": "88MTFR",
+        "sha256": "3575cd8a3dbf34114a06b58c678a086c8c78c36eddd3b0b846b5ad745a0c1083"
+      },
+      {
+        "id": "s025",
+        "group": "mixed-medium",
+        "text": "VMADFY",
+        "sha256": "f55d4cdf7ff25d9bf51a042d60ae9b656452be0f892085d3ec536355fb17ac6e"
+      },
+      {
+        "id": "s026",
+        "group": "incumbent-v2-compatible",
+        "text": "RX933C",
+        "sha256": "41e0add02073471c7a464355f618445a7ee7962e0b4023fc148076c481058799"
+      },
+      {
+        "id": "s027",
+        "group": "mixed-medium",
+        "text": "A7NWCC",
+        "sha256": "b577bd8f233e2d749c639f9e14df753128a3ec7cce3857ae1c64f9f21a285bd8"
+      },
+      {
+        "id": "s028",
+        "group": "mixed-medium",
+        "text": "JA6VN5",
+        "sha256": "975d96f65ae688d42f24c83ed7ea1aaa628c6d64bff5f5fae5a348ac18d6a884"
+      },
+      {
+        "id": "s029",
+        "group": "mixed-medium",
+        "text": "X3L9VM",
+        "sha256": "2cb22fb1b30733899e6f5e3595a7a0bef732d5478b1849d5434884f99a78b29b"
+      },
+      {
+        "id": "s030",
+        "group": "mixed-medium",
+        "text": "K5HMKV",
+        "sha256": "66b53faadba7bf0503444838f4d3f48e4aa824745051daa416545d2454a48632"
+      },
+      {
+        "id": "s031",
+        "group": "incumbent-v2-compatible",
+        "text": "H2FM56",
+        "sha256": "870d9f3f0f2265fe062c6c8e350915c32c9883067dec36fc91bdf729f938cd51"
+      },
+      {
+        "id": "s032",
+        "group": "incumbent-v2-compatible",
+        "text": "WAY3NR",
+        "sha256": "256971713a7ddd3b47383c61fde2f86aae273677f8810ace36238b1f8d83a130"
+      },
+      {
+        "id": "s033",
+        "group": "incumbent-v2-compatible",
+        "text": "XF9LWW",
+        "sha256": "3574626109031a741f211ddafae4f0f62c20899e04f90e0b3e71063b0afc89d9"
+      },
+      {
+        "id": "s034",
+        "group": "mixed-medium",
+        "text": "F9WRW5",
+        "sha256": "4c84db89eb247e1a41136e667a8ecb63a0af2c0f86e220191c45f401f836d668"
+      },
+      {
+        "id": "s035",
+        "group": "incumbent-v2-compatible",
+        "text": "VHPW38",
+        "sha256": "a139676ea13b17f651185bf99b06ddb675f1cc6b9130ca69e0a3d30cce74eb45"
+      },
+      {
+        "id": "s036",
+        "group": "incumbent-v2-compatible",
+        "text": "2LKKLD",
+        "sha256": "27d7d3cb8e2d12d0344f146436922e9db509e17f0556efd7d60b8e7e215e465f"
+      },
+      {
+        "id": "s037",
+        "group": "incumbent-v2-compatible",
+        "text": "RR2V2L",
+        "sha256": "730c7398062462d32121a5a4f5ed6d6a720460a78ba9b3b553a79a6c8593d3e4"
+      },
+      {
+        "id": "s038",
+        "group": "mixed-medium",
+        "text": "DP7AN9",
+        "sha256": "649d7702b0bdcc6358e09f15c7ce98b51be3ddd0b344404148cef2034fee8dd2"
+      },
+      {
+        "id": "s039",
+        "group": "incumbent-v2-compatible",
+        "text": "4EH5CL",
+        "sha256": "67e7934218d501ecb1216dc9520aec2a9502018a02972a7f42e9a9d2d2073f4c"
+      },
+      {
+        "id": "s040",
+        "group": "mixed-medium",
+        "text": "TVLPJK",
+        "sha256": "61d997913236ee92e13a0bb915d07054cc588fc464973b7d48b5aeca65d62a49"
+      },
+      {
+        "id": "s041",
+        "group": "incumbent-v2-compatible",
+        "text": "52KKW2",
+        "sha256": "15ade4383815a8cfd94ee991496e10efd9bf6ada23d2e7578992e91e39a61fea"
+      },
+      {
+        "id": "s042",
+        "group": "incumbent-v2-compatible",
+        "text": "6ND85W",
+        "sha256": "d7280aa8af9e6d9515cbe65a84d5f34ad9cbe3ddf306f38fe37bcf93d1721d64"
+      },
+      {
+        "id": "s043",
+        "group": "incumbent-v2-compatible",
+        "text": "RWNVYX",
+        "sha256": "039263e99f65e6bdb183901967b210f3fcea3a631d00c1b02c436e56b320511b"
+      },
+      {
+        "id": "s044",
+        "group": "incumbent-v2-compatible",
+        "text": "2PW95N",
+        "sha256": "0adf5ff6a3b68911928609dbacaac7bef286d8deb04166b75a5820c350bd119c"
+      },
+      {
+        "id": "s045",
+        "group": "mixed-medium",
+        "text": "F4CWLE",
+        "sha256": "73bd48d258f4a2c5dd61467d5a9eb1ef8c2736c32d919eea74de794be568a3cc"
+      },
+      {
+        "id": "s046",
+        "group": "mixed-medium",
+        "text": "5K5X6J",
+        "sha256": "64912e2025089e0e2b91b39e504620dc93552a49516ac6b2432e1756182faf54"
+      },
+      {
+        "id": "s047",
+        "group": "incumbent-v2-compatible",
+        "text": "YELWY4",
+        "sha256": "3dfb8ac2482da6b9b58bf09609fa7f16fc9aef26469776f15240e854dd7aafca"
+      },
+      {
+        "id": "s048",
+        "group": "mixed-medium",
+        "text": "4WD86J",
+        "sha256": "9a40739a769a481a909a09538c6cc7f02ee2f85720c4e76154fcc373da76d001"
+      }
+    ]
+  },
+  "method": "Same shuffled images; separate agents with no answer manifest; visual transcription only; no feedback or retries. Exact six-character accuracy, trim and uppercase only. Shared filesystem is instruction-blinded, not access-isolated. Confidence intervals describe these samples, not a security guarantee.",
+  "models": [
+    {
+      "model": "gpt-6-luna",
+      "reasoningEffort": "inherited/default",
+      "predictionsSha256": "85cf50d79348064f6a84949ccbd6e70958695d079b0367c90545d98c15ae6f7e",
+      "groups": [
+        {
+          "group": "mixed-medium",
+          "exact": 0,
+          "total": 24,
+          "exactRate": 0,
+          "exactRateWilson95": [
+            1.3877787807814457e-17,
+            0.13797620467498017
+          ],
+          "matchingPositions": 39,
+          "characters": 144,
+          "positionAccuracy": 0.2708333333333333
+        },
+        {
+          "group": "incumbent-v2-compatible",
+          "exact": 0,
+          "total": 24,
+          "exactRate": 0,
+          "exactRateWilson95": [
+            1.3877787807814457e-17,
+            0.13797620467498017
+          ],
+          "matchingPositions": 80,
+          "characters": 144,
+          "positionAccuracy": 0.5555555555555556
+        }
+      ],
+      "results": [
+        {
+          "id": "s001",
+          "group": "mixed-medium",
+          "text": "WMJCNX",
+          "sha256": "607e599c04c26bb39f62a73465f5350ec11184a58f316187c1ae20b424db60b1",
+          "guess": "XWJRCY",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s002",
+          "group": "mixed-medium",
+          "text": "YYW4FT",
+          "sha256": "be1fe2574eae393d70c82850dcf3890684644826a624f71729317c045ae45bc8",
+          "guess": "YCN4F2",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s003",
+          "group": "incumbent-v2-compatible",
+          "text": "9NVW2R",
+          "sha256": "fd5408aa1405c1cef5da4e14e8dbe1b7bbb6673e7d442e4d98afdd5d5766d379",
+          "guess": "9JNV2R",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s004",
+          "group": "mixed-medium",
+          "text": "P7HJV9",
+          "sha256": "952c06564244cc60ae09da7a8c92fc50f691704f3e25b95b6298a4f286805472",
+          "guess": "P2E3C9",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s005",
+          "group": "mixed-medium",
+          "text": "4N8PCM",
+          "sha256": "0d8a4b31b43369f1854b03c58ad585bd34661dfbe5761ec667c92ced43d4af6d",
+          "guess": "AX8PCY",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s006",
+          "group": "mixed-medium",
+          "text": "2PRP9L",
+          "sha256": "45de367a3b02da7d9af90668c7b43793c68303105ecbd70c0577762e4e9902a1",
+          "guess": "2P3R7J",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s007",
+          "group": "incumbent-v2-compatible",
+          "text": "LT8T7T",
+          "sha256": "d636e2cbd390405529e3b2643eba8352325deb47c9e7e5f179261f17dfdd3b69",
+          "guess": "2Y8T7Y",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s008",
+          "group": "mixed-medium",
+          "text": "J72AJ8",
+          "sha256": "a537aa945842aa0cc74eb4ff6ae72214687eb7aa27ec2baed2d96d70ad7e7e61",
+          "guess": "3N2JY8",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s009",
+          "group": "mixed-medium",
+          "text": "285NAV",
+          "sha256": "d0dd00a5a8e7b916ddf9a0abbffda297edbce6cad3e2a1d279e3213503b728c8",
+          "guess": "289JX2",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s010",
+          "group": "incumbent-v2-compatible",
+          "text": "YEJVEY",
+          "sha256": "add8b4d90d6385e2c053395338780cc44cbb9ca46c0464540f07e6ff358d0a85",
+          "guess": "Y2J7E2",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s011",
+          "group": "mixed-medium",
+          "text": "K9NT53",
+          "sha256": "681dd4154c7b2ec77a28f903afd1500ce6033989ed488b818856a54c04eee630",
+          "guess": "X932P8",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s012",
+          "group": "incumbent-v2-compatible",
+          "text": "9RAK68",
+          "sha256": "a18643a0259eea0d5121ccd5963278dc6e90e04487fe3a8354a59dffd8ff8093",
+          "guess": "9P4K28",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s013",
+          "group": "mixed-medium",
+          "text": "6FP7PH",
+          "sha256": "3ea5811366c1d645c653649c04d8a811c562ba207a1c102c3de9f1e3954cb0f3",
+          "guess": "6X2R8F",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s014",
+          "group": "incumbent-v2-compatible",
+          "text": "96N3HR",
+          "sha256": "24a472c856e05c644f785f9f6fae4cee1c57ae02c7b4bd19e3156b2825b3fef5",
+          "guess": "98N3PR",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s015",
+          "group": "incumbent-v2-compatible",
+          "text": "3KKPFX",
+          "sha256": "6ed79c39cf9e938fbda2da1c32c0135a6a14654bdd7b797b797cdfec2a64d672",
+          "guess": "3XKPFY",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s016",
+          "group": "mixed-medium",
+          "text": "WD5H67",
+          "sha256": "8092d7b348a53c8e8a08a4d393f7017838610b27fad737e99700b5ab91f7d2a0",
+          "guess": "Y9R3C7",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s017",
+          "group": "mixed-medium",
+          "text": "HRJNWY",
+          "sha256": "905c67cef337b43fe1ef4eb2ff555b9f1975b7d155aa7552fd1660be80e11bdf",
+          "guess": "F2KJXY",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s018",
+          "group": "incumbent-v2-compatible",
+          "text": "MDR2XX",
+          "sha256": "70ff3465ae758f3ff75b40175bc54524eb7f84895b430c45937aa25bf900e6e7",
+          "guess": "NDR2XX",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s019",
+          "group": "mixed-medium",
+          "text": "F5CNWT",
+          "sha256": "6412b5574728b5725b76df580deb64b8c0f15043636bd614ebc51e3c6ab527a6",
+          "guess": "F2RNYX",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s020",
+          "group": "mixed-medium",
+          "text": "M84EHN",
+          "sha256": "e3ca35dba8c8588a65e6f5c8dc58f80641ba46c779645faad0f43bc542330757",
+          "guess": "X83F7J",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s021",
+          "group": "incumbent-v2-compatible",
+          "text": "7NXN3K",
+          "sha256": "ccfd9bdd88c8d6f0119628ba8bee00fb9870ea32d9fb9c7b7df78e2756679b4a",
+          "guess": "7NXN2Y",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s022",
+          "group": "incumbent-v2-compatible",
+          "text": "6EWLTF",
+          "sha256": "58ecffef13690f11e4ce89e4bee9458911a0ae8836e1d0d321eaaaa70ac21270",
+          "guess": "6EN7TF",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s023",
+          "group": "incumbent-v2-compatible",
+          "text": "6N5VJ8",
+          "sha256": "3f04cf96fb8131ae8ec841772c1c6a7d17f33ae1074c1364910861c5c197d6ee",
+          "guess": "6K3Y28",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s024",
+          "group": "incumbent-v2-compatible",
+          "text": "88MTFR",
+          "sha256": "3575cd8a3dbf34114a06b58c678a086c8c78c36eddd3b0b846b5ad745a0c1083",
+          "guess": "88N7PR",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s025",
+          "group": "mixed-medium",
+          "text": "VMADFY",
+          "sha256": "f55d4cdf7ff25d9bf51a042d60ae9b656452be0f892085d3ec536355fb17ac6e",
+          "guess": "X2A3P7",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s026",
+          "group": "incumbent-v2-compatible",
+          "text": "RX933C",
+          "sha256": "41e0add02073471c7a464355f618445a7ee7962e0b4023fc148076c481058799",
+          "guess": "RX923C",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s027",
+          "group": "mixed-medium",
+          "text": "A7NWCC",
+          "sha256": "b577bd8f233e2d749c639f9e14df753128a3ec7cce3857ae1c64f9f21a285bd8",
+          "guess": "A2N7C9",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s028",
+          "group": "mixed-medium",
+          "text": "JA6VN5",
+          "sha256": "975d96f65ae688d42f24c83ed7ea1aaa628c6d64bff5f5fae5a348ac18d6a884",
+          "guess": "JA8YJ9",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s029",
+          "group": "mixed-medium",
+          "text": "X3L9VM",
+          "sha256": "2cb22fb1b30733899e6f5e3595a7a0bef732d5478b1849d5434884f99a78b29b",
+          "guess": "28J9Y2",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s030",
+          "group": "mixed-medium",
+          "text": "K5HMKV",
+          "sha256": "66b53faadba7bf0503444838f4d3f48e4aa824745051daa416545d2454a48632",
+          "guess": "3F2N7Y",
+          "exact": false,
+          "matchingPositions": 0
+        },
+        {
+          "id": "s031",
+          "group": "incumbent-v2-compatible",
+          "text": "H2FM56",
+          "sha256": "870d9f3f0f2265fe062c6c8e350915c32c9883067dec36fc91bdf729f938cd51",
+          "guess": "R2F?56",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s032",
+          "group": "incumbent-v2-compatible",
+          "text": "WAY3NR",
+          "sha256": "256971713a7ddd3b47383c61fde2f86aae273677f8810ace36238b1f8d83a130",
+          "guess": "NA73KR",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s033",
+          "group": "incumbent-v2-compatible",
+          "text": "XF9LWW",
+          "sha256": "3574626109031a741f211ddafae4f0f62c20899e04f90e0b3e71063b0afc89d9",
+          "guess": "XF9?NW",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s034",
+          "group": "mixed-medium",
+          "text": "F9WRW5",
+          "sha256": "4c84db89eb247e1a41136e667a8ecb63a0af2c0f86e220191c45f401f836d668",
+          "guess": "A9N7R2",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s035",
+          "group": "incumbent-v2-compatible",
+          "text": "VHPW38",
+          "sha256": "a139676ea13b17f651185bf99b06ddb675f1cc6b9130ca69e0a3d30cce74eb45",
+          "guess": "YF2N38",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s036",
+          "group": "incumbent-v2-compatible",
+          "text": "2LKKLD",
+          "sha256": "27d7d3cb8e2d12d0344f146436922e9db509e17f0556efd7d60b8e7e215e465f",
+          "guess": "2JXK?D",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s037",
+          "group": "incumbent-v2-compatible",
+          "text": "RR2V2L",
+          "sha256": "730c7398062462d32121a5a4f5ed6d6a720460a78ba9b3b553a79a6c8593d3e4",
+          "guess": "PR2Y2?",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s038",
+          "group": "mixed-medium",
+          "text": "DP7AN9",
+          "sha256": "649d7702b0bdcc6358e09f15c7ce98b51be3ddd0b344404148cef2034fee8dd2",
+          "guess": "D8X2N9",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s039",
+          "group": "incumbent-v2-compatible",
+          "text": "4EH5CL",
+          "sha256": "67e7934218d501ecb1216dc9520aec2a9502018a02972a7f42e9a9d2d2073f4c",
+          "guess": "AFH5C?",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s040",
+          "group": "mixed-medium",
+          "text": "TVLPJK",
+          "sha256": "61d997913236ee92e13a0bb915d07054cc588fc464973b7d48b5aeca65d62a49",
+          "guess": "7N2R8X",
+          "exact": false,
+          "matchingPositions": 0
+        },
+        {
+          "id": "s041",
+          "group": "incumbent-v2-compatible",
+          "text": "52KKW2",
+          "sha256": "15ade4383815a8cfd94ee991496e10efd9bf6ada23d2e7578992e91e39a61fea",
+          "guess": "52KXW2",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s042",
+          "group": "incumbent-v2-compatible",
+          "text": "6ND85W",
+          "sha256": "d7280aa8af9e6d9515cbe65a84d5f34ad9cbe3ddf306f38fe37bcf93d1721d64",
+          "guess": "6N?25Y",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s043",
+          "group": "incumbent-v2-compatible",
+          "text": "RWNVYX",
+          "sha256": "039263e99f65e6bdb183901967b210f3fcea3a631d00c1b02c436e56b320511b",
+          "guess": "RN?VYX",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s044",
+          "group": "incumbent-v2-compatible",
+          "text": "2PW95N",
+          "sha256": "0adf5ff6a3b68911928609dbacaac7bef286d8deb04166b75a5820c350bd119c",
+          "guess": "2RN9FJ",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s045",
+          "group": "mixed-medium",
+          "text": "F4CWLE",
+          "sha256": "73bd48d258f4a2c5dd61467d5a9eb1ef8c2736c32d919eea74de794be568a3cc",
+          "guess": "P2C7N8",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s046",
+          "group": "mixed-medium",
+          "text": "5K5X6J",
+          "sha256": "64912e2025089e0e2b91b39e504620dc93552a49516ac6b2432e1756182faf54",
+          "guess": "5A2X9J",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s047",
+          "group": "incumbent-v2-compatible",
+          "text": "YELWY4",
+          "sha256": "3dfb8ac2482da6b9b58bf09609fa7f16fc9aef26469776f15240e854dd7aafca",
+          "guess": "YF2NXY",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s048",
+          "group": "mixed-medium",
+          "text": "4WD86J",
+          "sha256": "9a40739a769a481a909a09538c6cc7f02ee2f85720c4e76154fcc373da76d001",
+          "guess": "4N?P8J",
+          "exact": false,
+          "matchingPositions": 2
+        }
+      ]
+    },
+    {
+      "model": "gpt-6.1-terra",
+      "reasoningEffort": "inherited/default",
+      "predictionsSha256": "e93ca5fabaa005c28cb5f5fd3ead8b2c746d1e5cb6e9b706d243c1438d1092bd",
+      "groups": [
+        {
+          "group": "mixed-medium",
+          "exact": 0,
+          "total": 24,
+          "exactRate": 0,
+          "exactRateWilson95": [
+            1.3877787807814457e-17,
+            0.13797620467498017
+          ],
+          "matchingPositions": 102,
+          "characters": 144,
+          "positionAccuracy": 0.7083333333333334
+        },
+        {
+          "group": "incumbent-v2-compatible",
+          "exact": 16,
+          "total": 24,
+          "exactRate": 0.6666666666666666,
+          "exactRateWilson95": [
+            0.4670631683813174,
+            0.8202780967270225
+          ],
+          "matchingPositions": 134,
+          "characters": 144,
+          "positionAccuracy": 0.9305555555555556
+        }
+      ],
+      "results": [
+        {
+          "id": "s001",
+          "group": "mixed-medium",
+          "text": "WMJCNX",
+          "sha256": "607e599c04c26bb39f62a73465f5350ec11184a58f316187c1ae20b424db60b1",
+          "guess": "WMJC9X",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s002",
+          "group": "mixed-medium",
+          "text": "YYW4FT",
+          "sha256": "be1fe2574eae393d70c82850dcf3890684644826a624f71729317c045ae45bc8",
+          "guess": "YVN4FT",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s003",
+          "group": "incumbent-v2-compatible",
+          "text": "9NVW2R",
+          "sha256": "fd5408aa1405c1cef5da4e14e8dbe1b7bbb6673e7d442e4d98afdd5d5766d379",
+          "guess": "9NVW2R",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s004",
+          "group": "mixed-medium",
+          "text": "P7HJV9",
+          "sha256": "952c06564244cc60ae09da7a8c92fc50f691704f3e25b95b6298a4f286805472",
+          "guess": "P7HLV9",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s005",
+          "group": "mixed-medium",
+          "text": "4N8PCM",
+          "sha256": "0d8a4b31b43369f1854b03c58ad585bd34661dfbe5761ec667c92ced43d4af6d",
+          "guess": "4N8PCW",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s006",
+          "group": "mixed-medium",
+          "text": "2PRP9L",
+          "sha256": "45de367a3b02da7d9af90668c7b43793c68303105ecbd70c0577762e4e9902a1",
+          "guess": "2RRP7L",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s007",
+          "group": "incumbent-v2-compatible",
+          "text": "LT8T7T",
+          "sha256": "d636e2cbd390405529e3b2643eba8352325deb47c9e7e5f179261f17dfdd3b69",
+          "guess": "LY877Y",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s008",
+          "group": "mixed-medium",
+          "text": "J72AJ8",
+          "sha256": "a537aa945842aa0cc74eb4ff6ae72214687eb7aa27ec2baed2d96d70ad7e7e61",
+          "guess": "K72RL8",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s009",
+          "group": "mixed-medium",
+          "text": "285NAV",
+          "sha256": "d0dd00a5a8e7b916ddf9a0abbffda297edbce6cad3e2a1d279e3213503b728c8",
+          "guess": "285NAY",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s010",
+          "group": "incumbent-v2-compatible",
+          "text": "YEJVEY",
+          "sha256": "add8b4d90d6385e2c053395338780cc44cbb9ca46c0464540f07e6ff358d0a85",
+          "guess": "YEJVEY",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s011",
+          "group": "mixed-medium",
+          "text": "K9NT53",
+          "sha256": "681dd4154c7b2ec77a28f903afd1500ce6033989ed488b818856a54c04eee630",
+          "guess": "X9NT58",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s012",
+          "group": "incumbent-v2-compatible",
+          "text": "9RAK68",
+          "sha256": "a18643a0259eea0d5121ccd5963278dc6e90e04487fe3a8354a59dffd8ff8093",
+          "guess": "9RAK68",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s013",
+          "group": "mixed-medium",
+          "text": "6FP7PH",
+          "sha256": "3ea5811366c1d645c653649c04d8a811c562ba207a1c102c3de9f1e3954cb0f3",
+          "guess": "6PR7PH",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s014",
+          "group": "incumbent-v2-compatible",
+          "text": "96N3HR",
+          "sha256": "24a472c856e05c644f785f9f6fae4cee1c57ae02c7b4bd19e3156b2825b3fef5",
+          "guess": "96N3HR",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s015",
+          "group": "incumbent-v2-compatible",
+          "text": "3KKPFX",
+          "sha256": "6ed79c39cf9e938fbda2da1c32c0135a6a14654bdd7b797b797cdfec2a64d672",
+          "guess": "3XKPFX",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s016",
+          "group": "mixed-medium",
+          "text": "WD5H67",
+          "sha256": "8092d7b348a53c8e8a08a4d393f7017838610b27fad737e99700b5ab91f7d2a0",
+          "guess": "WD3H67",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s017",
+          "group": "mixed-medium",
+          "text": "HRJNWY",
+          "sha256": "905c67cef337b43fe1ef4eb2ff555b9f1975b7d155aa7552fd1660be80e11bdf",
+          "guess": "HRJRTY",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s018",
+          "group": "incumbent-v2-compatible",
+          "text": "MDR2XX",
+          "sha256": "70ff3465ae758f3ff75b40175bc54524eb7f84895b430c45937aa25bf900e6e7",
+          "guess": "MDR2XX",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s019",
+          "group": "mixed-medium",
+          "text": "F5CNWT",
+          "sha256": "6412b5574728b5725b76df580deb64b8c0f15043636bd614ebc51e3c6ab527a6",
+          "guess": "E5CNWT",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s020",
+          "group": "mixed-medium",
+          "text": "M84EHN",
+          "sha256": "e3ca35dba8c8588a65e6f5c8dc58f80641ba46c779645faad0f43bc542330757",
+          "guess": "M84ENL",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s021",
+          "group": "incumbent-v2-compatible",
+          "text": "7NXN3K",
+          "sha256": "ccfd9bdd88c8d6f0119628ba8bee00fb9870ea32d9fb9c7b7df78e2756679b4a",
+          "guess": "7NXN3Y",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s022",
+          "group": "incumbent-v2-compatible",
+          "text": "6EWLTF",
+          "sha256": "58ecffef13690f11e4ce89e4bee9458911a0ae8836e1d0d321eaaaa70ac21270",
+          "guess": "6EWLTF",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s023",
+          "group": "incumbent-v2-compatible",
+          "text": "6N5VJ8",
+          "sha256": "3f04cf96fb8131ae8ec841772c1c6a7d17f33ae1074c1364910861c5c197d6ee",
+          "guess": "6N5VJ8",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s024",
+          "group": "incumbent-v2-compatible",
+          "text": "88MTFR",
+          "sha256": "3575cd8a3dbf34114a06b58c678a086c8c78c36eddd3b0b846b5ad745a0c1083",
+          "guess": "88MYFR",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s025",
+          "group": "mixed-medium",
+          "text": "VMADFY",
+          "sha256": "f55d4cdf7ff25d9bf51a042d60ae9b656452be0f892085d3ec536355fb17ac6e",
+          "guess": "WHADFY",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s026",
+          "group": "incumbent-v2-compatible",
+          "text": "RX933C",
+          "sha256": "41e0add02073471c7a464355f618445a7ee7962e0b4023fc148076c481058799",
+          "guess": "RX933C",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s027",
+          "group": "mixed-medium",
+          "text": "A7NWCC",
+          "sha256": "b577bd8f233e2d749c639f9e14df753128a3ec7cce3857ae1c64f9f21a285bd8",
+          "guess": "RTNWCC",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s028",
+          "group": "mixed-medium",
+          "text": "JA6VN5",
+          "sha256": "975d96f65ae688d42f24c83ed7ea1aaa628c6d64bff5f5fae5a348ac18d6a884",
+          "guess": "JA8VN5",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s029",
+          "group": "mixed-medium",
+          "text": "X3L9VM",
+          "sha256": "2cb22fb1b30733899e6f5e3595a7a0bef732d5478b1849d5434884f99a78b29b",
+          "guess": "K8L9YM",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s030",
+          "group": "mixed-medium",
+          "text": "K5HMKV",
+          "sha256": "66b53faadba7bf0503444838f4d3f48e4aa824745051daa416545d2454a48632",
+          "guess": "E5HMXV",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s031",
+          "group": "incumbent-v2-compatible",
+          "text": "H2FM56",
+          "sha256": "870d9f3f0f2265fe062c6c8e350915c32c9883067dec36fc91bdf729f938cd51",
+          "guess": "K2FM56",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s032",
+          "group": "incumbent-v2-compatible",
+          "text": "WAY3NR",
+          "sha256": "256971713a7ddd3b47383c61fde2f86aae273677f8810ace36238b1f8d83a130",
+          "guess": "WAY3NR",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s033",
+          "group": "incumbent-v2-compatible",
+          "text": "XF9LWW",
+          "sha256": "3574626109031a741f211ddafae4f0f62c20899e04f90e0b3e71063b0afc89d9",
+          "guess": "XF9LWW",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s034",
+          "group": "mixed-medium",
+          "text": "F9WRW5",
+          "sha256": "4c84db89eb247e1a41136e667a8ecb63a0af2c0f86e220191c45f401f836d668",
+          "guess": "F9NR75",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s035",
+          "group": "incumbent-v2-compatible",
+          "text": "VHPW38",
+          "sha256": "a139676ea13b17f651185bf99b06ddb675f1cc6b9130ca69e0a3d30cce74eb45",
+          "guess": "VKPW38",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s036",
+          "group": "incumbent-v2-compatible",
+          "text": "2LKKLD",
+          "sha256": "27d7d3cb8e2d12d0344f146436922e9db509e17f0556efd7d60b8e7e215e465f",
+          "guess": "2LXKLD",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s037",
+          "group": "incumbent-v2-compatible",
+          "text": "RR2V2L",
+          "sha256": "730c7398062462d32121a5a4f5ed6d6a720460a78ba9b3b553a79a6c8593d3e4",
+          "guess": "RR2V2L",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s038",
+          "group": "mixed-medium",
+          "text": "DP7AN9",
+          "sha256": "649d7702b0bdcc6358e09f15c7ce98b51be3ddd0b344404148cef2034fee8dd2",
+          "guess": "DR7AN9",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s039",
+          "group": "incumbent-v2-compatible",
+          "text": "4EH5CL",
+          "sha256": "67e7934218d501ecb1216dc9520aec2a9502018a02972a7f42e9a9d2d2073f4c",
+          "guess": "4EH5CL",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s040",
+          "group": "mixed-medium",
+          "text": "TVLPJK",
+          "sha256": "61d997913236ee92e13a0bb915d07054cc588fc464973b7d48b5aeca65d62a49",
+          "guess": "TVLPJX",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s041",
+          "group": "incumbent-v2-compatible",
+          "text": "52KKW2",
+          "sha256": "15ade4383815a8cfd94ee991496e10efd9bf6ada23d2e7578992e91e39a61fea",
+          "guess": "52KXW2",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s042",
+          "group": "incumbent-v2-compatible",
+          "text": "6ND85W",
+          "sha256": "d7280aa8af9e6d9515cbe65a84d5f34ad9cbe3ddf306f38fe37bcf93d1721d64",
+          "guess": "6ND85W",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s043",
+          "group": "incumbent-v2-compatible",
+          "text": "RWNVYX",
+          "sha256": "039263e99f65e6bdb183901967b210f3fcea3a631d00c1b02c436e56b320511b",
+          "guess": "RWNVYX",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s044",
+          "group": "incumbent-v2-compatible",
+          "text": "2PW95N",
+          "sha256": "0adf5ff6a3b68911928609dbacaac7bef286d8deb04166b75a5820c350bd119c",
+          "guess": "2PW95N",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s045",
+          "group": "mixed-medium",
+          "text": "F4CWLE",
+          "sha256": "73bd48d258f4a2c5dd61467d5a9eb1ef8c2736c32d919eea74de794be568a3cc",
+          "guess": "RACWL8",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s046",
+          "group": "mixed-medium",
+          "text": "5K5X6J",
+          "sha256": "64912e2025089e0e2b91b39e504620dc93552a49516ac6b2432e1756182faf54",
+          "guess": "5F2X6J",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s047",
+          "group": "incumbent-v2-compatible",
+          "text": "YELWY4",
+          "sha256": "3dfb8ac2482da6b9b58bf09609fa7f16fc9aef26469776f15240e854dd7aafca",
+          "guess": "YELWY4",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s048",
+          "group": "mixed-medium",
+          "text": "4WD86J",
+          "sha256": "9a40739a769a481a909a09538c6cc7f02ee2f85720c4e76154fcc373da76d001",
+          "guess": "4WD38J",
+          "exact": false,
+          "matchingPositions": 4
+        }
+      ]
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "reasoningEffort": "inherited/default",
+      "predictionsSha256": "7ee72549fcc559d7d7569332828d513eb9b36a45c0ec4787b5499c2807ef9bf5",
+      "groups": [
+        {
+          "group": "mixed-medium",
+          "exact": 4,
+          "total": 24,
+          "exactRate": 0.16666666666666666,
+          "exactRateWilson95": [
+            0.06678676328632951,
+            0.3585307064969906
+          ],
+          "matchingPositions": 106,
+          "characters": 144,
+          "positionAccuracy": 0.7361111111111112
+        },
+        {
+          "group": "incumbent-v2-compatible",
+          "exact": 14,
+          "total": 24,
+          "exactRate": 0.5833333333333334,
+          "exactRateWilson95": [
+            0.3883466586522876,
+            0.7553239739018824
+          ],
+          "matchingPositions": 133,
+          "characters": 144,
+          "positionAccuracy": 0.9236111111111112
+        }
+      ],
+      "results": [
+        {
+          "id": "s001",
+          "group": "mixed-medium",
+          "text": "WMJCNX",
+          "sha256": "607e599c04c26bb39f62a73465f5350ec11184a58f316187c1ae20b424db60b1",
+          "guess": "WNJCHX",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s002",
+          "group": "mixed-medium",
+          "text": "YYW4FT",
+          "sha256": "be1fe2574eae393d70c82850dcf3890684644826a624f71729317c045ae45bc8",
+          "guess": "YVH4FT",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s003",
+          "group": "incumbent-v2-compatible",
+          "text": "9NVW2R",
+          "sha256": "fd5408aa1405c1cef5da4e14e8dbe1b7bbb6673e7d442e4d98afdd5d5766d379",
+          "guess": "9NVW2R",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s004",
+          "group": "mixed-medium",
+          "text": "P7HJV9",
+          "sha256": "952c06564244cc60ae09da7a8c92fc50f691704f3e25b95b6298a4f286805472",
+          "guess": "P7HLV9",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s005",
+          "group": "mixed-medium",
+          "text": "4N8PCM",
+          "sha256": "0d8a4b31b43369f1854b03c58ad585bd34661dfbe5761ec667c92ced43d4af6d",
+          "guess": "AN8PCW",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s006",
+          "group": "mixed-medium",
+          "text": "2PRP9L",
+          "sha256": "45de367a3b02da7d9af90668c7b43793c68303105ecbd70c0577762e4e9902a1",
+          "guess": "2DPP9L",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s007",
+          "group": "incumbent-v2-compatible",
+          "text": "LT8T7T",
+          "sha256": "d636e2cbd390405529e3b2643eba8352325deb47c9e7e5f179261f17dfdd3b69",
+          "guess": "LT8T7Y",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s008",
+          "group": "mixed-medium",
+          "text": "J72AJ8",
+          "sha256": "a537aa945842aa0cc74eb4ff6ae72214687eb7aa27ec2baed2d96d70ad7e7e61",
+          "guess": "J72RJ8",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s009",
+          "group": "mixed-medium",
+          "text": "285NAV",
+          "sha256": "d0dd00a5a8e7b916ddf9a0abbffda297edbce6cad3e2a1d279e3213503b728c8",
+          "guess": "285KAY",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s010",
+          "group": "incumbent-v2-compatible",
+          "text": "YEJVEY",
+          "sha256": "add8b4d90d6385e2c053395338780cc44cbb9ca46c0464540f07e6ff358d0a85",
+          "guess": "YEJVEY",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s011",
+          "group": "mixed-medium",
+          "text": "K9NT53",
+          "sha256": "681dd4154c7b2ec77a28f903afd1500ce6033989ed488b818856a54c04eee630",
+          "guess": "X9N758",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s012",
+          "group": "incumbent-v2-compatible",
+          "text": "9RAK68",
+          "sha256": "a18643a0259eea0d5121ccd5963278dc6e90e04487fe3a8354a59dffd8ff8093",
+          "guess": "9RAK68",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s013",
+          "group": "mixed-medium",
+          "text": "6FP7PH",
+          "sha256": "3ea5811366c1d645c653649c04d8a811c562ba207a1c102c3de9f1e3954cb0f3",
+          "guess": "6FRYPH",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s014",
+          "group": "incumbent-v2-compatible",
+          "text": "96N3HR",
+          "sha256": "24a472c856e05c644f785f9f6fae4cee1c57ae02c7b4bd19e3156b2825b3fef5",
+          "guess": "96N3HR",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s015",
+          "group": "incumbent-v2-compatible",
+          "text": "3KKPFX",
+          "sha256": "6ed79c39cf9e938fbda2da1c32c0135a6a14654bdd7b797b797cdfec2a64d672",
+          "guess": "3XKPFX",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s016",
+          "group": "mixed-medium",
+          "text": "WD5H67",
+          "sha256": "8092d7b348a53c8e8a08a4d393f7017838610b27fad737e99700b5ab91f7d2a0",
+          "guess": "WD5H67",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s017",
+          "group": "mixed-medium",
+          "text": "HRJNWY",
+          "sha256": "905c67cef337b43fe1ef4eb2ff555b9f1975b7d155aa7552fd1660be80e11bdf",
+          "guess": "HRLHWV",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s018",
+          "group": "incumbent-v2-compatible",
+          "text": "MDR2XX",
+          "sha256": "70ff3465ae758f3ff75b40175bc54524eb7f84895b430c45937aa25bf900e6e7",
+          "guess": "MDR2XX",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s019",
+          "group": "mixed-medium",
+          "text": "F5CNWT",
+          "sha256": "6412b5574728b5725b76df580deb64b8c0f15043636bd614ebc51e3c6ab527a6",
+          "guess": "E5CNWY",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s020",
+          "group": "mixed-medium",
+          "text": "M84EHN",
+          "sha256": "e3ca35dba8c8588a65e6f5c8dc58f80641ba46c779645faad0f43bc542330757",
+          "guess": "M84EHN",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s021",
+          "group": "incumbent-v2-compatible",
+          "text": "7NXN3K",
+          "sha256": "ccfd9bdd88c8d6f0119628ba8bee00fb9870ea32d9fb9c7b7df78e2756679b4a",
+          "guess": "7NXN3Y",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s022",
+          "group": "incumbent-v2-compatible",
+          "text": "6EWLTF",
+          "sha256": "58ecffef13690f11e4ce89e4bee9458911a0ae8836e1d0d321eaaaa70ac21270",
+          "guess": "6EWLYF",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s023",
+          "group": "incumbent-v2-compatible",
+          "text": "6N5VJ8",
+          "sha256": "3f04cf96fb8131ae8ec841772c1c6a7d17f33ae1074c1364910861c5c197d6ee",
+          "guess": "6N5VJ8",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s024",
+          "group": "incumbent-v2-compatible",
+          "text": "88MTFR",
+          "sha256": "3575cd8a3dbf34114a06b58c678a086c8c78c36eddd3b0b846b5ad745a0c1083",
+          "guess": "88MYYR",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s025",
+          "group": "mixed-medium",
+          "text": "VMADFY",
+          "sha256": "f55d4cdf7ff25d9bf51a042d60ae9b656452be0f892085d3ec536355fb17ac6e",
+          "guess": "VNADFV",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s026",
+          "group": "incumbent-v2-compatible",
+          "text": "RX933C",
+          "sha256": "41e0add02073471c7a464355f618445a7ee7962e0b4023fc148076c481058799",
+          "guess": "RX933C",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s027",
+          "group": "mixed-medium",
+          "text": "A7NWCC",
+          "sha256": "b577bd8f233e2d749c639f9e14df753128a3ec7cce3857ae1c64f9f21a285bd8",
+          "guess": "KTHWCC",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s028",
+          "group": "mixed-medium",
+          "text": "JA6VN5",
+          "sha256": "975d96f65ae688d42f24c83ed7ea1aaa628c6d64bff5f5fae5a348ac18d6a884",
+          "guess": "JA8VY5",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s029",
+          "group": "mixed-medium",
+          "text": "X3L9VM",
+          "sha256": "2cb22fb1b30733899e6f5e3595a7a0bef732d5478b1849d5434884f99a78b29b",
+          "guess": "X2L9YM",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s030",
+          "group": "mixed-medium",
+          "text": "K5HMKV",
+          "sha256": "66b53faadba7bf0503444838f4d3f48e4aa824745051daa416545d2454a48632",
+          "guess": "E5HMXV",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s031",
+          "group": "incumbent-v2-compatible",
+          "text": "H2FM56",
+          "sha256": "870d9f3f0f2265fe062c6c8e350915c32c9883067dec36fc91bdf729f938cd51",
+          "guess": "K2FM56",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s032",
+          "group": "incumbent-v2-compatible",
+          "text": "WAY3NR",
+          "sha256": "256971713a7ddd3b47383c61fde2f86aae273677f8810ace36238b1f8d83a130",
+          "guess": "WAY3NR",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s033",
+          "group": "incumbent-v2-compatible",
+          "text": "XF9LWW",
+          "sha256": "3574626109031a741f211ddafae4f0f62c20899e04f90e0b3e71063b0afc89d9",
+          "guess": "XF9LWW",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s034",
+          "group": "mixed-medium",
+          "text": "F9WRW5",
+          "sha256": "4c84db89eb247e1a41136e667a8ecb63a0af2c0f86e220191c45f401f836d668",
+          "guess": "F9WRW5",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s035",
+          "group": "incumbent-v2-compatible",
+          "text": "VHPW38",
+          "sha256": "a139676ea13b17f651185bf99b06ddb675f1cc6b9130ca69e0a3d30cce74eb45",
+          "guess": "VHPW38",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s036",
+          "group": "incumbent-v2-compatible",
+          "text": "2LKKLD",
+          "sha256": "27d7d3cb8e2d12d0344f146436922e9db509e17f0556efd7d60b8e7e215e465f",
+          "guess": "2LXKLD",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s037",
+          "group": "incumbent-v2-compatible",
+          "text": "RR2V2L",
+          "sha256": "730c7398062462d32121a5a4f5ed6d6a720460a78ba9b3b553a79a6c8593d3e4",
+          "guess": "RR2V2L",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s038",
+          "group": "mixed-medium",
+          "text": "DP7AN9",
+          "sha256": "649d7702b0bdcc6358e09f15c7ce98b51be3ddd0b344404148cef2034fee8dd2",
+          "guess": "D87AN9",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s039",
+          "group": "incumbent-v2-compatible",
+          "text": "4EH5CL",
+          "sha256": "67e7934218d501ecb1216dc9520aec2a9502018a02972a7f42e9a9d2d2073f4c",
+          "guess": "AEH5CL",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s040",
+          "group": "mixed-medium",
+          "text": "TVLPJK",
+          "sha256": "61d997913236ee92e13a0bb915d07054cc588fc464973b7d48b5aeca65d62a49",
+          "guess": "TVLPJX",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s041",
+          "group": "incumbent-v2-compatible",
+          "text": "52KKW2",
+          "sha256": "15ade4383815a8cfd94ee991496e10efd9bf6ada23d2e7578992e91e39a61fea",
+          "guess": "52KXW2",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s042",
+          "group": "incumbent-v2-compatible",
+          "text": "6ND85W",
+          "sha256": "d7280aa8af9e6d9515cbe65a84d5f34ad9cbe3ddf306f38fe37bcf93d1721d64",
+          "guess": "6ND85W",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s043",
+          "group": "incumbent-v2-compatible",
+          "text": "RWNVYX",
+          "sha256": "039263e99f65e6bdb183901967b210f3fcea3a631d00c1b02c436e56b320511b",
+          "guess": "RWNVYX",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s044",
+          "group": "incumbent-v2-compatible",
+          "text": "2PW95N",
+          "sha256": "0adf5ff6a3b68911928609dbacaac7bef286d8deb04166b75a5820c350bd119c",
+          "guess": "2PW95N",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s045",
+          "group": "mixed-medium",
+          "text": "F4CWLE",
+          "sha256": "73bd48d258f4a2c5dd61467d5a9eb1ef8c2736c32d919eea74de794be568a3cc",
+          "guess": "FACRLE",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s046",
+          "group": "mixed-medium",
+          "text": "5K5X6J",
+          "sha256": "64912e2025089e0e2b91b39e504620dc93552a49516ac6b2432e1756182faf54",
+          "guess": "5K5X6J",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s047",
+          "group": "incumbent-v2-compatible",
+          "text": "YELWY4",
+          "sha256": "3dfb8ac2482da6b9b58bf09609fa7f16fc9aef26469776f15240e854dd7aafca",
+          "guess": "YELWYA",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s048",
+          "group": "mixed-medium",
+          "text": "4WD86J",
+          "sha256": "9a40739a769a481a909a09538c6cc7f02ee2f85720c4e76154fcc373da76d001",
+          "guess": "4WD88J",
+          "exact": false,
+          "matchingPositions": 5
+        }
+      ]
+    }
+  ]
+}

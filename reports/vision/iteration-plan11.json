@@ -1,0 +1,48 @@
+{
+  "round": "constant-glyph-size-six-vs-eight",
+  "countPerGroup": 12,
+  "options": {
+    "size": 6,
+    "width": 210,
+    "height": 68,
+    "fontSize": 52,
+    "noise": 3,
+    "charPreset": "23456789ACDEFHJKLMNPRTVWXY",
+    "interference": "beaded",
+    "interferenceDensity": 1
+  },
+  "groups": [
+    {
+      "name": "six-shared",
+      "module": ".",
+      "options": {
+        "palette": "shared"
+      }
+    },
+    {
+      "name": "six-per-glyph",
+      "module": ".",
+      "options": {
+        "palette": "per-glyph"
+      }
+    },
+    {
+      "name": "eight-shared",
+      "module": ".",
+      "options": {
+        "size": 8,
+        "width": 280,
+        "palette": "shared"
+      }
+    },
+    {
+      "name": "eight-per-glyph",
+      "module": ".",
+      "options": {
+        "size": 8,
+        "width": 280,
+        "palette": "per-glyph"
+      }
+    }
+  ]
+}

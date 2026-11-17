@@ -1,0 +1,828 @@
+{
+  "createdAt": "2026-11-16T19:56:17.521Z",
+  "manifest": {
+    "createdAt": "2026-11-16T19:46:51.633Z",
+    "round": "individual-image-4x-robustness",
+    "groups": [
+      {
+        "name": "incumbent-v2-compatible",
+        "sourceSha256": "c014c382cb23bf218c26be10ecac170e33b032a224905e6e2cd39254da4cf401",
+        "options": {
+          "size": 6,
+          "width": 210,
+          "height": 68,
+          "fontSize": 52,
+          "noise": 3,
+          "charPreset": "23456789ACDEFHJKLMNPRTVWXY",
+          "interference": "none"
+        },
+        "count": 6
+      },
+      {
+        "name": "mixed-medium",
+        "sourceSha256": "c014c382cb23bf218c26be10ecac170e33b032a224905e6e2cd39254da4cf401",
+        "options": {
+          "size": 6,
+          "width": 210,
+          "height": 68,
+          "fontSize": 52,
+          "noise": 3,
+          "charPreset": "23456789ACDEFHJKLMNPRTVWXY",
+          "interference": "mixed",
+          "interferenceDensity": 1
+        },
+        "count": 12
+      }
+    ],
+    "samples": [
+      {
+        "id": "s001",
+        "group": "mixed-medium",
+        "text": "6FYWTM",
+        "sha256": "7bde9c2f5dde37b27f837993719884d491b1308ce644207c812b7118a761cde2"
+      },
+      {
+        "id": "s002",
+        "group": "incumbent-v2-compatible",
+        "text": "5Y7V62",
+        "sha256": "5d43d70dcccfa9d5eca1c0c189633bbc7d93c2b8d930d27b7d728c7f1a1f0c1c"
+      },
+      {
+        "id": "s003",
+        "group": "mixed-medium",
+        "text": "MKVVWH",
+        "sha256": "25ef56d2258c8699b2cc06b55cbf2fca58057fb01986839c6c9678c74e92dd9f"
+      },
+      {
+        "id": "s004",
+        "group": "mixed-medium",
+        "text": "CFTMC2",
+        "sha256": "7ae77f889d4d0493543ffd8c605baf062aa2256a0cd68b43fbe8f9ed61de9a03"
+      },
+      {
+        "id": "s005",
+        "group": "mixed-medium",
+        "text": "CTPP4D",
+        "sha256": "6f2aad47fc4a80a24da7d407cae6785dda4fa10e9df3e90f21dbba5a67d5c706"
+      },
+      {
+        "id": "s006",
+        "group": "incumbent-v2-compatible",
+        "text": "XYEL54",
+        "sha256": "716b78eee34d631806bda5106f549fdc89a4ec6094660605db612884ff8576e4"
+      },
+      {
+        "id": "s007",
+        "group": "mixed-medium",
+        "text": "MYRYHH",
+        "sha256": "8389bcae7f56dc1534bc9edd40c69a5cab14b2636e82848dd1178588df5ad841"
+      },
+      {
+        "id": "s008",
+        "group": "incumbent-v2-compatible",
+        "text": "HLNH4F",
+        "sha256": "65dc46ecdd5e0eb35e0ad7157d3bb193db7901cf7a9b05e23d73431e5dd31f2a"
+      },
+      {
+        "id": "s009",
+        "group": "mixed-medium",
+        "text": "CK8V3F",
+        "sha256": "3f5ee9d8dc40d3754efce6b12eb4021d2cba3c2848f10d8c3c3476d8a63eaff4"
+      },
+      {
+        "id": "s010",
+        "group": "incumbent-v2-compatible",
+        "text": "2XVJFH",
+        "sha256": "1030660139ab5eb53580dec6d48eb861e53b49343fd9635c5ac59ece261de778"
+      },
+      {
+        "id": "s011",
+        "group": "mixed-medium",
+        "text": "T25XML",
+        "sha256": "9384505a775cbf61c3436d33fd1d253cabfae2bbc5cbe878272b3b8d764ae810"
+      },
+      {
+        "id": "s012",
+        "group": "incumbent-v2-compatible",
+        "text": "D9LWJ8",
+        "sha256": "91d97ae6a096e350a82a315e86b3af72e1c772a2394d01962af19fd9c9fcddf2"
+      },
+      {
+        "id": "s013",
+        "group": "mixed-medium",
+        "text": "2Y252Y",
+        "sha256": "308805a214bad2bafe18cfdf6f76dedb460a59ee4e846e56a26fb1db5fc9ff6e"
+      },
+      {
+        "id": "s014",
+        "group": "incumbent-v2-compatible",
+        "text": "7NC5VJ",
+        "sha256": "75426d15aafe2b8080beb43b76e0e898ebd4969b77b674f90a2aef2f0ea1db62"
+      },
+      {
+        "id": "s015",
+        "group": "mixed-medium",
+        "text": "6VV5DC",
+        "sha256": "5245edfb6f8ba4e76f9b07e3a555053466052875ccc86ae63eb4d94949c65882"
+      },
+      {
+        "id": "s016",
+        "group": "mixed-medium",
+        "text": "6VX995",
+        "sha256": "7c15771c24c05674db64d31e2362f3d55d1634b058218409a305894fce859998"
+      },
+      {
+        "id": "s017",
+        "group": "mixed-medium",
+        "text": "AVWV3J",
+        "sha256": "caa33b4831893db615482859c6868eb0aeb7317717a7d5081d7d15a310f89921"
+      },
+      {
+        "id": "s018",
+        "group": "mixed-medium",
+        "text": "WDLJ36",
+        "sha256": "0b60acb56ebeca0af9b879eceffb2b02ff2b3377065893690d6180d31d15c370"
+      }
+    ]
+  },
+  "method": "Same shuffled images; separate agents with no answer manifest; visual transcription only; no feedback or retries. Exact six-character accuracy, trim and uppercase only. Shared filesystem is instruction-blinded, not access-isolated. Confidence intervals describe these samples, not a security guarantee.",
+  "models": [
+    {
+      "model": "gpt-6-luna",
+      "reasoningEffort": "inherited/default",
+      "predictionsSha256": "b94d3892221d635f9733969700278cc20514a3be96298d63627cf81bd37e528c",
+      "groups": [
+        {
+          "group": "mixed-medium",
+          "exact": 0,
+          "total": 12,
+          "exactRate": 0,
+          "exactRateWilson95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ],
+          "matchingPositions": 15,
+          "characters": 72,
+          "positionAccuracy": 0.20833333333333334
+        },
+        {
+          "group": "incumbent-v2-compatible",
+          "exact": 2,
+          "total": 6,
+          "exactRate": 0.3333333333333333,
+          "exactRateWilson95": [
+            0.09677141110578041,
+            0.700006684861608
+          ],
+          "matchingPositions": 26,
+          "characters": 36,
+          "positionAccuracy": 0.7222222222222222
+        }
+      ],
+      "results": [
+        {
+          "id": "s001",
+          "group": "mixed-medium",
+          "text": "6FYWTM",
+          "sha256": "7bde9c2f5dde37b27f837993719884d491b1308ce644207c812b7118a761cde2",
+          "guess": "8F7V6N",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s002",
+          "group": "incumbent-v2-compatible",
+          "text": "5Y7V62",
+          "sha256": "5d43d70dcccfa9d5eca1c0c189633bbc7d93c2b8d930d27b7d728c7f1a1f0c1c",
+          "guess": "5Y7V62",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s003",
+          "group": "mixed-medium",
+          "text": "MKVVWH",
+          "sha256": "25ef56d2258c8699b2cc06b55cbf2fca58057fb01986839c6c9678c74e92dd9f",
+          "guess": "N2YV4H",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s004",
+          "group": "mixed-medium",
+          "text": "CFTMC2",
+          "sha256": "7ae77f889d4d0493543ffd8c605baf062aa2256a0cd68b43fbe8f9ed61de9a03",
+          "guess": "C5F4NZ",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s005",
+          "group": "mixed-medium",
+          "text": "CTPP4D",
+          "sha256": "6f2aad47fc4a80a24da7d407cae6785dda4fa10e9df3e90f21dbba5a67d5c706",
+          "guess": "C6N8D9",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s006",
+          "group": "incumbent-v2-compatible",
+          "text": "XYEL54",
+          "sha256": "716b78eee34d631806bda5106f549fdc89a4ec6094660605db612884ff8576e4",
+          "guess": "XYEL54",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s007",
+          "group": "mixed-medium",
+          "text": "MYRYHH",
+          "sha256": "8389bcae7f56dc1534bc9edd40c69a5cab14b2636e82848dd1178588df5ad841",
+          "guess": "N7F9H4",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s008",
+          "group": "incumbent-v2-compatible",
+          "text": "HLNH4F",
+          "sha256": "65dc46ecdd5e0eb35e0ad7157d3bb193db7901cf7a9b05e23d73431e5dd31f2a",
+          "guess": "HLN4E3",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s009",
+          "group": "mixed-medium",
+          "text": "CK8V3F",
+          "sha256": "3f5ee9d8dc40d3754efce6b12eb4021d2cba3c2848f10d8c3c3476d8a63eaff4",
+          "guess": "C4H8V2",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s010",
+          "group": "incumbent-v2-compatible",
+          "text": "2XVJFH",
+          "sha256": "1030660139ab5eb53580dec6d48eb861e53b49343fd9635c5ac59ece261de778",
+          "guess": "2XVLE4",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s011",
+          "group": "mixed-medium",
+          "text": "T25XML",
+          "sha256": "9384505a775cbf61c3436d33fd1d253cabfae2bbc5cbe878272b3b8d764ae810",
+          "guess": "F2H7N3",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s012",
+          "group": "incumbent-v2-compatible",
+          "text": "D9LWJ8",
+          "sha256": "91d97ae6a096e350a82a315e86b3af72e1c772a2394d01962af19fd9c9fcddf2",
+          "guess": "D9VNH8",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s013",
+          "group": "mixed-medium",
+          "text": "2Y252Y",
+          "sha256": "308805a214bad2bafe18cfdf6f76dedb460a59ee4e846e56a26fb1db5fc9ff6e",
+          "guess": "8V2E7Y",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s014",
+          "group": "incumbent-v2-compatible",
+          "text": "7NC5VJ",
+          "sha256": "75426d15aafe2b8080beb43b76e0e898ebd4969b77b674f90a2aef2f0ea1db62",
+          "guess": "7NC5VL",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s015",
+          "group": "mixed-medium",
+          "text": "6VV5DC",
+          "sha256": "5245edfb6f8ba4e76f9b07e3a555053466052875ccc86ae63eb4d94949c65882",
+          "guess": "6N7V5D",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s016",
+          "group": "mixed-medium",
+          "text": "6VX995",
+          "sha256": "7c15771c24c05674db64d31e2362f3d55d1634b058218409a305894fce859998",
+          "guess": "6VY9N3",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s017",
+          "group": "mixed-medium",
+          "text": "AVWV3J",
+          "sha256": "caa33b4831893db615482859c6868eb0aeb7317717a7d5081d7d15a310f89921",
+          "guess": "4N7F9J",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s018",
+          "group": "mixed-medium",
+          "text": "WDLJ36",
+          "sha256": "0b60acb56ebeca0af9b879eceffb2b02ff2b3377065893690d6180d31d15c370",
+          "guess": "N4H7V8",
+          "exact": false,
+          "matchingPositions": 0
+        }
+      ]
+    },
+    {
+      "model": "gpt-6.1-terra",
+      "reasoningEffort": "inherited/default",
+      "predictionsSha256": "d647f8a176916f3716d3bceabd973821b4124ecd68291d91174c8bae48fecdbc",
+      "groups": [
+        {
+          "group": "mixed-medium",
+          "exact": 1,
+          "total": 12,
+          "exactRate": 0.08333333333333333,
+          "exactRateWilson95": [
+            0.014865094404917095,
+            0.35387991114111694
+          ],
+          "matchingPositions": 46,
+          "characters": 72,
+          "positionAccuracy": 0.6388888888888888
+        },
+        {
+          "group": "incumbent-v2-compatible",
+          "exact": 6,
+          "total": 6,
+          "exactRate": 1,
+          "exactRateWilson95": [
+            0.6096657120978346,
+            1
+          ],
+          "matchingPositions": 36,
+          "characters": 36,
+          "positionAccuracy": 1
+        }
+      ],
+      "results": [
+        {
+          "id": "s001",
+          "group": "mixed-medium",
+          "text": "6FYWTM",
+          "sha256": "7bde9c2f5dde37b27f837993719884d491b1308ce644207c812b7118a761cde2",
+          "guess": "6FJHPM",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s002",
+          "group": "incumbent-v2-compatible",
+          "text": "5Y7V62",
+          "sha256": "5d43d70dcccfa9d5eca1c0c189633bbc7d93c2b8d930d27b7d728c7f1a1f0c1c",
+          "guess": "5Y7V62",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s003",
+          "group": "mixed-medium",
+          "text": "MKVVWH",
+          "sha256": "25ef56d2258c8699b2cc06b55cbf2fca58057fb01986839c6c9678c74e92dd9f",
+          "guess": "MRVJWH",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s004",
+          "group": "mixed-medium",
+          "text": "CFTMC2",
+          "sha256": "7ae77f889d4d0493543ffd8c605baf062aa2256a0cd68b43fbe8f9ed61de9a03",
+          "guess": "CFTAC2",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s005",
+          "group": "mixed-medium",
+          "text": "CTPP4D",
+          "sha256": "6f2aad47fc4a80a24da7d407cae6785dda4fa10e9df3e90f21dbba5a67d5c706",
+          "guess": "CCRPPD",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s006",
+          "group": "incumbent-v2-compatible",
+          "text": "XYEL54",
+          "sha256": "716b78eee34d631806bda5106f549fdc89a4ec6094660605db612884ff8576e4",
+          "guess": "XYEL54",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s007",
+          "group": "mixed-medium",
+          "text": "MYRYHH",
+          "sha256": "8389bcae7f56dc1534bc9edd40c69a5cab14b2636e82848dd1178588df5ad841",
+          "guess": "MFRTHH",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s008",
+          "group": "incumbent-v2-compatible",
+          "text": "HLNH4F",
+          "sha256": "65dc46ecdd5e0eb35e0ad7157d3bb193db7901cf7a9b05e23d73431e5dd31f2a",
+          "guess": "HLNH4F",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s009",
+          "group": "mixed-medium",
+          "text": "CK8V3F",
+          "sha256": "3f5ee9d8dc40d3754efce6b12eb4021d2cba3c2848f10d8c3c3476d8a63eaff4",
+          "guess": "CXEJ3F",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s010",
+          "group": "incumbent-v2-compatible",
+          "text": "2XVJFH",
+          "sha256": "1030660139ab5eb53580dec6d48eb861e53b49343fd9635c5ac59ece261de778",
+          "guess": "2XVJFH",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s011",
+          "group": "mixed-medium",
+          "text": "T25XML",
+          "sha256": "9384505a775cbf61c3436d33fd1d253cabfae2bbc5cbe878272b3b8d764ae810",
+          "guess": "T23FAL",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s012",
+          "group": "incumbent-v2-compatible",
+          "text": "D9LWJ8",
+          "sha256": "91d97ae6a096e350a82a315e86b3af72e1c772a2394d01962af19fd9c9fcddf2",
+          "guess": "D9LWJ8",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s013",
+          "group": "mixed-medium",
+          "text": "2Y252Y",
+          "sha256": "308805a214bad2bafe18cfdf6f76dedb460a59ee4e846e56a26fb1db5fc9ff6e",
+          "guess": "2L252Y",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s014",
+          "group": "incumbent-v2-compatible",
+          "text": "7NC5VJ",
+          "sha256": "75426d15aafe2b8080beb43b76e0e898ebd4969b77b674f90a2aef2f0ea1db62",
+          "guess": "7NC5VJ",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s015",
+          "group": "mixed-medium",
+          "text": "6VV5DC",
+          "sha256": "5245edfb6f8ba4e76f9b07e3a555053466052875ccc86ae63eb4d94949c65882",
+          "guess": "6VV5DC",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s016",
+          "group": "mixed-medium",
+          "text": "6VX995",
+          "sha256": "7c15771c24c05674db64d31e2362f3d55d1634b058218409a305894fce859998",
+          "guess": "6Y4995",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s017",
+          "group": "mixed-medium",
+          "text": "AVWV3J",
+          "sha256": "caa33b4831893db615482859c6868eb0aeb7317717a7d5081d7d15a310f89921",
+          "guess": "AVM79J",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s018",
+          "group": "mixed-medium",
+          "text": "WDLJ36",
+          "sha256": "0b60acb56ebeca0af9b879eceffb2b02ff2b3377065893690d6180d31d15c370",
+          "guess": "MEJJ36",
+          "exact": false,
+          "matchingPositions": 3
+        }
+      ]
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "reasoningEffort": "xhigh",
+      "predictionsSha256": "728d6cb45f86f2352ddfee7d89edb44054131182b3bb56a50eb580bf23e5873b",
+      "groups": [
+        {
+          "group": "mixed-medium",
+          "exact": 5,
+          "total": 12,
+          "exactRate": 0.4166666666666667,
+          "exactRateWilson95": [
+            0.19326031365875665,
+            0.6804886874504503
+          ],
+          "matchingPositions": 57,
+          "characters": 72,
+          "positionAccuracy": 0.7916666666666666
+        },
+        {
+          "group": "incumbent-v2-compatible",
+          "exact": 6,
+          "total": 6,
+          "exactRate": 1,
+          "exactRateWilson95": [
+            0.6096657120978346,
+            1
+          ],
+          "matchingPositions": 36,
+          "characters": 36,
+          "positionAccuracy": 1
+        }
+      ],
+      "results": [
+        {
+          "id": "s001",
+          "group": "mixed-medium",
+          "text": "6FYWTM",
+          "sha256": "7bde9c2f5dde37b27f837993719884d491b1308ce644207c812b7118a761cde2",
+          "guess": "6FYWTM",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s002",
+          "group": "incumbent-v2-compatible",
+          "text": "5Y7V62",
+          "sha256": "5d43d70dcccfa9d5eca1c0c189633bbc7d93c2b8d930d27b7d728c7f1a1f0c1c",
+          "guess": "5Y7V62",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s003",
+          "group": "mixed-medium",
+          "text": "MKVVWH",
+          "sha256": "25ef56d2258c8699b2cc06b55cbf2fca58057fb01986839c6c9678c74e92dd9f",
+          "guess": "MPVYWH",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s004",
+          "group": "mixed-medium",
+          "text": "CFTMC2",
+          "sha256": "7ae77f889d4d0493543ffd8c605baf062aa2256a0cd68b43fbe8f9ed61de9a03",
+          "guess": "CFTMC2",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s005",
+          "group": "mixed-medium",
+          "text": "CTPP4D",
+          "sha256": "6f2aad47fc4a80a24da7d407cae6785dda4fa10e9df3e90f21dbba5a67d5c706",
+          "guess": "CTPP4D",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s006",
+          "group": "incumbent-v2-compatible",
+          "text": "XYEL54",
+          "sha256": "716b78eee34d631806bda5106f549fdc89a4ec6094660605db612884ff8576e4",
+          "guess": "XYEL54",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s007",
+          "group": "mixed-medium",
+          "text": "MYRYHH",
+          "sha256": "8389bcae7f56dc1534bc9edd40c69a5cab14b2636e82848dd1178588df5ad841",
+          "guess": "MTRTHH",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s008",
+          "group": "incumbent-v2-compatible",
+          "text": "HLNH4F",
+          "sha256": "65dc46ecdd5e0eb35e0ad7157d3bb193db7901cf7a9b05e23d73431e5dd31f2a",
+          "guess": "HLNH4F",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s009",
+          "group": "mixed-medium",
+          "text": "CK8V3F",
+          "sha256": "3f5ee9d8dc40d3754efce6b12eb4021d2cba3c2848f10d8c3c3476d8a63eaff4",
+          "guess": "CXLY2F",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s010",
+          "group": "incumbent-v2-compatible",
+          "text": "2XVJFH",
+          "sha256": "1030660139ab5eb53580dec6d48eb861e53b49343fd9635c5ac59ece261de778",
+          "guess": "2XVJFH",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s011",
+          "group": "mixed-medium",
+          "text": "T25XML",
+          "sha256": "9384505a775cbf61c3436d33fd1d253cabfae2bbc5cbe878272b3b8d764ae810",
+          "guess": "T23RML",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s012",
+          "group": "incumbent-v2-compatible",
+          "text": "D9LWJ8",
+          "sha256": "91d97ae6a096e350a82a315e86b3af72e1c772a2394d01962af19fd9c9fcddf2",
+          "guess": "D9LWJ8",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s013",
+          "group": "mixed-medium",
+          "text": "2Y252Y",
+          "sha256": "308805a214bad2bafe18cfdf6f76dedb460a59ee4e846e56a26fb1db5fc9ff6e",
+          "guess": "2Y252Y",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s014",
+          "group": "incumbent-v2-compatible",
+          "text": "7NC5VJ",
+          "sha256": "75426d15aafe2b8080beb43b76e0e898ebd4969b77b674f90a2aef2f0ea1db62",
+          "guess": "7NC5VJ",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s015",
+          "group": "mixed-medium",
+          "text": "6VV5DC",
+          "sha256": "5245edfb6f8ba4e76f9b07e3a555053466052875ccc86ae63eb4d94949c65882",
+          "guess": "6VV5D6",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s016",
+          "group": "mixed-medium",
+          "text": "6VX995",
+          "sha256": "7c15771c24c05674db64d31e2362f3d55d1634b058218409a305894fce859998",
+          "guess": "6VX995",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s017",
+          "group": "mixed-medium",
+          "text": "AVWV3J",
+          "sha256": "caa33b4831893db615482859c6868eb0aeb7317717a7d5081d7d15a310f89921",
+          "guess": "AVM73J",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s018",
+          "group": "mixed-medium",
+          "text": "WDLJ36",
+          "sha256": "0b60acb56ebeca0af9b879eceffb2b02ff2b3377065893690d6180d31d15c370",
+          "guess": "W5JJ36",
+          "exact": false,
+          "matchingPositions": 4
+        }
+      ]
+    }
+  ],
+  "presentation": {
+    "kind": "individual images, 4x nearest-neighbor enlargement",
+    "width": 840,
+    "height": 272
+  },
+  "unexecuted": [
+    {
+      "model": "gpt-6.1-sol",
+      "reasoningEffort": "inherited/default",
+      "reason": "Initial agent declined, including after clarification; no predictions generated. Not counted as recognition failure. A separate fresh xhigh review agent subsequently completed its own measurement, reported with effort explicitly identified."
+    }
+  ],
+  "presentedImages": [
+    {
+      "id": "s001",
+      "sha256": "c356c9b86e989fd731c2c43e7b70894774457a576b64d7a160fcf0d5b15a583a"
+    },
+    {
+      "id": "s002",
+      "sha256": "8932fdbab012d0f14d9240f72d059ab16ef7a7699c3e647189bc1c835184e321"
+    },
+    {
+      "id": "s003",
+      "sha256": "ad0eaf695f5d9df620be28d281abadf56ba5f4a2c505ffdee9ec1e6ec0edbaf7"
+    },
+    {
+      "id": "s004",
+      "sha256": "e9cd5eaaac29e7b242f229e960ab379fceefb7b55c17b0706a70fe733531a705"
+    },
+    {
+      "id": "s005",
+      "sha256": "d141752c2c7410e2c45c8808821847784144f07a491107195b8220b5d76faa28"
+    },
+    {
+      "id": "s006",
+      "sha256": "0b16996cbb5d85b53e56bf23b9d349a69fe2e30946fe35e59a76f69420355b20"
+    },
+    {
+      "id": "s007",
+      "sha256": "939388d6c021b304a3f546faa64703774958ad607ad8e268b5975620a61e299c"
+    },
+    {
+      "id": "s008",
+      "sha256": "1c0e6e6fea542602fc6cf4aa6e22158a8a061f516cd0dd9c5c428f625ba73201"
+    },
+    {
+      "id": "s009",
+      "sha256": "bbe48c889e42e0adb44a7e5c91a95214988779ba18b688c7c0942036abe02028"
+    },
+    {
+      "id": "s010",
+      "sha256": "58951cbe2af6fab7aa9abba1074a4c69c3b8719fcc7c760b1a89b5d9fee9db33"
+    },
+    {
+      "id": "s011",
+      "sha256": "1eb0ea4c9ae27f3d3895c62b7608a774d9c876c8b0f7f44e59747e1860968ea2"
+    },
+    {
+      "id": "s012",
+      "sha256": "bd6906014cc957353ef2ce48f6e9cbd7f1a656328ec768f709a4d00d436e015d"
+    },
+    {
+      "id": "s013",
+      "sha256": "85c8b56c96a0279d304ae85a71c840ec6c25217e1021ba7553a8517d7c5a2893"
+    },
+    {
+      "id": "s014",
+      "sha256": "8b2af8f3cd55fd9c6aa0ac92a9d4656593b574e8cc3d8d65e4eae626deb814e1"
+    },
+    {
+      "id": "s015",
+      "sha256": "aa6b7a221c47dbfc72cce9af04a2b0fdac7af13bd58e4722c410c0b599fe84a0"
+    },
+    {
+      "id": "s016",
+      "sha256": "0fb504308b2f3b39ffc667bc0f4083181ce5501be93e3a9a8b80b36b842d46c2"
+    },
+    {
+      "id": "s017",
+      "sha256": "1362b6c1742268eebb0148163477b71106b1693526d3914d326a1badbab6d6e0"
+    },
+    {
+      "id": "s018",
+      "sha256": "7a7be41fc169ea901ca8b202a3eb34bc88fcf2d24f27d1ec3cd8245c3f1dc42e"
+    }
+  ]
+}

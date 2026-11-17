@@ -1,0 +1,18 @@
+[
+  {
+    "id": "s001",
+    "sha256": "629685b902c186ce5d9ee545e7d6d8a72167cf1dc3ccfc4d60437ba32d6540fd"
+  },
+  {
+    "id": "s002",
+    "sha256": "38b709b6d618b175e103fbe023d87cf9dcb51d8c4a5973d430741a31cf622e8c"
+  },
+  {
+    "id": "s003",
+    "sha256": "181b3ade051bf7b3656607747270b68c3060214549301bf3b80dec40faa0ae0f"
+  },
+  {
+    "id": "s004",
+    "sha256": "779dfea63645d98e36393cb38deb1396bb43380aafe9f4b9da7f22a03c714a86"
+  }
+]

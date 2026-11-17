@@ -1,0 +1,248 @@
+{
+  "createdAt": "2026-11-16T19:40:16.966Z",
+  "manifest": {
+    "createdAt": "2026-11-16T19:36:48.376Z",
+    "round": "human-readability-screen-2",
+    "groups": [
+      {
+        "name": "incumbent-v2",
+        "sourceSha256": "52364ac41897c3e49fb6159e4d8d6c8f3495d48226dd6aa7e4a9a5f5f5843fb2",
+        "options": {
+          "size": 6,
+          "width": 210,
+          "height": 68,
+          "fontSize": 52,
+          "noise": 3,
+          "charPreset": "23456789ACDEFHJKLMNPRTVWXY"
+        }
+      },
+      {
+        "name": "same-color-lines",
+        "sourceSha256": "f725c46c05f704ee17a07129a8ec1f93c76cb25790a3a9410dbede1df0f30b79",
+        "options": {
+          "size": 6,
+          "width": 210,
+          "height": 68,
+          "fontSize": 52,
+          "noise": 3,
+          "charPreset": "23456789ACDEFHJKLMNPRTVWXY",
+          "interference": "lines"
+        }
+      },
+      {
+        "name": "mixed-medium",
+        "sourceSha256": "f725c46c05f704ee17a07129a8ec1f93c76cb25790a3a9410dbede1df0f30b79",
+        "options": {
+          "size": 6,
+          "width": 210,
+          "height": 68,
+          "fontSize": 52,
+          "noise": 3,
+          "charPreset": "23456789ACDEFHJKLMNPRTVWXY",
+          "interference": "mixed",
+          "interferenceDensity": 1
+        }
+      },
+      {
+        "name": "mixed-higher",
+        "sourceSha256": "f725c46c05f704ee17a07129a8ec1f93c76cb25790a3a9410dbede1df0f30b79",
+        "options": {
+          "size": 6,
+          "width": 210,
+          "height": 68,
+          "fontSize": 52,
+          "noise": 3,
+          "charPreset": "23456789ACDEFHJKLMNPRTVWXY",
+          "interference": "mixed",
+          "interferenceDensity": 2
+        }
+      }
+    ],
+    "samples": [
+      {
+        "id": "s001",
+        "group": "incumbent-v2",
+        "text": "XRM65C",
+        "sha256": "4c8839bffce29c5429d8b8c29f3268659f1131b8171c5617e043a9ab3a62a370"
+      },
+      {
+        "id": "s002",
+        "group": "incumbent-v2",
+        "text": "EM3D5E",
+        "sha256": "c8fb07323fc3ff26326ba26536bd1178671104c6dc26c28b2c8082b6db25781d"
+      },
+      {
+        "id": "s003",
+        "group": "same-color-lines",
+        "text": "D5KXLV",
+        "sha256": "9efdc5988523dec2b707600553aeecb90a770337ad0050b69383200e44c9d979"
+      },
+      {
+        "id": "s004",
+        "group": "mixed-medium",
+        "text": "YPV99N",
+        "sha256": "1be1b2405b703b0858e480c9ec72f2f926ec5d8624cc55a7bdeb4835f1ced0a1"
+      },
+      {
+        "id": "s005",
+        "group": "mixed-medium",
+        "text": "H7DLT8",
+        "sha256": "273378f5dc3042ac1b88ec098ce18a30435765d7e8800d4d8c3adb0d5a11d965"
+      },
+      {
+        "id": "s006",
+        "group": "same-color-lines",
+        "text": "JFJD5R",
+        "sha256": "173d1472ffd0d9e94ce50e511374205e0f74f3e5b74769a872846745af318cc5"
+      },
+      {
+        "id": "s007",
+        "group": "mixed-higher",
+        "text": "7M53X7",
+        "sha256": "a6f8cf47480605db2f9bc0e29d2c0a4c708367defc378960e5aa6994c5d055ff"
+      },
+      {
+        "id": "s008",
+        "group": "mixed-higher",
+        "text": "93MN5A",
+        "sha256": "9d7622c64b4187f85cb15943e0a59a61faff8d738f74b2019ba81e367a421caa"
+      }
+    ]
+  },
+  "method": "Same shuffled images; separate agents with no answer manifest; visual transcription only; no feedback or retries. Exact six-character accuracy, trim and uppercase only. Shared filesystem is instruction-blinded, not access-isolated. Confidence intervals describe these samples, not a security guarantee.",
+  "models": [
+    {
+      "model": "human-user",
+      "reasoningEffort": "inherited/default",
+      "predictionsSha256": "367022ad91a8f764810f450d315b22153648e1b35f9cab5ae6648d8a8661e003",
+      "groups": [
+        {
+          "group": "incumbent-v2",
+          "exact": 2,
+          "total": 2,
+          "exactRate": 1,
+          "exactRateWilson95": [
+            0.34238022750665303,
+            1
+          ],
+          "matchingPositions": 12,
+          "characters": 12,
+          "positionAccuracy": 1
+        },
+        {
+          "group": "same-color-lines",
+          "exact": 2,
+          "total": 2,
+          "exactRate": 1,
+          "exactRateWilson95": [
+            0.34238022750665303,
+            1
+          ],
+          "matchingPositions": 12,
+          "characters": 12,
+          "positionAccuracy": 1
+        },
+        {
+          "group": "mixed-medium",
+          "exact": 2,
+          "total": 2,
+          "exactRate": 1,
+          "exactRateWilson95": [
+            0.34238022750665303,
+            1
+          ],
+          "matchingPositions": 12,
+          "characters": 12,
+          "positionAccuracy": 1
+        },
+        {
+          "group": "mixed-higher",
+          "exact": 1,
+          "total": 2,
+          "exactRate": 0.5,
+          "exactRateWilson95": [
+            0.09453120573423074,
+            0.9054687942657693
+          ],
+          "matchingPositions": 11,
+          "characters": 12,
+          "positionAccuracy": 0.9166666666666666
+        }
+      ],
+      "results": [
+        {
+          "id": "s001",
+          "group": "incumbent-v2",
+          "text": "XRM65C",
+          "sha256": "4c8839bffce29c5429d8b8c29f3268659f1131b8171c5617e043a9ab3a62a370",
+          "guess": "XRM65C",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s002",
+          "group": "incumbent-v2",
+          "text": "EM3D5E",
+          "sha256": "c8fb07323fc3ff26326ba26536bd1178671104c6dc26c28b2c8082b6db25781d",
+          "guess": "EM3D5E",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s003",
+          "group": "same-color-lines",
+          "text": "D5KXLV",
+          "sha256": "9efdc5988523dec2b707600553aeecb90a770337ad0050b69383200e44c9d979",
+          "guess": "D5KXLV",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s004",
+          "group": "mixed-medium",
+          "text": "YPV99N",
+          "sha256": "1be1b2405b703b0858e480c9ec72f2f926ec5d8624cc55a7bdeb4835f1ced0a1",
+          "guess": "YPV99N",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s005",
+          "group": "mixed-medium",
+          "text": "H7DLT8",
+          "sha256": "273378f5dc3042ac1b88ec098ce18a30435765d7e8800d4d8c3adb0d5a11d965",
+          "guess": "H7DLT8",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s006",
+          "group": "same-color-lines",
+          "text": "JFJD5R",
+          "sha256": "173d1472ffd0d9e94ce50e511374205e0f74f3e5b74769a872846745af318cc5",
+          "guess": "JFJD5R",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s007",
+          "group": "mixed-higher",
+          "text": "7M53X7",
+          "sha256": "a6f8cf47480605db2f9bc0e29d2c0a4c708367defc378960e5aa6994c5d055ff",
+          "guess": "7M53X7",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s008",
+          "group": "mixed-higher",
+          "text": "93MN5A",
+          "sha256": "9d7622c64b4187f85cb15943e0a59a61faff8d738f74b2019ba81e367a421caa",
+          "guess": "93MN5?",
+          "exact": false,
+          "matchingPositions": 5
+        }
+      ]
+    }
+  ]
+}

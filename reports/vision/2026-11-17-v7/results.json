@@ -1,0 +1,1191 @@
+{
+  "createdAt": "2026-11-16T19:57:42.660Z",
+  "manifest": {
+    "createdAt": "2026-11-16T19:53:58.613Z",
+    "round": "core-protection-screen",
+    "groups": [
+      {
+        "name": "incumbent-v2-compatible",
+        "sourceSha256": "095b7b7fdb59df1ebce96dbae7127a1ffd903239d071c0e2605e137365364f4f",
+        "options": {
+          "size": 6,
+          "width": 210,
+          "height": 68,
+          "fontSize": 52,
+          "noise": 3,
+          "charPreset": "23456789ACDEFHJKLMNPRTVWXY",
+          "interference": "none"
+        },
+        "count": 6
+      },
+      {
+        "name": "mixed-medium",
+        "sourceSha256": "095b7b7fdb59df1ebce96dbae7127a1ffd903239d071c0e2605e137365364f4f",
+        "options": {
+          "size": 6,
+          "width": 210,
+          "height": 68,
+          "fontSize": 52,
+          "noise": 3,
+          "charPreset": "23456789ACDEFHJKLMNPRTVWXY",
+          "interference": "mixed",
+          "interferenceDensity": 1
+        },
+        "count": 12
+      },
+      {
+        "name": "balanced-core-protection",
+        "sourceSha256": "095b7b7fdb59df1ebce96dbae7127a1ffd903239d071c0e2605e137365364f4f",
+        "options": {
+          "size": 6,
+          "width": 210,
+          "height": 68,
+          "fontSize": 52,
+          "noise": 3,
+          "charPreset": "23456789ACDEFHJKLMNPRTVWXY",
+          "interference": "balanced"
+        },
+        "count": 12
+      }
+    ],
+    "samples": [
+      {
+        "id": "s001",
+        "group": "mixed-medium",
+        "text": "287XN2",
+        "sha256": "2d7e881acceddb642e0312bb70857b67ab72cb23b4c907a70374f70e3fed5e9d"
+      },
+      {
+        "id": "s002",
+        "group": "mixed-medium",
+        "text": "6TFKMX",
+        "sha256": "041889c921e13ac05ace8c871fddae33bd079f98ee93d3da7264c48d5afe3772"
+      },
+      {
+        "id": "s003",
+        "group": "balanced-core-protection",
+        "text": "JV9TDL",
+        "sha256": "629685b902c186ce5d9ee545e7d6d8a72167cf1dc3ccfc4d60437ba32d6540fd"
+      },
+      {
+        "id": "s004",
+        "group": "balanced-core-protection",
+        "text": "7MPPPJ",
+        "sha256": "38b709b6d618b175e103fbe023d87cf9dcb51d8c4a5973d430741a31cf622e8c"
+      },
+      {
+        "id": "s005",
+        "group": "balanced-core-protection",
+        "text": "R9P78V",
+        "sha256": "181b3ade051bf7b3656607747270b68c3060214549301bf3b80dec40faa0ae0f"
+      },
+      {
+        "id": "s006",
+        "group": "incumbent-v2-compatible",
+        "text": "M245N9",
+        "sha256": "5f46ff95c094d5a45bfd99fab615f311cdbb73fb1efd455650143cde59537310"
+      },
+      {
+        "id": "s007",
+        "group": "mixed-medium",
+        "text": "6MD9FF",
+        "sha256": "354ce2bfd5ab4fc00e91ec1990752f48b7bdd1de4c0341f2338b7818abbb05b3"
+      },
+      {
+        "id": "s008",
+        "group": "mixed-medium",
+        "text": "F6TDJK",
+        "sha256": "9828b33ea2e25d042964d4a432fa6bd8eb50c67fca64e113a4a32d6ec22be261"
+      },
+      {
+        "id": "s009",
+        "group": "balanced-core-protection",
+        "text": "3XTLPL",
+        "sha256": "779dfea63645d98e36393cb38deb1396bb43380aafe9f4b9da7f22a03c714a86"
+      },
+      {
+        "id": "s010",
+        "group": "mixed-medium",
+        "text": "NNCJHH",
+        "sha256": "0e0b5a1648eb16a072bdcdfa9498e97c8d592f878dc2ee94fdf155cb35931d1c"
+      },
+      {
+        "id": "s011",
+        "group": "balanced-core-protection",
+        "text": "NJHV6W",
+        "sha256": "dd3131d179ce365f5d865b65091b5324bb2f2435e4a5ef08f3ac71151bf8c652"
+      },
+      {
+        "id": "s012",
+        "group": "balanced-core-protection",
+        "text": "7F7J85",
+        "sha256": "f72432ab69a658e5392ae83bed30642ff44f105f090f2ab7004174798d7fab72"
+      },
+      {
+        "id": "s013",
+        "group": "mixed-medium",
+        "text": "4J2A68",
+        "sha256": "b89be5e254d2202536095b029373bd016dc3a9b6cf28cf61f0e9840fdc9c4e58"
+      },
+      {
+        "id": "s014",
+        "group": "balanced-core-protection",
+        "text": "K5LTDR",
+        "sha256": "b0d564d729a83e83e90aecf3683dc9d674b73ae9a0f2ba6a049b70dbad45023f"
+      },
+      {
+        "id": "s015",
+        "group": "incumbent-v2-compatible",
+        "text": "LT6KLC",
+        "sha256": "5820029b50427fea65517b5e5f3a305d5d371a41ec2886f084cfa3be207029b0"
+      },
+      {
+        "id": "s016",
+        "group": "mixed-medium",
+        "text": "JVV244",
+        "sha256": "8855e39c03fa89aa673400667514ef3f541583ebb2e12747a979601e19a09df3"
+      },
+      {
+        "id": "s017",
+        "group": "mixed-medium",
+        "text": "NN5KNK",
+        "sha256": "a0772832bcbbfeb08653264fee5158d5e1888efefbf8f5f9ee37d5728865db0d"
+      },
+      {
+        "id": "s018",
+        "group": "incumbent-v2-compatible",
+        "text": "2RD2VF",
+        "sha256": "780dd430fc7f1d449098b774b60c28a97ab1202feb72b4037a4f56b599742e29"
+      },
+      {
+        "id": "s019",
+        "group": "mixed-medium",
+        "text": "5N2VYP",
+        "sha256": "8234011cbc88df4f7d3f1cf234b155e2b02f10aa2e8a145b6b6f3dc3023f55e2"
+      },
+      {
+        "id": "s020",
+        "group": "mixed-medium",
+        "text": "W62YN5",
+        "sha256": "e177f8f6f1ef26131dbac555d5ee9af734b17eff0f90c72f2229b1b401156b18"
+      },
+      {
+        "id": "s021",
+        "group": "balanced-core-protection",
+        "text": "7NDKCW",
+        "sha256": "5d63f32827771c9c700a45981edeb9c0cc0d529e403341357b1e1f7f4ea292fa"
+      },
+      {
+        "id": "s022",
+        "group": "balanced-core-protection",
+        "text": "HFVLT5",
+        "sha256": "f9bec2e6d46d36104df821723c163bc3bad204be0d9bb69eb4cb6e61e97056c3"
+      },
+      {
+        "id": "s023",
+        "group": "mixed-medium",
+        "text": "A2M3E8",
+        "sha256": "63c93051dcd73d3b25f53f2a2b19867c8e33a3f189f1e17a6e4223df1c998420"
+      },
+      {
+        "id": "s024",
+        "group": "balanced-core-protection",
+        "text": "CTR9CW",
+        "sha256": "eb6b1543eb373a189e416953ce87040300c8b632909c0875270142e361a927e2"
+      },
+      {
+        "id": "s025",
+        "group": "incumbent-v2-compatible",
+        "text": "59J37R",
+        "sha256": "12577692667eaa3ea2a3e5d9eae40689340adcb8fbb19596ce5e7404cca8b29b"
+      },
+      {
+        "id": "s026",
+        "group": "mixed-medium",
+        "text": "FY5RAM",
+        "sha256": "c7fe6271cacb3794054dd3aebccbf06e6dc699b7d24e4762a06e49394526205b"
+      },
+      {
+        "id": "s027",
+        "group": "balanced-core-protection",
+        "text": "5YJ2J6",
+        "sha256": "c730510e70299b469252d29ca7ef257099f9082bf7f919becfe0febee626f283"
+      },
+      {
+        "id": "s028",
+        "group": "incumbent-v2-compatible",
+        "text": "KKRJKD",
+        "sha256": "8f786ebde11bc313ec0c1b5971920b8a47563497b90276555a45b1f47b1b100f"
+      },
+      {
+        "id": "s029",
+        "group": "incumbent-v2-compatible",
+        "text": "AT98DV",
+        "sha256": "7d0a7db07430c7c237141924719c8e305a555c53a91e0fecdfa35dfc02348c3f"
+      },
+      {
+        "id": "s030",
+        "group": "balanced-core-protection",
+        "text": "JEK743",
+        "sha256": "cd5f6708d3468eb7548b19a6c75e32f16ce9087ae0c159102ec544fe766b4847"
+      }
+    ]
+  },
+  "method": "Same shuffled images; separate agents with no answer manifest; visual transcription only; no feedback or retries. Exact six-character accuracy, trim and uppercase only. Shared filesystem is instruction-blinded, not access-isolated. Confidence intervals describe these samples, not a security guarantee.",
+  "models": [
+    {
+      "model": "gpt-6-luna",
+      "reasoningEffort": "inherited/default",
+      "predictionsSha256": "d17be64e3427cbe6e1fef9297a1188627d7c9291810fba6eac3fbeec7d86521a",
+      "groups": [
+        {
+          "group": "mixed-medium",
+          "exact": 0,
+          "total": 12,
+          "exactRate": 0,
+          "exactRateWilson95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ],
+          "matchingPositions": 20,
+          "characters": 72,
+          "positionAccuracy": 0.2777777777777778
+        },
+        {
+          "group": "balanced-core-protection",
+          "exact": 0,
+          "total": 12,
+          "exactRate": 0,
+          "exactRateWilson95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ],
+          "matchingPositions": 30,
+          "characters": 72,
+          "positionAccuracy": 0.4166666666666667
+        },
+        {
+          "group": "incumbent-v2-compatible",
+          "exact": 4,
+          "total": 6,
+          "exactRate": 0.6666666666666666,
+          "exactRateWilson95": [
+            0.299993315138392,
+            0.9032285888942195
+          ],
+          "matchingPositions": 34,
+          "characters": 36,
+          "positionAccuracy": 0.9444444444444444
+        }
+      ],
+      "results": [
+        {
+          "id": "s001",
+          "group": "mixed-medium",
+          "text": "287XN2",
+          "sha256": "2d7e881acceddb642e0312bb70857b67ab72cb23b4c907a70374f70e3fed5e9d",
+          "guess": "8GTFJ2",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s002",
+          "group": "mixed-medium",
+          "text": "6TFKMX",
+          "sha256": "041889c921e13ac05ace8c871fddae33bd079f98ee93d3da7264c48d5afe3772",
+          "guess": "8F6PTX",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s003",
+          "group": "balanced-core-protection",
+          "text": "JV9TDL",
+          "sha256": "629685b902c186ce5d9ee545e7d6d8a72167cf1dc3ccfc4d60437ba32d6540fd",
+          "guess": "2N9P2X",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s004",
+          "group": "balanced-core-protection",
+          "text": "7MPPPJ",
+          "sha256": "38b709b6d618b175e103fbe023d87cf9dcb51d8c4a5973d430741a31cf622e8c",
+          "guess": "9MPPP7",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s005",
+          "group": "balanced-core-protection",
+          "text": "R9P78V",
+          "sha256": "181b3ade051bf7b3656607747270b68c3060214549301bf3b80dec40faa0ae0f",
+          "guess": "P9PT8V",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s006",
+          "group": "incumbent-v2-compatible",
+          "text": "M245N9",
+          "sha256": "5f46ff95c094d5a45bfd99fab615f311cdbb73fb1efd455650143cde59537310",
+          "guess": "M2A5N9",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s007",
+          "group": "mixed-medium",
+          "text": "6MD9FF",
+          "sha256": "354ce2bfd5ab4fc00e91ec1990752f48b7bdd1de4c0341f2338b7818abbb05b3",
+          "guess": "2M69FP",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s008",
+          "group": "mixed-medium",
+          "text": "F6TDJK",
+          "sha256": "9828b33ea2e25d042964d4a432fa6bd8eb50c67fca64e113a4a32d6ec22be261",
+          "guess": "896H2X",
+          "exact": false,
+          "matchingPositions": 0
+        },
+        {
+          "id": "s009",
+          "group": "balanced-core-protection",
+          "text": "3XTLPL",
+          "sha256": "779dfea63645d98e36393cb38deb1396bb43380aafe9f4b9da7f22a03c714a86",
+          "guess": "5XTLP2",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s010",
+          "group": "mixed-medium",
+          "text": "NNCJHH",
+          "sha256": "0e0b5a1648eb16a072bdcdfa9498e97c8d592f878dc2ee94fdf155cb35931d1c",
+          "guess": "8X66K7",
+          "exact": false,
+          "matchingPositions": 0
+        },
+        {
+          "id": "s011",
+          "group": "balanced-core-protection",
+          "text": "NJHV6W",
+          "sha256": "dd3131d179ce365f5d865b65091b5324bb2f2435e4a5ef08f3ac71151bf8c652",
+          "guess": "L9VV8X",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s012",
+          "group": "balanced-core-protection",
+          "text": "7F7J85",
+          "sha256": "f72432ab69a658e5392ae83bed30642ff44f105f090f2ab7004174798d7fab72",
+          "guess": "9FJC85",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s013",
+          "group": "mixed-medium",
+          "text": "4J2A68",
+          "sha256": "b89be5e254d2202536095b029373bd016dc3a9b6cf28cf61f0e9840fdc9c4e58",
+          "guess": "A2N968",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s014",
+          "group": "balanced-core-protection",
+          "text": "K5LTDR",
+          "sha256": "b0d564d729a83e83e90aecf3683dc9d674b73ae9a0f2ba6a049b70dbad45023f",
+          "guess": "5277DP",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s015",
+          "group": "incumbent-v2-compatible",
+          "text": "LT6KLC",
+          "sha256": "5820029b50427fea65517b5e5f3a305d5d371a41ec2886f084cfa3be207029b0",
+          "guess": "LT6KLC",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s016",
+          "group": "mixed-medium",
+          "text": "JVV244",
+          "sha256": "8855e39c03fa89aa673400667514ef3f541583ebb2e12747a979601e19a09df3",
+          "guess": "P79274",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s017",
+          "group": "mixed-medium",
+          "text": "NN5KNK",
+          "sha256": "a0772832bcbbfeb08653264fee5158d5e1888efefbf8f5f9ee37d5728865db0d",
+          "guess": "F73K7X",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s018",
+          "group": "incumbent-v2-compatible",
+          "text": "2RD2VF",
+          "sha256": "780dd430fc7f1d449098b774b60c28a97ab1202feb72b4037a4f56b599742e29",
+          "guess": "2RD2VF",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s019",
+          "group": "mixed-medium",
+          "text": "5N2VYP",
+          "sha256": "8234011cbc88df4f7d3f1cf234b155e2b02f10aa2e8a145b6b6f3dc3023f55e2",
+          "guess": "59777P",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s020",
+          "group": "mixed-medium",
+          "text": "W62YN5",
+          "sha256": "e177f8f6f1ef26131dbac555d5ee9af734b17eff0f90c72f2229b1b401156b18",
+          "guess": "7867N5",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s021",
+          "group": "balanced-core-protection",
+          "text": "7NDKCW",
+          "sha256": "5d63f32827771c9c700a45981edeb9c0cc0d529e403341357b1e1f7f4ea292fa",
+          "guess": "FTD9XC",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s022",
+          "group": "balanced-core-protection",
+          "text": "HFVLT5",
+          "sha256": "f9bec2e6d46d36104df821723c163bc3bad204be0d9bb69eb4cb6e61e97056c3",
+          "guess": "F8FVJ5",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s023",
+          "group": "mixed-medium",
+          "text": "A2M3E8",
+          "sha256": "63c93051dcd73d3b25f53f2a2b19867c8e33a3f189f1e17a6e4223df1c998420",
+          "guess": "A2N3E8",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s024",
+          "group": "balanced-core-protection",
+          "text": "CTR9CW",
+          "sha256": "eb6b1543eb373a189e416953ce87040300c8b632909c0875270142e361a927e2",
+          "guess": "C7R9CX",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s025",
+          "group": "incumbent-v2-compatible",
+          "text": "59J37R",
+          "sha256": "12577692667eaa3ea2a3e5d9eae40689340adcb8fbb19596ce5e7404cca8b29b",
+          "guess": "59J37R",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s026",
+          "group": "mixed-medium",
+          "text": "FY5RAM",
+          "sha256": "c7fe6271cacb3794054dd3aebccbf06e6dc699b7d24e4762a06e49394526205b",
+          "guess": "F7NP6N",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s027",
+          "group": "balanced-core-protection",
+          "text": "5YJ2J6",
+          "sha256": "c730510e70299b469252d29ca7ef257099f9082bf7f919becfe0febee626f283",
+          "guess": "577278",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s028",
+          "group": "incumbent-v2-compatible",
+          "text": "KKRJKD",
+          "sha256": "8f786ebde11bc313ec0c1b5971920b8a47563497b90276555a45b1f47b1b100f",
+          "guess": "XKRJKD",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s029",
+          "group": "incumbent-v2-compatible",
+          "text": "AT98DV",
+          "sha256": "7d0a7db07430c7c237141924719c8e305a555c53a91e0fecdfa35dfc02348c3f",
+          "guess": "AT98DV",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s030",
+          "group": "balanced-core-protection",
+          "text": "JEK743",
+          "sha256": "cd5f6708d3468eb7548b19a6c75e32f16ce9087ae0c159102ec544fe766b4847",
+          "guess": "PEK742",
+          "exact": false,
+          "matchingPositions": 4
+        }
+      ]
+    },
+    {
+      "model": "gpt-6.1-terra",
+      "reasoningEffort": "inherited/default",
+      "predictionsSha256": "7c00a136488d376a4664040b445adf002fbef4d2ac91119aba01f5a4d63d43b5",
+      "groups": [
+        {
+          "group": "mixed-medium",
+          "exact": 2,
+          "total": 12,
+          "exactRate": 0.16666666666666666,
+          "exactRateWilson95": [
+            0.04696514218385378,
+            0.4480308622529734
+          ],
+          "matchingPositions": 43,
+          "characters": 72,
+          "positionAccuracy": 0.5972222222222222
+        },
+        {
+          "group": "balanced-core-protection",
+          "exact": 3,
+          "total": 12,
+          "exactRate": 0.25,
+          "exactRateWilson95": [
+            0.08894166839405471,
+            0.5323053349335657
+          ],
+          "matchingPositions": 60,
+          "characters": 72,
+          "positionAccuracy": 0.8333333333333334
+        },
+        {
+          "group": "incumbent-v2-compatible",
+          "exact": 4,
+          "total": 6,
+          "exactRate": 0.6666666666666666,
+          "exactRateWilson95": [
+            0.299993315138392,
+            0.9032285888942195
+          ],
+          "matchingPositions": 33,
+          "characters": 36,
+          "positionAccuracy": 0.9166666666666666
+        }
+      ],
+      "results": [
+        {
+          "id": "s001",
+          "group": "mixed-medium",
+          "text": "287XN2",
+          "sha256": "2d7e881acceddb642e0312bb70857b67ab72cb23b4c907a70374f70e3fed5e9d",
+          "guess": "28FJH2",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s002",
+          "group": "mixed-medium",
+          "text": "6TFKMX",
+          "sha256": "041889c921e13ac05ace8c871fddae33bd079f98ee93d3da7264c48d5afe3772",
+          "guess": "6RFKHX",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s003",
+          "group": "balanced-core-protection",
+          "text": "JV9TDL",
+          "sha256": "629685b902c186ce5d9ee545e7d6d8a72167cf1dc3ccfc4d60437ba32d6540fd",
+          "guess": "JV9TDR",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s004",
+          "group": "balanced-core-protection",
+          "text": "7MPPPJ",
+          "sha256": "38b709b6d618b175e103fbe023d87cf9dcb51d8c4a5973d430741a31cf622e8c",
+          "guess": "7MPPPJ",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s005",
+          "group": "balanced-core-protection",
+          "text": "R9P78V",
+          "sha256": "181b3ade051bf7b3656607747270b68c3060214549301bf3b80dec40faa0ae0f",
+          "guess": "R7P78V",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s006",
+          "group": "incumbent-v2-compatible",
+          "text": "M245N9",
+          "sha256": "5f46ff95c094d5a45bfd99fab615f311cdbb73fb1efd455650143cde59537310",
+          "guess": "M245N9",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s007",
+          "group": "mixed-medium",
+          "text": "6MD9FF",
+          "sha256": "354ce2bfd5ab4fc00e91ec1990752f48b7bdd1de4c0341f2338b7818abbb05b3",
+          "guess": "6MD9F3",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s008",
+          "group": "mixed-medium",
+          "text": "F6TDJK",
+          "sha256": "9828b33ea2e25d042964d4a432fa6bd8eb50c67fca64e113a4a32d6ec22be261",
+          "guess": "F5JDJX",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s009",
+          "group": "balanced-core-protection",
+          "text": "3XTLPL",
+          "sha256": "779dfea63645d98e36393cb38deb1396bb43380aafe9f4b9da7f22a03c714a86",
+          "guess": "3KJLPL",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s010",
+          "group": "mixed-medium",
+          "text": "NNCJHH",
+          "sha256": "0e0b5a1648eb16a072bdcdfa9498e97c8d592f878dc2ee94fdf155cb35931d1c",
+          "guess": "NPCFRH",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s011",
+          "group": "balanced-core-protection",
+          "text": "NJHV6W",
+          "sha256": "dd3131d179ce365f5d865b65091b5324bb2f2435e4a5ef08f3ac71151bf8c652",
+          "guess": "NLHV6W",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s012",
+          "group": "balanced-core-protection",
+          "text": "7F7J85",
+          "sha256": "f72432ab69a658e5392ae83bed30642ff44f105f090f2ab7004174798d7fab72",
+          "guess": "7F7J85",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s013",
+          "group": "mixed-medium",
+          "text": "4J2A68",
+          "sha256": "b89be5e254d2202536095b029373bd016dc3a9b6cf28cf61f0e9840fdc9c4e58",
+          "guess": "4J2A68",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s014",
+          "group": "balanced-core-protection",
+          "text": "K5LTDR",
+          "sha256": "b0d564d729a83e83e90aecf3683dc9d674b73ae9a0f2ba6a049b70dbad45023f",
+          "guess": "K5LJDR",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s015",
+          "group": "incumbent-v2-compatible",
+          "text": "LT6KLC",
+          "sha256": "5820029b50427fea65517b5e5f3a305d5d371a41ec2886f084cfa3be207029b0",
+          "guess": "LT6KLC",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s016",
+          "group": "mixed-medium",
+          "text": "JVV244",
+          "sha256": "8855e39c03fa89aa673400667514ef3f541583ebb2e12747a979601e19a09df3",
+          "guess": "7VJPNA",
+          "exact": false,
+          "matchingPositions": 1
+        },
+        {
+          "id": "s017",
+          "group": "mixed-medium",
+          "text": "NN5KNK",
+          "sha256": "a0772832bcbbfeb08653264fee5158d5e1888efefbf8f5f9ee37d5728865db0d",
+          "guess": "PH3KHK",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s018",
+          "group": "incumbent-v2-compatible",
+          "text": "2RD2VF",
+          "sha256": "780dd430fc7f1d449098b774b60c28a97ab1202feb72b4037a4f56b599742e29",
+          "guess": "2RD2Y7",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s019",
+          "group": "mixed-medium",
+          "text": "5N2VYP",
+          "sha256": "8234011cbc88df4f7d3f1cf234b155e2b02f10aa2e8a145b6b6f3dc3023f55e2",
+          "guess": "5V2VHR",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s020",
+          "group": "mixed-medium",
+          "text": "W62YN5",
+          "sha256": "e177f8f6f1ef26131dbac555d5ee9af734b17eff0f90c72f2229b1b401156b18",
+          "guess": "W62RN3",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s021",
+          "group": "balanced-core-protection",
+          "text": "7NDKCW",
+          "sha256": "5d63f32827771c9c700a45981edeb9c0cc0d529e403341357b1e1f7f4ea292fa",
+          "guess": "7HDFCW",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s022",
+          "group": "balanced-core-protection",
+          "text": "HFVLT5",
+          "sha256": "f9bec2e6d46d36104df821723c163bc3bad204be0d9bb69eb4cb6e61e97056c3",
+          "guess": "HFVLT5",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s023",
+          "group": "mixed-medium",
+          "text": "A2M3E8",
+          "sha256": "63c93051dcd73d3b25f53f2a2b19867c8e33a3f189f1e17a6e4223df1c998420",
+          "guess": "A2M3E8",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s024",
+          "group": "balanced-core-protection",
+          "text": "CTR9CW",
+          "sha256": "eb6b1543eb373a189e416953ce87040300c8b632909c0875270142e361a927e2",
+          "guess": "CTR2CW",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s025",
+          "group": "incumbent-v2-compatible",
+          "text": "59J37R",
+          "sha256": "12577692667eaa3ea2a3e5d9eae40689340adcb8fbb19596ce5e7404cca8b29b",
+          "guess": "59J37R",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s026",
+          "group": "mixed-medium",
+          "text": "FY5RAM",
+          "sha256": "c7fe6271cacb3794054dd3aebccbf06e6dc699b7d24e4762a06e49394526205b",
+          "guess": "FJ3KAM",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s027",
+          "group": "balanced-core-protection",
+          "text": "5YJ2J6",
+          "sha256": "c730510e70299b469252d29ca7ef257099f9082bf7f919becfe0febee626f283",
+          "guess": "3YJ2J6",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s028",
+          "group": "incumbent-v2-compatible",
+          "text": "KKRJKD",
+          "sha256": "8f786ebde11bc313ec0c1b5971920b8a47563497b90276555a45b1f47b1b100f",
+          "guess": "XKRJKD",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s029",
+          "group": "incumbent-v2-compatible",
+          "text": "AT98DV",
+          "sha256": "7d0a7db07430c7c237141924719c8e305a555c53a91e0fecdfa35dfc02348c3f",
+          "guess": "AT98DV",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s030",
+          "group": "balanced-core-protection",
+          "text": "JEK743",
+          "sha256": "cd5f6708d3468eb7548b19a6c75e32f16ce9087ae0c159102ec544fe766b4847",
+          "guess": "JEX7A3",
+          "exact": false,
+          "matchingPositions": 4
+        }
+      ]
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "reasoningEffort": "inherited/default",
+      "predictionsSha256": "01ec458e913145ee8f2623e5618ad97253dae139c31a38bae913bfca366b178d",
+      "groups": [
+        {
+          "group": "mixed-medium",
+          "exact": 2,
+          "total": 12,
+          "exactRate": 0.16666666666666666,
+          "exactRateWilson95": [
+            0.04696514218385378,
+            0.4480308622529734
+          ],
+          "matchingPositions": 52,
+          "characters": 72,
+          "positionAccuracy": 0.7222222222222222
+        },
+        {
+          "group": "balanced-core-protection",
+          "exact": 5,
+          "total": 12,
+          "exactRate": 0.4166666666666667,
+          "exactRateWilson95": [
+            0.19326031365875665,
+            0.6804886874504503
+          ],
+          "matchingPositions": 60,
+          "characters": 72,
+          "positionAccuracy": 0.8333333333333334
+        },
+        {
+          "group": "incumbent-v2-compatible",
+          "exact": 4,
+          "total": 6,
+          "exactRate": 0.6666666666666666,
+          "exactRateWilson95": [
+            0.299993315138392,
+            0.9032285888942195
+          ],
+          "matchingPositions": 34,
+          "characters": 36,
+          "positionAccuracy": 0.9444444444444444
+        }
+      ],
+      "results": [
+        {
+          "id": "s001",
+          "group": "mixed-medium",
+          "text": "287XN2",
+          "sha256": "2d7e881acceddb642e0312bb70857b67ab72cb23b4c907a70374f70e3fed5e9d",
+          "guess": "287JH2",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s002",
+          "group": "mixed-medium",
+          "text": "6TFKMX",
+          "sha256": "041889c921e13ac05ace8c871fddae33bd079f98ee93d3da7264c48d5afe3772",
+          "guess": "6TFKWX",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s003",
+          "group": "balanced-core-protection",
+          "text": "JV9TDL",
+          "sha256": "629685b902c186ce5d9ee545e7d6d8a72167cf1dc3ccfc4d60437ba32d6540fd",
+          "guess": "JV9TDL",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s004",
+          "group": "balanced-core-protection",
+          "text": "7MPPPJ",
+          "sha256": "38b709b6d618b175e103fbe023d87cf9dcb51d8c4a5973d430741a31cf622e8c",
+          "guess": "7MPPPJ",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s005",
+          "group": "balanced-core-protection",
+          "text": "R9P78V",
+          "sha256": "181b3ade051bf7b3656607747270b68c3060214549301bf3b80dec40faa0ae0f",
+          "guess": "R7PT8V",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s006",
+          "group": "incumbent-v2-compatible",
+          "text": "M245N9",
+          "sha256": "5f46ff95c094d5a45bfd99fab615f311cdbb73fb1efd455650143cde59537310",
+          "guess": "M245N9",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s007",
+          "group": "mixed-medium",
+          "text": "6MD9FF",
+          "sha256": "354ce2bfd5ab4fc00e91ec1990752f48b7bdd1de4c0341f2338b7818abbb05b3",
+          "guess": "6MD9FF",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s008",
+          "group": "mixed-medium",
+          "text": "F6TDJK",
+          "sha256": "9828b33ea2e25d042964d4a432fa6bd8eb50c67fca64e113a4a32d6ec22be261",
+          "guess": "F6TDJX",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s009",
+          "group": "balanced-core-protection",
+          "text": "3XTLPL",
+          "sha256": "779dfea63645d98e36393cb38deb1396bb43380aafe9f4b9da7f22a03c714a86",
+          "guess": "3XTLPL",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s010",
+          "group": "mixed-medium",
+          "text": "NNCJHH",
+          "sha256": "0e0b5a1648eb16a072bdcdfa9498e97c8d592f878dc2ee94fdf155cb35931d1c",
+          "guess": "MVCLKH",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s011",
+          "group": "balanced-core-protection",
+          "text": "NJHV6W",
+          "sha256": "dd3131d179ce365f5d865b65091b5324bb2f2435e4a5ef08f3ac71151bf8c652",
+          "guess": "NLHV6W",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s012",
+          "group": "balanced-core-protection",
+          "text": "7F7J85",
+          "sha256": "f72432ab69a658e5392ae83bed30642ff44f105f090f2ab7004174798d7fab72",
+          "guess": "7FTJ85",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s013",
+          "group": "mixed-medium",
+          "text": "4J2A68",
+          "sha256": "b89be5e254d2202536095b029373bd016dc3a9b6cf28cf61f0e9840fdc9c4e58",
+          "guess": "4J2A68",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s014",
+          "group": "balanced-core-protection",
+          "text": "K5LTDR",
+          "sha256": "b0d564d729a83e83e90aecf3683dc9d674b73ae9a0f2ba6a049b70dbad45023f",
+          "guess": "K5LTDR",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s015",
+          "group": "incumbent-v2-compatible",
+          "text": "LT6KLC",
+          "sha256": "5820029b50427fea65517b5e5f3a305d5d371a41ec2886f084cfa3be207029b0",
+          "guess": "LT6KLC",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s016",
+          "group": "mixed-medium",
+          "text": "JVV244",
+          "sha256": "8855e39c03fa89aa673400667514ef3f541583ebb2e12747a979601e19a09df3",
+          "guess": "JVY2A4",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s017",
+          "group": "mixed-medium",
+          "text": "NN5KNK",
+          "sha256": "a0772832bcbbfeb08653264fee5158d5e1888efefbf8f5f9ee37d5728865db0d",
+          "guess": "HM5KHY",
+          "exact": false,
+          "matchingPositions": 2
+        },
+        {
+          "id": "s018",
+          "group": "incumbent-v2-compatible",
+          "text": "2RD2VF",
+          "sha256": "780dd430fc7f1d449098b774b60c28a97ab1202feb72b4037a4f56b599742e29",
+          "guess": "2RD2YF",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s019",
+          "group": "mixed-medium",
+          "text": "5N2VYP",
+          "sha256": "8234011cbc88df4f7d3f1cf234b155e2b02f10aa2e8a145b6b6f3dc3023f55e2",
+          "guess": "5V2VYP",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s020",
+          "group": "mixed-medium",
+          "text": "W62YN5",
+          "sha256": "e177f8f6f1ef26131dbac555d5ee9af734b17eff0f90c72f2229b1b401156b18",
+          "guess": "A62YN5",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s021",
+          "group": "balanced-core-protection",
+          "text": "7NDKCW",
+          "sha256": "5d63f32827771c9c700a45981edeb9c0cc0d529e403341357b1e1f7f4ea292fa",
+          "guess": "7HDXCV",
+          "exact": false,
+          "matchingPositions": 3
+        },
+        {
+          "id": "s022",
+          "group": "balanced-core-protection",
+          "text": "HFVLT5",
+          "sha256": "f9bec2e6d46d36104df821723c163bc3bad204be0d9bb69eb4cb6e61e97056c3",
+          "guess": "HFVLT5",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s023",
+          "group": "mixed-medium",
+          "text": "A2M3E8",
+          "sha256": "63c93051dcd73d3b25f53f2a2b19867c8e33a3f189f1e17a6e4223df1c998420",
+          "guess": "ALW3E8",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s024",
+          "group": "balanced-core-protection",
+          "text": "CTR9CW",
+          "sha256": "eb6b1543eb373a189e416953ce87040300c8b632909c0875270142e361a927e2",
+          "guess": "CTR2CW",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s025",
+          "group": "incumbent-v2-compatible",
+          "text": "59J37R",
+          "sha256": "12577692667eaa3ea2a3e5d9eae40689340adcb8fbb19596ce5e7404cca8b29b",
+          "guess": "59J37R",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s026",
+          "group": "mixed-medium",
+          "text": "FY5RAM",
+          "sha256": "c7fe6271cacb3794054dd3aebccbf06e6dc699b7d24e4762a06e49394526205b",
+          "guess": "FT5RAN",
+          "exact": false,
+          "matchingPositions": 4
+        },
+        {
+          "id": "s027",
+          "group": "balanced-core-protection",
+          "text": "5YJ2J6",
+          "sha256": "c730510e70299b469252d29ca7ef257099f9082bf7f919becfe0febee626f283",
+          "guess": "3YJ2J6",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s028",
+          "group": "incumbent-v2-compatible",
+          "text": "KKRJKD",
+          "sha256": "8f786ebde11bc313ec0c1b5971920b8a47563497b90276555a45b1f47b1b100f",
+          "guess": "XKRJKD",
+          "exact": false,
+          "matchingPositions": 5
+        },
+        {
+          "id": "s029",
+          "group": "incumbent-v2-compatible",
+          "text": "AT98DV",
+          "sha256": "7d0a7db07430c7c237141924719c8e305a555c53a91e0fecdfa35dfc02348c3f",
+          "guess": "AT98DV",
+          "exact": true,
+          "matchingPositions": 6
+        },
+        {
+          "id": "s030",
+          "group": "balanced-core-protection",
+          "text": "JEK743",
+          "sha256": "cd5f6708d3468eb7548b19a6c75e32f16ce9087ae0c159102ec544fe766b4847",
+          "guess": "FEX742",
+          "exact": false,
+          "matchingPositions": 3
+        }
+      ]
+    }
+  ]
+}

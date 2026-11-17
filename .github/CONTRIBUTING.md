@@ -5,6 +5,6 @@ Following these guidelines helps to communicate that you respect the time of the
 SVG Captcha is an open source project and we love to receive contributions from our community — you! There are many ways to contribute, from writing blog posts, improving the documentation, submitting bug reports and feature requests or writing code which can be incorporated into SVG Captcha itself.
 
 Ground Rules:
-- Ensure all tests pass. Optional, run `npm run lint` to make the linter happy.
+- Run `npm test` on Node.js 22 or later and ensure all tests pass.
 - Make sure you only implement ONE feature or bugfix in a pull request. Do not split one line fix in multiple commits to confuse others either.
 - Do not add dependencies on other modules. Even better, do not add dev dependencies on other modules.
