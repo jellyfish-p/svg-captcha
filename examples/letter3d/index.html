@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>3D 字母点选</title>
+	<link rel="stylesheet" href="/style.css">
+	<script src="/client.js" defer></script>
+</head>
+<body>
+	<main>
+		<h1>3D 字母点选</h1>
+		<div class="settings">
+			<label>出题方式 <select id="selection">
+				<option value="mixed">随机</option>
+				<option value="single">单选</option>
+				<option value="multiple">多选</option>
+			</select></label>
+			<label><input id="no-color" type="checkbox"> 无颜色模式</label>
+			<button id="new-challenge" type="button">换一张</button>
+		</div>
+		<noscript>请启用 JavaScript 以完成点选验证。</noscript>
+		<section aria-label="验证码">
+			<div id="instructions" hidden>
+				<span id="mode"></span>
+				<p id="prompt"></p>
+			</div>
+			<div id="board" role="group" aria-label="点选区域" aria-describedby="mode prompt keyboard-help" tabindex="-1" hidden>
+				<img id="challenge-image" alt="用于人机验证的 3D 字母图" draggable="false">
+				<div id="marks" aria-hidden="true"></div>
+				<span id="cursor" aria-hidden="true"></span>
+			</div>
+			<div id="actions" hidden>
+				<div class="action-row">
+					<span id="mark-count" role="status"></span>
+					<button id="undo" type="button" disabled>撤销上一个点</button>
+					<button id="submit" type="button" disabled>提交验证</button>
+				</div>
+				<p id="keyboard-help">方向键移动光标，按住 Shift 加速，按空格或回车落点。</p>
+			</div>
+			<p id="result" role="status"></p>
+		</section>
+		<footer><!-- alternative-verification --></footer>
+	</main>
+</body>
+</html>

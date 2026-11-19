@@ -9,7 +9,7 @@
 在 [GitHub Releases](https://github.com/jellyfish-p/svg-captcha/releases) 中选择版本，按标签安装。例如：
 
 ```sh
-npm install github:jellyfish-p/svg-captcha#v2.0.0
+npm install github:jellyfish-p/svg-captcha#v2.1.0
 ```
 
 也可以在本地检出该标签后安装。
@@ -47,6 +47,8 @@ const math = captcha.createMathExpr({mathMin: 0, mathMax: 9, mathOperator: '+/-'
 | `create(options?)` | `{text: string, data: string}`，包含随机答案及 SVG 图片 |
 | `createStrong(options?)` | `{text: string, data: Buffer}`，包含随机答案及 PNG 图片 |
 | `createMathExpr(options?)` | `{text: string, data: string}`，包含算式结果及 SVG 图片 |
+| `letter3d.create(options?)` | `{challenge, solution}`，包含中文题干、一张 PNG 与服务端判题数据 |
+| `letter3d.verify(solution, points)` | 返回布尔值，检查每个目标字母是否恰好命中一次 |
 | `svgCaptcha(text?, options?)` | 根据指定文本生成 SVG 字符串。省略文本时生成随机验证码。 |
 | `randomText(sizeOrOptions?)` | 返回随机答案字符串，可以传数字长度或配置对象。 |
 | `loadFont(filepath)` | 为后续调用加载可信的本地 OpenType 字体。 |
@@ -103,6 +105,42 @@ const {data, text} = captcha.createStrong({
 	palette: 'per-glyph'
 });
 ```
+
+## 3D 字母落点验证
+
+从 v2.1.0 起，可直接引用 `svg-captcha/letter3d`，也可从包根入口使用 `captcha.letter3d`。这个模块使用自己的立体字模和渲染配置，在一张 PNG 上分散放置字母。
+
+在 Node.js 原生 ES 模块中可写 `import letter3d from 'svg-captcha/letter3d.js'`。
+
+每张 480 × 360 的题图都混排大小不同的字母。生成器把 54–90 像素的字号范围按字母个数等分，每段随机抽一个字号，再随机分配给图中的字母。这个范围指投影前的字模高度，画面上的实际高度还会随朝向略有变化。
+
+```js
+const letter3d = require('svg-captcha/letter3d');
+const {challenge, solution} = letter3d.create({
+	selection: 'multiple',
+	mode: 'relative',
+	constraintCount: 2
+});
+// 把题干、作答模式、尺寸和图片发给前端，solution 存在服务端。
+const {prompt, selection, width, height, data} = challenge;
+
+// 在提交接口中先原子取出并消耗绑定本次会话和操作的记录。
+// points 为前端提交的 {x, y} 数组。
+const checkAnswer = (record, points) => letter3d.verify(record.solution, points);
+```
+
+| 参数 | 取值与效果 |
+| --- | --- |
+| `selection` | `single` 恰有 1 个目标，`multiple` 有 2 至 3 个目标，默认的 `mixed` 逐题抽取模式。 |
+| `mode` | `direct` 直接描述目标，`relative` 要求与参照字母同向，默认的 `mixed` 逐题抽取。参照物唯一，始终排除在答案外。 |
+| `constraintCount` | 从颜色、朝向、字母中指定 `1`、`2` 或 `3` 项约束。省略时随机选择项数。 |
+| `useColor` | 默认 `true`。设为 `false` 时生成单色图，最多可指定两项约束。 |
+
+用户可在图中任意位置落点。单选只保留最后一点，多选逐点添加，提交前可撤销。以实际显示的图像内容左上角为原点，将坐标归一化到 `[0, 1)`。按原图比例显示时可用 `x = (clientX - rect.left) / rect.width`，纵坐标同理。`rect` 取实际图像内容范围，扣除内边距和等比显示产生的留白。服务端按可见字面和侧壁判定，点到空白或字腔、少点、多点及重复点中同一目标均失败。
+
+服务端按二进制保存 `solution`。使用 JSON 会话库时，将 `objectAtPixel` 用 `Buffer.from(solution.objectAtPixel).toString('base64')` 编码，取出后用 `Buffer.from(encoded, 'base64')` 还原。每题绑定会话和操作、设置有效期，并在第一次有效绑定的提交中原子取出并消耗。
+
+在包目录运行 `node examples/letter3d/server.js`，打开终端打印的地址即可体验从签发到坐标校验的完整流程。示例支持键盘定位和无颜色题目。将环境变量 `LETTER3D_ALTERNATIVE_URL` 设为业务已有的非视觉验证地址（HTTP 或 HTTPS），页面会直接显示入口。[可运行示例](examples/letter3d/server.js)
 
 ## 服务端接入
 

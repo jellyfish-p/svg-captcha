@@ -1,6 +1,6 @@
 {
   "name": "svg-captcha",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Generate SVG and PNG captchas in Node.js",
   "main": "index.js",
   "scripts": {
@@ -37,6 +37,9 @@
     "fonts/*",
     "lib/*",
     "index.d.ts",
+    "letter3d.js",
+    "letter3d.d.ts",
+    "examples/letter3d",
     "*.md"
   ]
 }

@@ -9,7 +9,7 @@ Generate SVG and PNG CAPTCHAs in Node.js without native addons. Requires Node.js
 Choose a version from [GitHub Releases](https://github.com/jellyfish-p/svg-captcha/releases) and install it by tag. For example:
 
 ```sh
-npm install github:jellyfish-p/svg-captcha#v2.0.0
+npm install github:jellyfish-p/svg-captcha#v2.1.0
 ```
 
 You can also install from a local checkout of the tag.
@@ -47,6 +47,8 @@ Use `createStrong()` when deploying a new image challenge. It generates six char
 | `create(options?)` | `{text: string, data: string}` with a random answer and an SVG |
 | `createStrong(options?)` | `{text: string, data: Buffer}` with a random answer and a PNG |
 | `createMathExpr(options?)` | `{text: string, data: string}` with the arithmetic result and an SVG |
+| `letter3d.create(options?)` | `{challenge, solution}` with a Chinese prompt, one PNG and private point-verification data |
+| `letter3d.verify(solution, points)` | Boolean indicating whether each target was hit exactly once |
 | `svgCaptcha(text?, options?)` | SVG string for explicit text. Omit text to generate a random challenge. |
 | `randomText(sizeOrOptions?)` | Random answer string. Accepts a numeric size or an options object. |
 | `loadFont(filepath)` | Loads a trusted local OpenType font for subsequent calls. |
@@ -103,6 +105,43 @@ const {data, text} = captcha.createStrong({
 	palette: 'per-glyph'
 });
 ```
+
+## 3D letter point selection
+
+`require('svg-captcha/letter3d')` and `require('svg-captcha').letter3d` expose the same server API, available since v2.1.0. This entry draws scattered block letters in one PNG with its own font and rendering settings.
+
+For a native Node.js ES module, use `import letter3d from 'svg-captcha/letter3d.js'`.
+
+Each 480 × 360 scene mixes letter sizes. The generator divides the 54–90 px size range into one band per letter, samples one size from each band, and randomly assigns them to the letters. The range measures glyph height before projection. Visible height also varies slightly with orientation.
+
+```js
+const letter3d = require('svg-captcha/letter3d');
+const {challenge, solution} = letter3d.create({
+	selection: 'multiple',
+	mode: 'relative',
+	constraintCount: 2
+});
+// Send the prompt, selection mode, dimensions and PNG to the client.
+// Keep solution in the server-side record for this challenge.
+const {prompt, selection, width, height, data} = challenge;
+
+// In the submission handler, atomically consume the bound record first.
+// points comes from the client as an array of {x, y}.
+const checkAnswer = (record, points) => letter3d.verify(record.solution, points);
+```
+
+| Option | Values and effect |
+| --- | --- |
+| `selection` | `single` has one correct letter, `multiple` has two or three, and `mixed` (default) chooses per challenge. |
+| `mode` | `direct` names the target attributes. `relative` compares facing with a uniquely described reference letter, which is excluded from the answer. `mixed` (default) chooses either. |
+| `constraintCount` | `1`, `2` or `3` of letter, color and facing. Omit to vary the number. |
+| `useColor` | Defaults to `true`. With `false`, generation uses monochrome letters and at most two constraints. |
+
+Record a point anywhere on the image. A single selection replaces the previous point. Multiple selections accumulate and can be undone before submission. Send coordinates relative to the displayed image content, with its top-left corner at `{x: 0, y: 0}` and both values strictly below 1. For an image rendered at its natural aspect ratio, use `x = (clientX - rect.left) / rect.width` and the equivalent formula for `y`. Exclude padding and any letterboxing from `rect`. The server checks the visible letter faces. Points on background, including holes, fail, as do missing targets, extra points and two hits on the same letter.
+
+Keep `solution` in a binary-capable store. For a JSON-backed store, encode `objectAtPixel` with `Buffer.from(solution.objectAtPixel).toString('base64')` and restore it with `Buffer.from(encoded, 'base64')` before verification. Bind the record to the session and action, expire it and consume it on the first bound submission.
+
+Run `node examples/letter3d/server.js` from the package directory to try issuance and verification in a browser. The example supports keyboard placement and monochrome challenges. Set `LETTER3D_ALTERNATIVE_URL` to the HTTP or HTTPS address of the application's existing nonvisual verification flow to display its link alongside the challenge. [Runnable example](examples/letter3d/server.js)
 
 ## Serving and verifying a challenge
 

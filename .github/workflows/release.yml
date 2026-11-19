@@ -152,6 +152,14 @@ jobs:
           assert.ok(Buffer.isBuffer(data));
           assert.equal(data.subarray(0, 8).toString('hex'), '89504e470d0a1a0a');
           assert.match(text, /^[23456789ACDEFHJKLMNPRTVWXY]{6}$/);
+          const letter3d = require('svg-captcha/letter3d');
+          assert.equal(letter3d, captcha.letter3d);
+          const {solution} = letter3d.create({selection: 'single'});
+          const pixel = solution.objectAtPixel.indexOf(solution.targetIds[0]);
+          assert.ok(pixel >= 0 && letter3d.verify(solution, [{
+            x: (pixel % solution.width + 0.5) / solution.width,
+            y: (Math.floor(pixel / solution.width) + 0.5) / solution.height
+          }]));
           NODE
 
           cd "$release_dir"

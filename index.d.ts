@@ -1,8 +1,10 @@
 import type { Buffer } from 'node:buffer';
+import * as letter3dEntry from './letter3d';
 
 declare function svgCaptcha(text?: string, options?: svgCaptcha.ConfigObject): string;
 
 declare namespace svgCaptcha {
+	export import letter3d = letter3dEntry;
 	type MathOperator = '+' | '-' | '+/-' | '+-';
 	type Interference = 'none' | 'lines' | 'beads' | 'rings' | 'decoy' | 'mixed' | 'balanced' | 'beaded';
 	type Palette = 'default' | 'shared' | 'analogous' | 'per-glyph';
