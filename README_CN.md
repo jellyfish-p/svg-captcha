@@ -6,7 +6,7 @@
 
 ## 安装
 
-从 GitHub 发布标签安装 v2.0.0。
+在 [GitHub Releases](https://github.com/jellyfish-p/svg-captcha/releases) 中选择版本，按标签安装。例如：
 
 ```sh
 npm install github:jellyfish-p/svg-captcha#v2.0.0
@@ -118,12 +118,19 @@ v2.0.0 要求 Node.js 22 或更高版本，并收紧了参数校验。在本地�
 
 ## 发布新版本
 
-将 `npm version 2.0.1 --no-git-tag-version` 中的版本号替换为目标版本，执行后会同时更新 `package.json` 和 `package-lock.json`。在 [CHANGELOG.md](CHANGELOG.md) 中添加新版本的条目，并更新需要调整的版本引用。将这些变更提交到发布分支后创建并推送对应的标签，例如执行 `git tag -a v2.0.1 -m "Release v2.0.1"` 和 `git push origin HEAD v2.0.1`。
+`main` 是开发主线。发版时，将 `npm version 2.0.1 --no-git-tag-version` 中的版本号替换为目标版本，执行后会同时更新 `package.json` 和 `package-lock.json`。在 [CHANGELOG.md](CHANGELOG.md) 中添加对应条目，将这些变更合入并推送到 `main`。然后在已同步的 `main` 上为发布提交创建并推送标签，例如：
 
-推送标签后，工作流会在 Node.js 22 和 24 上运行测试，对 npm 压缩包做安装和冒烟测试，并将压缩包和 `SHA256SUMS` 发布到 GitHub Releases。`v2.1.0-rc.1` 之类的标签会发布为预发行版。向 npm 注册表发布需要单独操作。
+```sh
+git tag -a v2.0.1 -m "Release v2.0.1"
+git push origin v2.0.1
+```
+
+工作流会检查标签指向的提交是否在 `main` 的历史中，以及标签是否与两个清单文件中的版本号一致。随后在 Node.js 22 和 24 上运行测试，对 npm 压缩包做安装和冒烟测试，并将压缩包和 `SHA256SUMS` 发布到 GitHub Releases。`v2.1.0-rc.1` 之类的标签会发布为预发行版。向 npm 注册表发布需要单独操作。
 
 如需验证已有标签，在仓库的 **Actions** 页面手动运行 **Release**，输入标签并保留默认启用的 **dry_run**，然后在运行记录的产物中下载压缩包和校验文件。如需发布已有标签，关闭 **dry_run**。如果上次运行留下了草稿，请先在 GitHub Releases 中检查草稿，再重新运行。
 
 ## 许可证
 
 [MIT](LICENSE.md)
+
+本项目基于 [produck/svg-captcha](https://github.com/produck/svg-captcha)，由 `jellyfish-p` 维护。

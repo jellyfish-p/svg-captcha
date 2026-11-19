@@ -6,7 +6,7 @@ Generate SVG and PNG CAPTCHAs in Node.js without native addons. Requires Node.js
 
 ## Install
 
-Install v2.0.0 from the GitHub release tag.
+Choose a version from [GitHub Releases](https://github.com/jellyfish-p/svg-captcha/releases) and install it by tag. For example:
 
 ```sh
 npm install github:jellyfish-p/svg-captcha#v2.0.0
@@ -186,12 +186,19 @@ Review existing option values before upgrading, especially numeric strings, name
 
 ## Publishing a release
 
-Run `npm version 2.0.1 --no-git-tag-version` with the intended version to update both manifests. Add a section for the version to [CHANGELOG.md](CHANGELOG.md) and update any version references that need to change. Commit those changes on the release branch, then create and push the matching tag, for example `git tag -a v2.0.1 -m "Release v2.0.1"` and `git push origin HEAD v2.0.1`.
+Development happens on `main`. To prepare a release, run `npm version 2.0.1 --no-git-tag-version` with the intended version to update both manifests, then add a section for it to [CHANGELOG.md](CHANGELOG.md). Land those changes on `main` and push them before tagging the release commit. For example, from the up-to-date `main` checkout:
 
-Pushing the tag runs tests on Node.js 22 and 24, smoke-tests the npm tarball, and publishes it with `SHA256SUMS` on GitHub Releases. A tag such as `v2.1.0-rc.1` creates a prerelease. npm registry publication is a separate step.
+```sh
+git tag -a v2.0.1 -m "Release v2.0.1"
+git push origin v2.0.1
+```
+
+The workflow checks that the tag points to a commit in `main` and matches the versions in both manifests. It runs tests on Node.js 22 and 24, smoke-tests the npm tarball, and publishes it with `SHA256SUMS` on GitHub Releases. A tag such as `v2.1.0-rc.1` creates a prerelease. npm registry publication is a separate step.
 
 To verify an existing tag, run **Release** in the repository's **Actions** tab, enter the existing version in **tag**, and leave **dry_run** enabled. Download the package and checksum from the workflow run's artifacts. To publish an existing tag, disable **dry_run**. If an earlier attempt left a draft, review it in GitHub Releases before rerunning.
 
 ## License
 
 [MIT](LICENSE.md)
+
+This project is based on [produck/svg-captcha](https://github.com/produck/svg-captcha) and is maintained by `jellyfish-p`.

@@ -50,9 +50,10 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           ref: refs/tags/${{ steps.tag.outputs.tag }}
+          fetch-depth: 0
           persist-credentials: false
 
-      - name: Resolve tag and verify manifest versions
+      - name: Verify tag is on main and matches manifest versions
         id: version
         env:
           TAG: ${{ steps.tag.outputs.tag }}
@@ -61,6 +62,10 @@ jobs:
           commit=$(git rev-parse --verify "refs/tags/$TAG^{commit}")
           if [[ "$GITHUB_EVENT_NAME" == push && "$commit" != "$GITHUB_SHA" && "$tag_object" != "$GITHUB_SHA" ]]; then
             echo "::error::Tag $TAG changed after the push that started this run"
+            exit 1
+          fi
+          if ! git merge-base --is-ancestor "$commit" refs/remotes/origin/main; then
+            echo "::error::Tag $TAG must point to a commit in main"
             exit 1
           fi
           node <<'NODE'
