@@ -82,7 +82,7 @@ const math = captcha.createMathExpr({mathMin: 0, mathMax: 9, mathOperator: '+/-'
 
 干扰样式要求画布至少高 26 像素，每个字符至少宽 12 像素。每个候选字形在变形前的着墨高度至少为 12 像素。如果 `20 × 缩放系数` 大于 12，`rings`、`mixed`、`balanced` 和 `beaded` 以该值作为最低高度。`decoy` 对应的系数为 23。干扰图形的缩放系数为 `min(1.45, width / (35 × size), height / 68)`。PNG 专用参数适用于 `createStrong()`。
 
-`createStrong()` 可以给一个合适的字母加一小串空心圆，模拟 `P→R` 的斜腿、`F→E` 的底横或 `C→G` 的内横。`text` 中的答案仍为实线字母。如果当前布局放不下一串清晰的空心圆，渲染器会跳过伪装。将 `letterMimicProbability` 设为 `0` 可关闭，设为 `1` 会在每次生成时尝试。
+`createStrong()` 可以给一个合适的字母加一小串空心圆，模拟 `P→R` 的斜腿、`F→E` 的底横或 `C→G` 的内横和右侧折笔。`text` 中的答案仍为实线字母。圆环相距过远或离原字形太远时，渲染器会跳过伪装。`balanced` 和 `beaded` 模式还要求所有伪装圆环避开各字形受保护的中部区域。将 `letterMimicProbability` 设为 `0` 可关闭，设为 `1` 会在每次生成时尝试。
 
 `createMathExpr()` 的 `mathMin` 和 `mathMax` 接受 0 至 999 的整数，且 `mathMin <= mathMax`。两端均可抽取，默认范围为 1 至 9。`mathOperator` 可设为 `'+'`（默认）、`'-'`、`'+/-'` 或 `'+-'`。后两种写法均随机选择加法或减法。当前字体须支持可能出现的数字和运算符。
 

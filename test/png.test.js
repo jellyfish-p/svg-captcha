@@ -15,7 +15,7 @@ const random = require('../lib/random');
 const {rgb, luminance} = require('../lib/color');
 const {alphabet, normalize} = require('../lib/option-manager');
 const {scene} = require('../lib/render');
-const {glyphCore} = require('../lib/balanced');
+const {glyphCore, circleTouchesCore} = require('../lib/balanced');
 
 function decode(data) {
 	assert.ok(Buffer.isBuffer(data));
@@ -66,6 +66,14 @@ function dottedLayer(layers) {
 		}));
 }
 
+function ringDisks(commands) {
+	return png.flatten(commands).filter((_, index) => index % 2 === 0).map(points => {
+		const x = points.reduce((sum, point) => sum + point.x, 0) / points.length;
+		const y = points.reduce((sum, point) => sum + point.y, 0) / points.length;
+		return {x, y, radius: Math.hypot(points[0].x - x, points[0].y - y)};
+	});
+}
+
 test('strong profile returns a clean RGB PNG and six reduced-confusion characters', () => {
 	const {text, data} = captcha.createStrong();
 	assert.match(text, /^[23456789ACDEFHJKLMNPRTVWXY]{6}$/);
@@ -103,14 +111,17 @@ test('letter mimics follow the distorted letter with a hollow stroke in one slot
 		const baseline = scene(chars, normalize({...options, letterMimicProbability: 0}, true), true);
 		const mimic = scene(chars, normalize({...options, letterMimicProbability: 1}, true), true);
 		assert.equal(mimic.layers.length, baseline.layers.length + 1);
-		const contours = png.flatten(mimic.layers.at(-1).commands);
-		const circles = contours.filter((_, index) => index % 2 === 1).map(points => ({
-			x: points.reduce((sum, point) => sum + point.x, 0) / points.length,
-			y: points.reduce((sum, point) => sum + point.y, 0) / points.length
-		}));
-		assert.ok(circles.length >= 3);
-		assert.ok(circles.every(({x, y}, index) => !index || (x > circles[index - 1].x &&
-			(char !== 'P' || y > circles[index - 1].y))));
+		const circles = ringDisks(mimic.layers.at(-1).commands);
+		assert.equal(circles.length, char === 'C' ? 4 : 3);
+		const bar = circles.slice(0, 3);
+		assert.ok(bar.every(({x, y}, index) => !index || (x > bar[index - 1].x &&
+			(char !== 'P' || y > bar[index - 1].y))));
+		if (char === 'C') {
+			const [first, , elbow, tip] = circles;
+			const barAngle = Math.atan2(elbow.y - first.y, elbow.x - first.x);
+			const turnAngle = Math.atan2(tip.y - elbow.y, tip.x - elbow.x);
+			assert.ok(turnAngle - barAngle > Math.PI / 4);
+		}
 		const original = decode(png(baseline));
 		const rendered = decode(png(mimic));
 		for (const {x, y} of circles) {
@@ -131,19 +142,58 @@ test('letter mimics follow the distorted letter with a hollow stroke in one slot
 	}
 });
 
+test('protected interference keeps mimic circles outside every glyph core', t => {
+	let fraction = 0.5;
+	t.mock.method(random, 'decimal', (min, max) => min + fraction * (max - min));
+	t.mock.method(random, 'int', min => min);
+	t.mock.method(random, 'shuffle', items => items);
+	for (const interference of ['balanced', 'beaded']) {
+		fraction = 0.5;
+		const blockedChars = [...'AXCDTV'];
+		const blocked = normalize({interference, noise: 20, letterMimicProbability: 1}, true);
+		const original = scene(blockedChars, {...blocked, letterMimicProbability: 0}, true, alphabet(blocked));
+		const attempted = scene(blockedChars, blocked, true, alphabet(blocked));
+		assert.deepEqual(png(attempted), png(original));
+
+		fraction = 0.8;
+		const allowedChars = [...'AXFDTV'];
+		const allowed = normalize({interference, noise: 0, letterMimicProbability: 1}, true);
+		const rendered = scene(allowedChars, allowed, true, alphabet(allowed));
+		const without = scene(allowedChars, {...allowed, letterMimicProbability: 0}, true, alphabet(allowed));
+		assert.equal(rendered.layers.length, without.layers.length + 1);
+		const cores = rendered.layers.filter(layer => layer.fallback).map(layer => glyphCore(layer.commands));
+		for (const ring of ringDisks(rendered.layers.at(-1).commands)) {
+			assert.ok(cores.every(core => !circleTouchesCore(ring, ring.radius, core)));
+		}
+	}
+});
+
+test('letter mimic skips a guide whose circles would be widely separated on a large glyph', t => {
+	t.mock.method(random, 'decimal', (min, max) => (min + max) / 2);
+	t.mock.method(random, 'int', min => min);
+	const options = {width: 512, height: 256, fontSize: 256, size: 1, noise: 0, charPreset: 'P'};
+	const original = captcha.createStrong({...options, letterMimicProbability: 0});
+	assert.equal(original.text, 'P');
+	assert.deepEqual(captcha.createStrong({...options, letterMimicProbability: 1}), original);
+});
+
 test('an interference line crossing a circle hole causes the mimic to be skipped', t => {
 	let lineY = 1;
 	t.mock.method(random, 'decimal', (min, max) => (min + max) / 2);
 	t.mock.method(random, 'int', (min, max) => min === 1 && max === 66 ? lineY : min);
 	t.mock.method(random, 'shuffle', items => items);
-	const chars = [...'AXFDTV'];
 	const options = {letterMimicProbability: 1, interference: 'lines'};
-	const clear = scene(chars, normalize({...options, noise: 0}, true), true);
-	assert.equal(clear.layers.length, 7);
-	lineY = Math.round(clear.layers.at(-1).commands[0].end.y);
-	const blocked = scene(chars, normalize({...options, noise: 1}, true), true);
-	assert.equal(blocked.layers.length, 7);
-	assert.ok(blocked.layers.at(-1).strokeWidth > 0);
+	for (const char of 'FC') {
+		const chars = [...`AX${char}DTV`];
+		const clear = scene(chars, normalize({...options, noise: 0}, true), true);
+		assert.equal(clear.layers.length, 7);
+		// For C, a line through the lower-right turn must also suppress the bar.
+		const tip = ringDisks(clear.layers.at(-1).commands).at(-1);
+		lineY = Math.round(tip.y);
+		const blocked = scene(chars, normalize({...options, noise: 1}, true), true);
+		assert.equal(blocked.layers.length, 7);
+		assert.ok(blocked.layers.at(-1).strokeWidth > 0);
+	}
 });
 
 test('PNG-only mimic probability validates endpoints and skips unsuitable layouts', t => {
