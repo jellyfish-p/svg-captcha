@@ -65,6 +65,7 @@ Use `createStrong()` when deploying a new image challenge. It generates six char
 | `interference` | PNG styles `none`, `lines`, `beads`, `rings`, `decoy`, `mixed`, `balanced`, or `beaded` | — | `none` |
 | `interferenceDensity` | `1` or `2` for the mixed and beaded styles | — | `1` |
 | `palette` | PNG palettes `default`, `shared`, `analogous`, or `per-glyph` | — | `default` |
+| `letterMimicProbability` | Chance of attempting one hollow-ring letter mimic per PNG, `0`–`1` | — | `0.5` |
 | `color` | Boolean. A custom background enables a colored palette. | `false` | `false` |
 | `inverse` | Boolean. Use a light palette for a dark background. | `false` | `false` |
 | `background` | Empty string, `#RGB` or `#RRGGBB` | Transparent | Solid white or dark when inverted |
@@ -80,6 +81,8 @@ With `palette: 'default'`, the optional PNG interference styles use the same ink
 `beaded` uses the same limits near the answer glyphs as `balanced`. It adds smaller dotted outlines from the loaded font to gaps and margins where there is enough room. With `palette: 'default'`, the answer glyphs, curves, rings, and dots share one opaque ink. Each dotted outline, including its beads, fits within 75% of the shorter neighboring glyph's rendered height. At density `1`, the renderer tries about one dotted outline for every two answer glyphs. Density `2` tries up to one per answer glyph, with a limit of 12 outlines and 216 dots. The style requires at least two distinct drawable characters in the filtered alphabet. Ask users to read the large, solid characters from left to right.
 
 Interference requires at least 26 pixels of canvas height and 12 pixels of width per character. Every selectable glyph needs at least 12 pixels of ink height before distortion. The minimum rises to `20 × scale` for `rings`, `mixed`, `balanced`, and `beaded`, or `23 × scale` for `decoy`, when that value exceeds 12. The ornament scale is `min(1.45, width / (35 × size), height / 68)`. The PNG-only options apply to `createStrong()`.
+
+`createStrong()` can add a short row of hollow circles to one eligible letter. The circles suggest the diagonal leg of `R` on `P`, the bottom bar of `E` on `F`, or the inward bar of `G` on `C`. The original solid letter remains the answer in `text`. If the chosen layout has no room for a clear row of circles, the renderer skips the mimic. Use `letterMimicProbability: 0` to turn this off or `1` to attempt it on every challenge.
 
 For `createMathExpr()`, set `mathMin` and `mathMax` to integers from 0 to 999 with `mathMin <= mathMax`. They default to 1 and 9 and include both endpoints. `mathOperator` accepts `'+'` (default), `'-'`, `'+/-'` or `'+-'`. The last two choose either operator at random. The loaded font must cover the digits and operators that can appear.
 

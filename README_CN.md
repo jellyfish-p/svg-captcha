@@ -65,6 +65,7 @@ const math = captcha.createMathExpr({mathMin: 0, mathMax: 9, mathOperator: '+/-'
 | `interference` | PNG 样式：`none`、`lines`、`beads`、`rings`、`decoy`、`mixed`、`balanced` 或 `beaded` | — | `none` |
 | `interferenceDensity` | `mixed` 和 `beaded` 样式的密度，可设为 `1` 或 `2` | — | `1` |
 | `palette` | PNG 配色：`default`、`shared`、`analogous` 或 `per-glyph` | — | `default` |
+| `letterMimicProbability` | 每张 PNG 尝试一次空心圆字母伪装的概率，范围为 `0`–`1` | — | `0.5` |
 | `color` | 布尔值。设置自定义背景时启用彩色。 | `false` | `false` |
 | `inverse` | 布尔值。用于深色背景的浅色字形。 | `false` | `false` |
 | `background` | 空字符串、`#RGB` 或 `#RRGGBB` | 透明 | 实心白色，反色时为深色 |
@@ -80,6 +81,8 @@ const math = captcha.createMathExpr({mathMin: 0, mathMax: 9, mathOperator: '+/-'
 `beaded` 沿用 `balanced` 对答案字形周围干扰物的限制，并在空间充足的字间和边缘加入来自当前字体的小型点状字形。使用 `palette: 'default'` 时，答案字形、曲线、空心环和圆点共用一种不透明墨色。计入圆点大小后，点状字形的高度不超过相邻两个答案字形中较矮者实际渲染高度的 75%。密度为 `1` 时，每两个答案字形大约尝试加入一个点状字形；密度为 `2` 时，每个答案字形最多尝试加入一个，整张图最多 12 个点状字形、216 个圆点。过滤后的字符集需要包含至少两个不同的可绘制字符。可提示用户从左到右读取笔画连续的大字符。
 
 干扰样式要求画布至少高 26 像素，每个字符至少宽 12 像素。每个候选字形在变形前的着墨高度至少为 12 像素。如果 `20 × 缩放系数` 大于 12，`rings`、`mixed`、`balanced` 和 `beaded` 以该值作为最低高度。`decoy` 对应的系数为 23。干扰图形的缩放系数为 `min(1.45, width / (35 × size), height / 68)`。PNG 专用参数适用于 `createStrong()`。
+
+`createStrong()` 可以给一个合适的字母加一小串空心圆，模拟 `P→R` 的斜腿、`F→E` 的底横或 `C→G` 的内横。`text` 中的答案仍为实线字母。如果当前布局放不下一串清晰的空心圆，渲染器会跳过伪装。将 `letterMimicProbability` 设为 `0` 可关闭，设为 `1` 会在每次生成时尝试。
 
 `createMathExpr()` 的 `mathMin` 和 `mathMax` 接受 0 至 999 的整数，且 `mathMin <= mathMax`。两端均可抽取，默认范围为 1 至 9。`mathOperator` 可设为 `'+'`（默认）、`'-'`、`'+/-'` 或 `'+-'`。后两种写法均随机选择加法或减法。当前字体须支持可能出现的数字和运算符。
 

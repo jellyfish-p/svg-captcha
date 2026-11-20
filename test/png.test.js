@@ -75,6 +75,124 @@ test('strong profile returns a clean RGB PNG and six reduced-confusion character
 	assert.deepEqual(pixel(0, 0), [255, 255, 255]);
 });
 
+test('letter mimic rolls once per eligible PNG and leaves the answer intact', t => {
+	let roll = 0.25;
+	const choose = t.mock.method(random, 'decimal', (min, max) =>
+		min === 0 && max === 1 ? roll : (min + max) / 2);
+	t.mock.method(random, 'int', min => min);
+	t.mock.method(random, 'shuffle', items => items);
+	const options = {charPreset: 'P', noise: 0};
+	const disabled = captcha.createStrong({...options, letterMimicProbability: 0});
+	assert.equal(choose.mock.calls.filter(({arguments: args}) => args[0] === 0 && args[1] === 1).length, 0);
+	const enabled = captcha.createStrong(options);
+	assert.equal(choose.mock.calls.filter(({arguments: args}) => args[0] === 0 && args[1] === 1).length, 1);
+	assert.equal(enabled.text, 'PPPPPP');
+	assert.notDeepEqual(enabled.data, disabled.data);
+	roll = 0.75;
+	assert.deepEqual(captcha.createStrong(options), disabled);
+	assert.deepEqual(captcha.createStrong({...options, letterMimicProbability: 1}), enabled);
+});
+
+test('letter mimics follow the distorted letter with a hollow stroke in one slot', t => {
+	t.mock.method(random, 'decimal', (min, max) => min === -1 && max === 1 ? 0.75 : (min + max) / 2);
+	t.mock.method(random, 'int', min => min);
+	t.mock.method(random, 'shuffle', items => items);
+	for (const char of 'PFC') {
+		const chars = [...`AX${char}DTV`];
+		const options = {noise: 0, palette: 'per-glyph'};
+		const baseline = scene(chars, normalize({...options, letterMimicProbability: 0}, true), true);
+		const mimic = scene(chars, normalize({...options, letterMimicProbability: 1}, true), true);
+		assert.equal(mimic.layers.length, baseline.layers.length + 1);
+		const contours = png.flatten(mimic.layers.at(-1).commands);
+		const circles = contours.filter((_, index) => index % 2 === 1).map(points => ({
+			x: points.reduce((sum, point) => sum + point.x, 0) / points.length,
+			y: points.reduce((sum, point) => sum + point.y, 0) / points.length
+		}));
+		assert.ok(circles.length >= 3);
+		assert.ok(circles.every(({x, y}, index) => !index || (x > circles[index - 1].x &&
+			(char !== 'P' || y > circles[index - 1].y))));
+		const original = decode(png(baseline));
+		const rendered = decode(png(mimic));
+		for (const {x, y} of circles) {
+			assert.deepEqual(rendered.pixel(Math.floor(x), Math.floor(y)), [255, 255, 255]);
+		}
+		let ringPixels = 0;
+		for (let y = 0; y < rendered.height; y++) {
+			for (let x = 0; x < rendered.width; x++) {
+				const before = original.pixel(x, y);
+				if (String(rendered.pixel(x, y)) !== String(before)) {
+					assert.ok(x >= 70 && x < 105);
+					assert.deepEqual(before, [255, 255, 255]);
+					ringPixels++;
+				}
+			}
+		}
+		assert.ok(ringPixels >= 25);
+	}
+});
+
+test('an interference line crossing a circle hole causes the mimic to be skipped', t => {
+	let lineY = 1;
+	t.mock.method(random, 'decimal', (min, max) => (min + max) / 2);
+	t.mock.method(random, 'int', (min, max) => min === 1 && max === 66 ? lineY : min);
+	t.mock.method(random, 'shuffle', items => items);
+	const chars = [...'AXFDTV'];
+	const options = {letterMimicProbability: 1, interference: 'lines'};
+	const clear = scene(chars, normalize({...options, noise: 0}, true), true);
+	assert.equal(clear.layers.length, 7);
+	lineY = Math.round(clear.layers.at(-1).commands[0].end.y);
+	const blocked = scene(chars, normalize({...options, noise: 1}, true), true);
+	assert.equal(blocked.layers.length, 7);
+	assert.ok(blocked.layers.at(-1).strokeWidth > 0);
+});
+
+test('PNG-only mimic probability validates endpoints and skips unsuitable layouts', t => {
+	for (const value of [-0.01, 1.01, NaN, Infinity]) {
+		assert.throws(() => captcha.createStrong({letterMimicProbability: value}), RangeError);
+	}
+	assert.throws(() => captcha.createStrong({letterMimicProbability: '0.5'}), TypeError);
+	assert.equal(typeof captcha.create({letterMimicProbability: 'ignored'}).data, 'string');
+	t.mock.method(random, 'decimal', (min, max) => (min + max) / 2);
+	t.mock.method(random, 'int', min => min);
+	for (const options of [{charPreset: 'P', width: 60, height: 21}, {charPreset: '9'}]) {
+		const disabled = captcha.createStrong({...options, noise: 0, letterMimicProbability: 0});
+		const attempted = captcha.createStrong({...options, noise: 0, letterMimicProbability: 1});
+		assert.deepEqual(attempted, disabled);
+	}
+});
+
+test('letter mimic skips an unsuitable custom outline without requiring the target glyph', t => {
+	const glyphPath = new opentype.Path();
+	glyphPath.moveTo(0, 0);
+	glyphPath.lineTo(450, 0);
+	glyphPath.lineTo(450, 560);
+	glyphPath.lineTo(0, 560);
+	glyphPath.closePath();
+	const font = new opentype.Font({
+		familyName: 'Solid fixture', styleName: 'Regular', unitsPerEm: 1000, ascender: 800, descender: -200,
+		glyphs: [
+			new opentype.Glyph({name: '.notdef', advanceWidth: 500, path: new opentype.Path()}),
+			new opentype.Glyph({name: 'P', unicode: 80, advanceWidth: 500, path: glyphPath})
+		]
+	});
+	const directory = fs.mkdtempSync(path.join(os.tmpdir(), 'svg-captcha-font-'));
+	const fontPath = path.join(directory, 'solid.otf');
+	fs.writeFileSync(fontPath, Buffer.from(font.toArrayBuffer()));
+	try {
+		captcha.loadFont(fontPath);
+		t.mock.method(random, 'decimal', (min, max) => (min + max) / 2);
+		t.mock.method(random, 'int', min => min);
+		const options = {charPreset: 'P', noise: 0};
+		const disabled = captcha.createStrong({...options, letterMimicProbability: 0});
+		assert.equal(disabled.text, 'PPPPPP');
+		assert.deepEqual(captcha.createStrong({...options, letterMimicProbability: 1}), disabled);
+	} finally {
+		captcha.loadFont(path.join(__dirname, '../fonts/Comismsh.ttf'));
+		fs.unlinkSync(fontPath);
+		fs.rmdirSync(directory);
+	}
+});
+
 test('strong output fits wide glyphs in every slot on a small canvas', () => {
 	const {text, data} = captcha.createStrong({
 		charPreset: 'W', width: 61, height: 21, fontSize: 256, noise: 0, background: '#123'
