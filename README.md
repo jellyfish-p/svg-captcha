@@ -9,7 +9,7 @@ Generate SVG and PNG CAPTCHAs in Node.js without native addons. Requires Node.js
 Choose a version from [GitHub Releases](https://github.com/jellyfish-p/svg-captcha/releases) and install it by tag. For example:
 
 ```sh
-npm install github:jellyfish-p/svg-captcha#v2.1.0
+npm install github:jellyfish-p/svg-captcha#v2.2.0
 ```
 
 You can also install from a local checkout of the tag.
@@ -65,7 +65,7 @@ Use `createStrong()` when deploying a new image challenge. It generates six char
 | `interference` | PNG styles `none`, `lines`, `beads`, `rings`, `decoy`, `mixed`, `balanced`, or `beaded` | — | `none` |
 | `interferenceDensity` | `1` or `2` for the mixed and beaded styles | — | `1` |
 | `palette` | PNG palettes `default`, `shared`, `analogous`, or `per-glyph` | — | `default` |
-| `letterMimicProbability` | Chance of attempting one hollow-ring letter mimic per PNG, `0`–`1` | — | `0.5` |
+| `letterMimicProbability` | Chance of attempting one hollow-ring letter mimic per PNG, `0`–`1` | — | `0` (off) |
 | `color` | Boolean. A custom background enables a colored palette. | `false` | `false` |
 | `inverse` | Boolean. Use a light palette for a dark background. | `false` | `false` |
 | `background` | Empty string, `#RGB` or `#RRGGBB` | Transparent | Solid white or dark when inverted |
@@ -82,7 +82,7 @@ With `palette: 'default'`, the optional PNG interference styles use the same ink
 
 Interference requires at least 26 pixels of canvas height and 12 pixels of width per character. Every selectable glyph needs at least 12 pixels of ink height before distortion. The minimum rises to `20 × scale` for `rings`, `mixed`, `balanced`, and `beaded`, or `23 × scale` for `decoy`, when that value exceeds 12. The ornament scale is `min(1.45, width / (35 × size), height / 68)`. The PNG-only options apply to `createStrong()`.
 
-`createStrong()` can add a short stroke of hollow circles to one eligible letter. The circles suggest the diagonal leg of `R` on `P`, the bottom bar of `E` on `F`, or the inward bar and right-hand turn of `G` on `C`. The original solid letter remains the answer in `text`. The renderer skips the mimic if the circles cannot fit close together and near the solid letter. The `balanced` and `beaded` styles also require every mimic circle to stay outside the protected middle of each glyph. Use `letterMimicProbability: 0` to turn this off or `1` to attempt it on every challenge.
+`createStrong()` can add a short stroke of hollow circles to one eligible letter. The circles suggest the diagonal leg of `R` on `P`, the bottom bar of `E` on `F`, or the inward bar and right-hand turn of `G` on `C`. The original solid letter remains the answer in `text`. The renderer skips the mimic if the circles cannot fit close together and near the solid letter. The `balanced` and `beaded` styles also require every mimic circle to stay outside the protected middle of each glyph. Letter mimics are off by default. Use `createStrong({letterMimicProbability: 0.5})` to attempt a mimic on about half of eligible challenges, or set the probability to `1` to attempt it whenever an eligible letter is present.
 
 For `createMathExpr()`, set `mathMin` and `mathMax` to integers from 0 to 999 with `mathMin <= mathMax`. They default to 1 and 9 and include both endpoints. `mathOperator` accepts `'+'` (default), `'-'`, `'+/-'` or `'+-'`. The last two choose either operator at random. The loaded font must cover the digits and operators that can appear.
 

@@ -9,7 +9,7 @@
 在 [GitHub Releases](https://github.com/jellyfish-p/svg-captcha/releases) 中选择版本，按标签安装。例如：
 
 ```sh
-npm install github:jellyfish-p/svg-captcha#v2.1.0
+npm install github:jellyfish-p/svg-captcha#v2.2.0
 ```
 
 也可以在本地检出该标签后安装。
@@ -65,7 +65,7 @@ const math = captcha.createMathExpr({mathMin: 0, mathMax: 9, mathOperator: '+/-'
 | `interference` | PNG 样式：`none`、`lines`、`beads`、`rings`、`decoy`、`mixed`、`balanced` 或 `beaded` | — | `none` |
 | `interferenceDensity` | `mixed` 和 `beaded` 样式的密度，可设为 `1` 或 `2` | — | `1` |
 | `palette` | PNG 配色：`default`、`shared`、`analogous` 或 `per-glyph` | — | `default` |
-| `letterMimicProbability` | 每张 PNG 尝试一次空心圆字母伪装的概率，范围为 `0`–`1` | — | `0.5` |
+| `letterMimicProbability` | 每张 PNG 尝试一次空心圆字母伪装的概率，范围为 `0`–`1` | — | `0`（关闭） |
 | `color` | 布尔值。设置自定义背景时启用彩色。 | `false` | `false` |
 | `inverse` | 布尔值。用于深色背景的浅色字形。 | `false` | `false` |
 | `background` | 空字符串、`#RGB` 或 `#RRGGBB` | 透明 | 实心白色，反色时为深色 |
@@ -82,7 +82,7 @@ const math = captcha.createMathExpr({mathMin: 0, mathMax: 9, mathOperator: '+/-'
 
 干扰样式要求画布至少高 26 像素，每个字符至少宽 12 像素。每个候选字形在变形前的着墨高度至少为 12 像素。如果 `20 × 缩放系数` 大于 12，`rings`、`mixed`、`balanced` 和 `beaded` 以该值作为最低高度。`decoy` 对应的系数为 23。干扰图形的缩放系数为 `min(1.45, width / (35 × size), height / 68)`。PNG 专用参数适用于 `createStrong()`。
 
-`createStrong()` 可以给一个合适的字母加一小串空心圆，模拟 `P→R` 的斜腿、`F→E` 的底横或 `C→G` 的内横和右侧折笔。`text` 中的答案仍为实线字母。圆环相距过远或离原字形太远时，渲染器会跳过伪装。`balanced` 和 `beaded` 模式还要求所有伪装圆环避开各字形受保护的中部区域。将 `letterMimicProbability` 设为 `0` 可关闭，设为 `1` 会在每次生成时尝试。
+`createStrong()` 可以给一个合适的字母加一小串空心圆，模拟 `P→R` 的斜腿、`F→E` 的底横或 `C→G` 的内横和右侧折笔。`text` 中的答案仍为实线字母。圆环相距过远或离原字形太远时，渲染器会跳过伪装。`balanced` 和 `beaded` 模式还要求所有伪装圆环避开各字形受保护的中部区域。字母伪装默认关闭。调用 `createStrong({letterMimicProbability: 0.5})` 后，约一半含候选字母的验证码会尝试伪装。设为 `1` 时，只要含有候选字母就会尝试。
 
 `createMathExpr()` 的 `mathMin` 和 `mathMax` 接受 0 至 999 的整数，且 `mathMin <= mathMax`。两端均可抽取，默认范围为 1 至 9。`mathOperator` 可设为 `'+'`（默认）、`'-'`、`'+/-'` 或 `'+-'`。后两种写法均随机选择加法或减法。当前字体须支持可能出现的数字和运算符。
 

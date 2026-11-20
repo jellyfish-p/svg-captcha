@@ -45,7 +45,7 @@ declare namespace svgCaptcha {
 		interferenceDensity?: 1 | 2;
 		/** Explicit palettes color filled marks by column and use one glyph-center color per curve. Defaults to 'default'. */
 		palette?: Palette;
-		/** Chance of attempting one hollow-ring letter mimic per PNG, from 0 to 1. Defaults to 0.5. */
+		/** Chance of attempting one hollow-ring letter mimic per PNG, from 0 to 1. Defaults to 0 (off). */
 		letterMimicProbability?: number;
 	}
 

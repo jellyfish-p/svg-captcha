@@ -1,5 +1,7 @@
 # 小圈伪装开关对照测试
 
+v2.2.0 采用默认关闭配置。下文的关闭组对应发布默认值，开启组对应显式设置 `letterMimicProbability: 1`。
+
 在同样的 256 道六位大写字母验证码上，用 `createStrong({charPreset: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', letterMimicProbability: 0})` 生成关闭组，将概率改为 `1` 生成开启组。开启后，Luna、Terra、Sol 分别少通过 13、6、9 道。对 Luna 影响最大的是 C → G，P → R 在三个模型上都很少诱发预期误读。
 
 ## 整题识别结果

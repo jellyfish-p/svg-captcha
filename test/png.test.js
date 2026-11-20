@@ -83,22 +83,26 @@ test('strong profile returns a clean RGB PNG and six reduced-confusion character
 	assert.deepEqual(pixel(0, 0), [255, 255, 255]);
 });
 
-test('letter mimic rolls once per eligible PNG and leaves the answer intact', t => {
+test('letter mimic is off by default and rolls once per eligible PNG at a fractional probability', t => {
 	let roll = 0.25;
 	const choose = t.mock.method(random, 'decimal', (min, max) =>
 		min === 0 && max === 1 ? roll : (min + max) / 2);
 	t.mock.method(random, 'int', min => min);
 	t.mock.method(random, 'shuffle', items => items);
 	const options = {charPreset: 'P', noise: 0};
+	const fractional = {...options, letterMimicProbability: 0.5};
+	const rollCount = () => choose.mock.calls.filter(({arguments: args}) => args[0] === 0 && args[1] === 1).length;
 	const disabled = captcha.createStrong({...options, letterMimicProbability: 0});
-	assert.equal(choose.mock.calls.filter(({arguments: args}) => args[0] === 0 && args[1] === 1).length, 0);
-	const enabled = captcha.createStrong(options);
-	assert.equal(choose.mock.calls.filter(({arguments: args}) => args[0] === 0 && args[1] === 1).length, 1);
+	assert.deepEqual(captcha.createStrong(options), disabled);
+	assert.equal(rollCount(), 0);
+	const enabled = captcha.createStrong(fractional);
+	assert.equal(rollCount(), 1);
 	assert.equal(enabled.text, 'PPPPPP');
 	assert.notDeepEqual(enabled.data, disabled.data);
 	roll = 0.75;
-	assert.deepEqual(captcha.createStrong(options), disabled);
+	assert.deepEqual(captcha.createStrong(fractional), disabled);
 	assert.deepEqual(captcha.createStrong({...options, letterMimicProbability: 1}), enabled);
+	assert.equal(rollCount(), 2);
 });
 
 test('letter mimics follow the distorted letter with a hollow stroke in one slot', t => {

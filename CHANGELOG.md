@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.2.0 (2026-11-21)
+
+- Adds the opt-in `letterMimicProbability` option to `createStrong()`. It defaults to `0`. Set it to `0.5` to attempt a hollow-ring stroke on half of generated challenges, or to `1` to attempt one on every challenge.
+- A short row of hollow rings can suggest the leg of R on a P, the bottom bar of E on an F, or the inner bar and turn of G on a C. The answer follows the solid letter. The renderer skips the effect when the rings would be crowded or overlap a protected glyph center.
+
 ## 2.1.0 (2026-11-20)
 
 - Adds `svg-captcha/letter3d` and `captcha.letter3d` to generate single-image 3D letter challenges and verify single or multiple point selections on the server.
